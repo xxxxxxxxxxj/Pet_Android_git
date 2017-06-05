@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:background="@color/a3a3636"
+    android:paddingLeft="5dip"
+    android:paddingRight="5dip" >
+
+    <ImageButton
+        android:id="@+id/ib_titlebar_back"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/btn_back" />
+
+    <TextView
+        android:id="@+id/tv_titlebar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="60dip"
+        android:layout_marginRight="60dip"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="标题"
+        android:textColor="@color/white"
+        android:textSize="@dimen/TITLE_SIZE" />
+
+    <Button
+        android:id="@+id/bt_titlebar_other"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:text="保存"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:visibility="visible" />
+
+</RelativeLayout>

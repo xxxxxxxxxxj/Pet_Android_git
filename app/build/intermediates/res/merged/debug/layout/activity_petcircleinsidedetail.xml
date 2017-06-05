@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:id="@+id/main_container"
+    tools:context="${relativePackage}.${activityClass}">
+
+    <include
+        android:id="@+id/title_top"
+        layout="@layout/titlebar" />
+    <!-- com.haotang.pet.pulltorefresh.PullToRefreshListView -->
+
+    <com.haotang.pet.pulltorefresh.PullToRefreshListView
+        android:id="@+id/listView_petcircle_inside_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_top"
+        android:layout_marginBottom="40dp"
+        android:background="@color/white"
+        android:divider="@null"
+        android:listSelector="@null" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+		
+        <LinearLayout
+            android:id="@+id/layout_eva"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/f8f8ff8"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/chatbox_open"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/bqmm_selector_chat_face"
+                android:button="@null" />
+				<!-- android:src="@drawable/emj_show" -->
+            <ScrollView
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="4"
+                android:fillViewport="true"
+                android:scrollbars="vertical" 
+                
+                >
+				<!-- android:focusable="true"
+                android:focusableInTouchMode="true" -->
+                <com.melink.bqmmsdk.widget.BQMMEditView
+                    android:id="@+id/editText_input_eva"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/my_coupon_change_new"
+                    android:ems="10"
+                    android:gravity="center_vertical"
+                    android:hint="添加评论"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:maxLength="200"
+                    android:textSize="14sp" >
+
+                    <!-- <requestFocus /> -->
+                </com.melink.bqmmsdk.widget.BQMMEditView>
+            </ScrollView>
+
+            <com.melink.bqmmsdk.widget.BQMMSendButton
+                android:id="@+id/button_petcircle_git_eva"
+               android:layout_width="56dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/img_bqmm_sendbutton_bg"
+                android:textColor="@color/a999999" />
+        </LinearLayout>
+
+        <com.melink.bqmmsdk.ui.keyboard.BQMMKeyboard
+            android:id="@+id/chat_msg_input_box"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/layout_eva"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

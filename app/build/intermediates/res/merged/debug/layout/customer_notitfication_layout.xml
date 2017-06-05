@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dip" >
+
+    <ImageView
+        android:id="@+id/iv_customer_notif"
+        android:layout_width="36dip"
+        android:layout_height="36dip"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tv_customer_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_customer_notif"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/iv_customer_notif"
+        android:text="TextView"
+        android:textColor="#286CA6"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_customer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_customer_notif"
+        android:layout_alignLeft="@+id/tv_customer_title"
+        android:layout_toRightOf="@+id/iv_customer_notif"
+        android:text="TextView"
+        android:textColor="#6FA45E"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/iv_customer_bigback"
+        android:layout_width="fill_parent"
+        android:layout_height="210dip"
+        android:layout_below="@id/iv_customer_notif"
+        android:src="@drawable/un_login_my_background" />
+
+</RelativeLayout>

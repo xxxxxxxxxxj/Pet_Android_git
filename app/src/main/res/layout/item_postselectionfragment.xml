@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item_postselectionfragment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="15dip"
+        android:background="@color/aEEEEEE" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/header_item_postselectionfragment" />
+
+    <RelativeLayout
+        android:id="@+id/rl_item_postselectionfragment_pl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <com.haotang.pet.view.MListview
+            android:id="@+id/mlv_item_postselectionfragment_pl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="5dip"
+            android:fadingEdge="none"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" >
+        </com.haotang.pet.view.MListview>
+
+        <TextView
+            android:id="@+id/tv_item_postselectionfragment_ckpl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/mlv_item_postselectionfragment_pl"
+            android:layout_marginBottom="10dip"
+            android:layout_marginRight="10dip"
+            android:text="查看所有评论"
+            android:textColor="@color/orange"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white">
+    <include layout="@layout/titlebar"/>
+
+    <EditText
+        android:id="@+id/editText_input_content"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/transparent"
+        android:hint="输入精彩内容吧~"
+        android:gravity="top"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:maxLength="200"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+	<TextView 
+	    android:id="@+id/showtext"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="0/200"
+	    android:gravity="right"
+	    android:layout_marginRight="15dp"
+	    android:textColor="@color/aDDDDDD"
+	    android:visibility="visible"/>
+	<TextView 
+	    android:id="@+id/showtext2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:visibility="gone"
+	    android:text="show"/>
+	<TextView 
+	    android:id="@+id/showtext3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:visibility="gone"
+	    android:text="show"/>
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <GridView
+	        android:id="@+id/gridView_photo"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:listSelector="@null"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentLeft="true"
+	        android:numColumns="4" >
+    </GridView>
+    </RelativeLayout>
+	<View 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@color/bggray"/>
+</LinearLayout>

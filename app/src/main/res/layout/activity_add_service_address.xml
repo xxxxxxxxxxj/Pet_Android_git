@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bggray"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/layout_choose_service_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF" >
+
+            <ImageView
+                android:id="@+id/imageView_icon_addService_address"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/cet_selectarea_add" />
+
+            <TextView
+                android:id="@+id/textView_icon_addService_area_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/imageView_icon_addService_address"
+                android:hint="输入您的小区名"
+                android:paddingLeft="10dip"
+                android:paddingTop="20dip"
+                android:paddingBottom="20dip"
+                android:textColor="@color/a333333"
+                android:textColorHint="@color/acccccc"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:background="#EBE9E7" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF" >
+
+            <EditText
+                android:id="@+id/editText_icon_addService_detail_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="#00000000"
+                android:ems="10"
+                android:hint="详细地址，如3号楼4单元305"
+                android:maxLength="40"
+                android:paddingLeft="50dip"
+                android:paddingTop="20dip"
+                android:paddingBottom="20dip"
+                android:textColor="@color/a333333"
+                android:textColorHint="@color/acccccc"
+                android:textSize="15sp" >
+
+                <requestFocus />
+            </EditText>
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/btn_addService_sure"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_complaint_bottom_selector"
+        android:text="确认添加"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="7.5dip"
+            android:text="为了美容师能更好的为您提供服务，请您输入服务范围内的地址。如地址超区美容师不能进行服务。请您谅解。"
+            android:textColor="#96928D" />
+    </LinearLayout>
+
+</LinearLayout>

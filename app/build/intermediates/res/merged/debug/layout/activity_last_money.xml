@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/bggray">
+
+    <include layout="@layout/titlebar2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:padding="10dip"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的余额" 
+            android:textColor="@color/a777777"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/textView_MyLast_money_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/orange"
+            android:textSize="17sp"
+            android:text="¥ 0.00" />
+
+    </LinearLayout>
+
+    <com.haotang.pet.pulltorefresh.PullToRefreshListView
+        android:id="@+id/listView_my_last_money"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:divider="@null"
+        android:listSelector="#00000000"
+        android:layout_marginBottom="20dip"
+        android:background="@color/bggray"
+        />
+    <include 
+            android:id="@+id/rl_null"
+            layout="@layout/nullhint"
+            android:visibility="gone"
+            />
+
+</LinearLayout>

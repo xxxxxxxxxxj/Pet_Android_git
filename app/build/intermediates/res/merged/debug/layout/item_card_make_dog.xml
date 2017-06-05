@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_first_make_dog_card"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textview_first_make_dog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="首次办理犬证" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|right" >
+
+                <TextView
+                    android:id="@+id/textview_first_make_dog_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="测试¥1000" />
+
+                <ImageView
+                    android:id="@+id/imageview_first_make_dog_card"
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/complaint_reason_disable"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+		<View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/af8f8f8" />
+</LinearLayout>

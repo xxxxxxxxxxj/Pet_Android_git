@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:orientation="vertical" >
+			<LinearLayout 
+			    android:id="@+id/item_mypet_show"
+			    android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center|left"
+	            android:orientation="vertical"
+			    >
+			    <TextView
+                android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:background="@color/bggray"
+		        android:textColor="#454545"
+		        android:layout_weight="1.0"
+		        android:paddingLeft="5dip"
+		        android:paddingTop="5dip"
+		        android:paddingBottom="5dip"
+		        android:text="我的宠物"/>
+
+            <com.haotang.pet.view.HorizontalListView
+                android:id="@+id/hlv_showmypet_list"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fadingEdge="none"
+                android:scrollbars="none"
+                android:showDividers="none"
+                 />
+			    
+			</LinearLayout>
+            <!-- <TextView
+                android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:background="@color/bggray"
+		        android:textColor="#454545"
+		        android:layout_weight="1.0"
+		        android:paddingLeft="5dip"
+		        android:paddingTop="5dip"
+		        android:paddingBottom="5dip"
+		        android:text="我的宠物"/>
+
+            <com.haotang.pet.view.HorizontalListView
+                android:id="@+id/hlv_showmypet_list"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fadingEdge="none"
+                android:scrollbars="none"
+                android:showDividers="none" /> -->
+
+            <TextView
+                android:id="@+id/my_pet_show"
+                android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:background="@color/bggray"
+		        android:textColor="#454545"
+		        android:layout_weight="1.0"
+		        android:paddingLeft="5dip"
+		        android:paddingTop="5dip"
+		        android:paddingBottom="5dip"
+		        android:text="热门宠物"/>
+            <!--
+             <ImageView
+            android:id="@+id/imageView_title_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="8dip"
+            android:src="@drawable/top" />
+            -->
+
+            <com.haotang.pet.view.HeadViewListView
+                android:id="@+id/listView_headerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dip"
+                android:divider="@null"
+                android:fadingEdge="none"
+                android:scrollbars="none"
+                android:showDividers="none" >
+            </com.haotang.pet.view.HeadViewListView>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

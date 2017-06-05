@@ -1,0 +1,197 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.haotang.pet.view.PullPushLayout
+            android:id="@+id/ppl_layout"
+            android:layout_width="match_parent"
+            android:layout_height="1800dp"
+            android:layout_below="@+id/rl_servicedetail_title"
+            android:fadingEdge="none"
+            android:overScrollMode="never" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bggray" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_ppllayout_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dip" >
+
+                    <include layout="@layout/header_bathservicedetail" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_ppllayout_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/rl_ppllayout_top" >
+
+                    <include layout="@layout/swim_detail_content" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </com.haotang.pet.view.PullPushLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_servicedetail_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/a3a3636"
+            android:gravity="center_vertical" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip" >
+
+                <LinearLayout
+                    android:id="@+id/layout_service_back_blow"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical" >
+
+                    <ImageView
+                        android:id="@+id/service_back_blow"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/icon_back_big"
+                        android:scaleType="fitXY"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_service_back"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical" >
+
+                    <ImageView
+                        android:id="@+id/service_back"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/btn_back"
+                        android:scaleType="fitXY" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dip" >
+
+                <ImageView
+                    android:id="@+id/service_share_below"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/icon_share_big"
+                    android:scaleType="fitXY"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/service_share"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/service_share"
+                    android:scaleType="fitXY"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="title"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/wheel_val_1"
+            android:orientation="horizontal"
+            android:paddingLeft="10dip" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:gravity="center_vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_orderdetail_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="实付款：￥0"
+                        android:textColor="@color/aD1494F"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textview_member_cutdown"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_orderdetail_money"
+                        android:text=" "
+                        android:textColor="@color/aD1494F"
+                        android:textSize="10sp"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/bt_orderdetail_pay"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_toRightOf="@+id/tv_orderdetail_money"
+                android:layout_weight="3"
+                android:background="@color/aBB996C"
+                android:text="下一步"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bggray"
+        android:paddingBottom="5dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="5dip"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/bt_servicedetail_submit"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="@drawable/bg_button_orange"
+            android:text="预  约"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    <!-- </RelativeLayout> -->
+
+</RelativeLayout>

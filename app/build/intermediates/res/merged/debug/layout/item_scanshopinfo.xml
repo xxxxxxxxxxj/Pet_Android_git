@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <TextView
+            android:id="@+id/tv_item_scanshopinfo_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="TextView"
+            android:textColor="@color/a666666"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_item_scanshopinfo_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:layout_toLeftOf="@id/tv_item_scanshopinfo_price"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="TextView"
+            android:textColor="@color/a666666"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</LinearLayout>

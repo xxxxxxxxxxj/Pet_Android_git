@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="166dip"
+        android:background="@drawable/mlistview_selector"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip" >
+
+            <TextView
+                android:id="@+id/tv_item_recent_ordertype"
+                android:layout_width="36dip"
+                android:layout_height="17dip"
+                android:layout_marginRight="10dip"
+                android:gravity="center"
+                android:text="TextView"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_item_recent_ordername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="TextView"
+                android:textColor="@color/a222222"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:background="#d3d3d3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip" >
+
+            <com.haotang.pet.view.SelectableRoundedImageView
+                android:id="@+id/sriv_item_recent_petimg"
+                android:layout_width="45dip"
+                android:layout_height="45dip"
+                android:layout_marginRight="10dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/user_icon_unnet"
+                custom:sriv_left_bottom_corner_radius="5dip"
+                custom:sriv_left_top_corner_radius="5dip"
+                custom:sriv_right_bottom_corner_radius="5dip"
+                custom:sriv_right_top_corner_radius="5dip" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dip"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_item_recent_orderyysj"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="TextView"
+                    android:textColor="@color/a666666"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_recent_orderno"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="TextView"
+                    android:textColor="@color/a666666"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:background="#d3d3d3" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dip"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip" >
+
+            <Button
+                android:id="@+id/btn_item_recent"
+                android:layout_width="93dip"
+                android:layout_height="31dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/btn_recentorder_selector"
+                android:text="Button"
+                android:textColor="@color/aBB996C"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

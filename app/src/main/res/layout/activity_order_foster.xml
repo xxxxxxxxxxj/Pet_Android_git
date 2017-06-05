@@ -1,0 +1,1001 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bggray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar2" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/ll_orderdetail_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <!-- com.haotang.pet.pulltorefresh.PullToRefreshScrollView -->
+
+            <com.haotang.pet.pulltorefresh.PullToRefreshScrollView
+                android:id="@+id/prs_orderdetail_main"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/bggray"
+                        android:paddingBottom="10dip"
+                        android:paddingLeft="10dip"
+                        android:paddingTop="10dip" 
+                        >
+
+                        <ImageView
+                            android:id="@+id/imageview_status"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:id="@+id/order_status"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toRightOf="@+id/imageview_status"
+                            android:text=" "
+                            android:textColor="@color/aBB996C"
+                            android:textSize="18sp" />
+
+                        <ImageView
+                            android:id="@+id/imageview_to_service"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dip"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/shop_detail_telphone"
+                            android:gravity="right" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:paddingBottom="10dip"
+                        android:paddingLeft="10dip"
+                        android:paddingTop="10dip" >
+
+                        <TextView
+                            android:id="@+id/tv_orderdetail_servicename"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:textColor="@color/a333333"
+                            android:textSize="@dimen/body_textsize_top_title" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="#E1E1E1" />
+
+                    <LinearLayout
+                        android:id="@+id/layout_foster_detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dip"
+                        android:background="@color/white"
+                        android:orientation="vertical" 
+                        >
+
+                        <LinearLayout
+                            android:id="@+id/layout_foster_come_in"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dip"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dip" 
+                            android:paddingTop="10dp">
+
+                            <TextView
+                                android:id="@+id/textview_show_pet_type"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="入住时间     "
+                                android:textColor="#7E7E7E"
+                                android:textSize="@dimen/body_textsize_foster" />
+
+                            <TextView
+                                android:id="@+id/textview_foster_come_in_time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="#7E7E7E"
+                                android:textSize="@dimen/body_textsize_foster" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layout_foster_go_out"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dip"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dip"
+                            android:visibility="visible" >
+
+                            <TextView
+                                android:id="@+id/textview_show_train_content"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="离店时间     "
+                                android:textColor="#7E7E7E"
+                                android:textSize="@dimen/body_textsize_foster" />
+
+                            <TextView
+                                android:id="@+id/textview_foster_go_out_time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" "
+                                android:textColor="#7E7E7E"
+                                android:textSize="@dimen/body_textsize_foster" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dip"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dip"
+                            android:visibility="visible" >
+
+                            <TextView
+                                android:id="@+id/textview_train_time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="房　　型     "
+                                android:textColor="#7E7E7E"
+                                android:textSize="@dimen/body_textsize_foster" />
+
+                            <TextView
+                                android:id="@+id/textview_foster_home_style"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" "
+                                android:textColor="#7E7E7E"
+                                android:textSize="@dimen/body_textsize_foster" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layout_middle_address_left"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dip"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dip"
+                            android:visibility="visible" >
+
+                            <TextView
+                                android:id="@+id/textview_foster_home_address_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="中  转  站     "
+                                android:textColor="#7E7E7E"
+                                android:textSize="@dimen/body_textsize_foster" />
+                            <!-- android:text="中  转  站     " -->
+                            <!-- android:text="寄养中心  " -->
+
+                            <TextView
+                                android:id="@+id/textview_foster_home_address"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" "
+                                android:textColor="#7E7E7E"
+                                android:textSize="@dimen/body_textsize_foster" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layout_foster_pet_foodprice"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dip"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dip"
+                            android:visibility="visible" >
+
+                            <TextView
+                                android:id="@+id/textview_train_address"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="宠　　粮     "
+                                android:textColor="#7E7E7E"
+                                android:textSize="@dimen/body_textsize_foster" />
+
+                            <TextView
+                                android:id="@+id/textview_pet_food_detail"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="自带宠粮"
+                                android:textColor="#7E7E7E"
+                                android:textSize="@dimen/body_textsize_foster" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layout_foster_is_gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="visible" >
+
+                            <LinearLayout
+                                android:id="@+id/layout_foster_is_wash"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dip"
+                                android:paddingLeft="10dip"
+                                android:paddingRight="10dip"
+                                android:visibility="gone" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="离店洗澡     "
+                                    android:textColor="@color/a757575" />
+
+                                <TextView
+                                    android:id="@+id/textview_foster_wash_detail"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" "
+                                    android:textColor="@color/a757575" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/layout_foster_is_pickup"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dip"
+                                android:paddingLeft="10dip"
+                                android:paddingRight="10dip"
+                                android:visibility="gone" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="接送服务     "
+                                    android:textColor="#7E7E7E" />
+
+                                <TextView
+                                    android:id="@+id/textview_foster_pickup_detail"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""
+                                    android:textColor="#7E7E7E" />
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:background="@color/bggray" />
+
+                            <LinearLayout
+                                android:id="@+id/layout_pet_address"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="10dp"
+                                android:visibility="visible" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="宠物地址     "
+                                    android:textColor="#7E7E7E"
+                                    android:textSize="@dimen/body_textsize_foster" />
+
+                                <TextView
+                                    android:id="@+id/textview_foster_pet_address"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""
+                                    android:textColor="#7E7E7E"
+                                    android:textSize="@dimen/body_textsize_foster" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="10dp"
+                                android:visibility="visible" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="联  系  人     "
+                                    android:textColor="#7E7E7E"
+                                    android:textSize="@dimen/body_textsize_foster" />
+
+                                <TextView
+                                    android:id="@+id/textview_foster_phone_people"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""
+                                    android:textColor="#7E7E7E"
+                                    android:textSize="@dimen/body_textsize_foster" />
+                            </LinearLayout>
+							<View 
+							    android:id="@+id/view_line"
+							    android:layout_width="match_parent"
+							    android:layout_height="1dp"
+							    android:background="@color/bggray"
+							    android:visibility="gone"/>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="10dp"
+                                android:visibility="visible" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="备注信息     "
+                                    android:textColor="#7E7E7E"
+                                    android:textSize="@dimen/body_textsize_foster" />
+
+                                <TextView
+                                    android:id="@+id/textView_foster_Remarks"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""
+                                    android:textColor="#7E7E7E"
+                                    android:textSize="@dimen/body_textsize_foster" />
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@color/bggray" />
+
+                            <LinearLayout
+                                android:id="@+id/foster_petstore"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:orientation="vertical"
+                                android:visibility="gone" >
+
+                                <include layout="@layout/petstore" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <!--
+                         <RelativeLayout
+						    android:id="@+id/layout_foster_look_all_or_no"
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"
+						    android:orientation="horizontal"
+						    android:padding="10dp"
+						    >
+
+						    <TextView
+						        android:id="@+id/textview_look_all_or_no"
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:layout_marginRight="20dp"
+						        android:gravity="center|right"
+						        android:text="查看全部：" />
+
+						    <ImageView
+						        android:id="@+id/imageView_look_all_or_no"
+						        android:layout_width="18dp"
+						        android:layout_height="18dp"
+						        android:layout_alignParentRight="true"
+						        android:layout_marginRight="5dp"
+						        android:background="@drawable/icon_arrow_down" />
+						</RelativeLayout>  -->
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="@color/bggray" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:visibility="visible" 
+                        android:background="@color/white"
+                        >
+
+                        <TextView
+                            android:id="@+id/textview_train_name_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:text="寄养费用"
+                            android:textColor="@color/a333333"
+                            android:textSize="@dimen/body_textsize_sample_title" />
+
+                        <TextView
+                            android:id="@+id/textview_foster_price_detail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:text=" "
+                            android:textColor="@color/aBB996C" />
+
+                        <TextView
+                            android:id="@+id/textview_foster_price_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="15dp"
+                            android:layout_toLeftOf="@id/textview_foster_price_detail"
+                            android:text=" "
+                            android:textColor="#7E7E7E" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/bggray" />
+                    <LinearLayout
+                        android:id="@+id/layout_foster_shexiangtou" 
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <RelativeLayout 
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:background="@color/white"
+                        >
+                        <TextView
+                            android:id="@+id/textview_foster_shexiangtou"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:text="加摄像头"
+                            android:textColor="@color/a333333"
+                            android:textSize="@dimen/body_textsize_sample_title" />
+                        <TextView
+                            android:id="@+id/textview_foster_price_shexiangtou"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:text=" "
+                            android:textColor="@color/aBB996C" />
+                         <TextView
+                            android:id="@+id/textview_foster_price_shexiangtou_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="15dp"
+                            android:layout_toLeftOf="@id/textview_foster_price_shexiangtou"
+                            android:text=" "
+                            android:textColor="#7E7E7E" />
+                    </RelativeLayout>
+					<View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/bggray" />
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:id="@+id/layout_foster_pet_food_detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone" 
+                        android:background="@color/white">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:visibility="visible" >
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="宠粮费用"
+                                android:textColor="@color/a333333"
+                                android:textSize="@dimen/body_textsize_sample_title" />
+
+                            <TextView
+                                android:id="@+id/textview_foster_pet_food_num_detail"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center|right"
+                                android:text=" "
+                                android:textColor="#7E7E7E" />
+
+                            <TextView
+                                android:id="@+id/textview_foster_pet_food_price_detail"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="center|right"
+                                android:text=" "
+                                android:textColor="@color/aBB996C" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/bggray" />
+                    </LinearLayout>
+                    <!-- 新增入住洗澡 -->
+
+                    <LinearLayout
+                        android:id="@+id/layout_foster_pet_wash_detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" 
+                        android:background="@color/white">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:visibility="visible" >
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="离店洗澡"
+                                android:textColor="@color/a333333"
+                                android:textSize="@dimen/body_textsize_sample_title" />
+
+                            <TextView
+                                android:id="@+id/textview_foster_pet_wash"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center|right"
+                                android:text=""
+                                android:textColor="#7E7E7E" />
+
+                            <TextView
+                                android:id="@+id/textview_foster_pet_wash_price_detail"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="center|right"
+                                android:text=" "
+                                android:textColor="@color/aBB996C" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/bggray" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_foster_ispickup_detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone" 
+                        android:background="@color/white">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:visibility="gone" >
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="上门接送"
+                                android:textColor="@color/a333333"
+                                android:textSize="@dimen/body_textsize_sample_title" />
+
+                            <TextView
+                                android:id="@+id/textview_foster_pickUp_price_detail"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="center|right"
+                                android:text=" "
+                                android:textColor="@color/aBB996C" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/bggray" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_foster_coupon_show"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" 
+                        android:background="@color/white">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:padding="10dp"
+                            android:visibility="visible" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="优惠券"
+                                android:textColor="@color/a333333"
+                                android:textSize="@dimen/body_textsize_sample_title" />
+
+                            <TextView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:background="@drawable/eva_num"
+                                android:gravity="center"
+                                android:text="减"
+                                android:textColor="@color/white"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/textview_foster_coupon_dis"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center|right"
+                                android:text=" "
+                                android:textColor="@color/aD1494F" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/bggray" />
+                    </LinearLayout>
+
+                    <!-- start 寄养费用补交或退款 -->
+
+                    <LinearLayout
+                        android:id="@+id/layout_foster_money_addOrReduce"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" 
+                        android:background="@color/white">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:padding="10dp"
+                            android:visibility="visible" >
+
+                            <TextView
+                                android:id="@+id/textview_foster_addOrReduce_title"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="退款"
+                                android:textColor="@color/a333333"
+                                android:textSize="@dimen/body_textsize_sample_title" />
+
+                            <TextView
+                                android:id="@+id/textview_foster_addOrReduce_days"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center|right"
+                                android:text="X17"
+                                android:textColor="#7E7E7E"
+                                android:visibility="gone" />
+
+                            <TextView
+                                android:id="@+id/textview_foster_addOrReduce_price"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="center|right"
+                                android:text=" "
+                                android:textColor="@color/aBB996C" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/bggray" />
+                    </LinearLayout>
+                    <!-- end 寄养费用补交或退款 -->
+
+
+                    <!--
+     				start 宠粮费用补交或退款
+				<LinearLayout 
+				    android:id="@+id/layout_foster_food_addOrReduce"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="vertical">
+					<LinearLayout 
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:gravity="center_vertical"
+					    android:padding="10dp"
+					    android:visibility="visible"
+					    >
+					    <TextView 
+					        android:id="@+id/textview_foster_food_addOrReduce_title" 
+					        android:layout_width="0dp"
+					        android:layout_weight="3"
+					        android:layout_height="wrap_content"
+					        android:textSize="18sp"
+	                        android:textColor="@color/a222222"
+					        android:text="寄养费用(补交)or(退款)"/>
+					    <TextView 
+					        android:id="@+id/textview_foster_food_addOrReduce_days"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					        android:layout_height="wrap_content"
+					        android:gravity="center|right"
+					        android:textColor="#7E7E7E"
+					        android:text="X17"/>
+					    <TextView 
+					        android:id="@+id/textview_foster_food_addOrReduce_price"
+					        android:layout_width="0dp"
+					        android:layout_weight="2"
+					        android:layout_height="wrap_content"
+					        android:gravity="center|right"
+					        android:textColor="@color/orange"
+					        android:text="¥102547"/>
+					</LinearLayout>
+					<View
+		                android:layout_width="match_parent"
+		                android:layout_height="1dp"
+		                android:layout_marginLeft="10dp"
+		                android:background="@color/bggray" />
+				    
+				</LinearLayout>
+				end 宠粮费用补交或退款 -->
+				<!-- 邀请码start -->
+					<LinearLayout
+                        android:id="@+id/layout_foster_promoterCode_show"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" 
+                        android:background="@color/white">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:padding="10dp"
+                            android:visibility="visible" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="邀请码优惠"
+                                android:textColor="@color/a333333"
+                                android:textSize="@dimen/body_textsize_sample_title" />
+
+                            <TextView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:background="@drawable/eva_num"
+                                android:gravity="center"
+                                android:text="减"
+                                android:textColor="@color/white"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/textview_foster_promoterCode_dis"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center|right"
+                                android:text=" "
+                                android:textColor="@color/aD1494F" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/bggray" />
+                    </LinearLayout>
+                    <!-- 邀请码end -->
+                    
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|right"
+                        android:padding="10dp"
+                        android:visibility="visible" 
+                        android:background="@color/white">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="15dp"
+                            android:text="实付"
+                            android:textColor="#7E7E7E" />
+
+                        <TextView
+                            android:id="@+id/textview_foster_last_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center|right"
+                            android:text=" "
+                            android:textColor="@color/aD1494F"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+					<LinearLayout
+                        android:id="@+id/layout_compl_parent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" 
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        android:background="@color/white"
+                        android:layout_marginTop="10dp"
+                        >
+                        <TextView 
+                            android:id="@+id/textview_compl_title" 
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="投诉内容"
+                            android:background="@color/white"
+                            android:textColor="@color/a323333"
+                            android:textSize="16sp"
+                            android:padding="10dp"
+                            />
+                        <View 
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/aDDDDDD"/>
+                        <TextView 
+                            android:id="@+id/textview_show_compl_reason"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:textSize="15sp"
+                            android:textColor="@color/a323333"
+                            android:text=" "/>
+                        <TextView 
+                            android:id="@+id/textview_show_compl_status"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="处理状态"
+                            android:padding="10dp"
+                            android:textColor="@color/aBB996C"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/bggray"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="visible" >
+
+                        <TextView
+                            android:id="@+id/textview_foster_order_pay_type"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="支付方式：" />
+						<LinearLayout
+						    android:id="@+id/layout_copy_ordernum" 
+						    android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+						    <TextView
+	                            android:id="@+id/textview_foster_order_num"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:text="订单编号：" />
+						    <TextView  
+						        android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:text="复制" 
+	                            android:gravity="center"
+	                            android:background="@drawable/copy_order_num"/>
+						</LinearLayout>
+                        
+                        <TextView
+                            android:id="@+id/textview_foster_order_git"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="提交时间：" />
+
+                        <TextView
+                            android:id="@+id/textview_foster_order_over"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="完成时间：" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.haotang.pet.pulltorefresh.PullToRefreshScrollView>
+
+            <RelativeLayout
+                android:id="@+id/layout_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bggray" >
+
+                <Button
+                    android:id="@+id/bt_orderdetail_pay"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:background="@drawable/bg_button_orange_noround"
+                    android:text="去评价"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" 
+                    android:visibility="gone"/>
+            </RelativeLayout>
+            
+             <RelativeLayout
+                android:id="@+id/layout_confirm_eva_complaints"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/transparent"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/layout_evaandmore"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="right|center_vertical"
+                    android:orientation="horizontal" 
+                    android:background="@color/transparent">
+
+                    <Button
+                        android:id="@+id/bt_complaints"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/eva_back_compli_choose"
+                        android:text="我要投诉"
+                        android:textColor="@color/aB59A6C" />
+
+                    <Button
+                        android:id="@+id/bt_only_eva"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/eva_back_compli"
+                        android:text="评价"
+                        android:textColor="@color/aB59A6C" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ImageView_red_packets"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="80dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/red_packets"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bggray"
+    android:orientation="vertical" >
+    <include layout="@layout/titlebar2"/>
+
+    <LinearLayout
+        android:id="@+id/ll_orderdetail_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/prs_orderdetail_main"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+        	android:layout_weight="1"
+        	android:background="@color/white"
+        	android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bggray"
+                    android:paddingBottom="10dip"
+                    android:paddingLeft="10dip"
+                    android:paddingTop="15dip" >
+
+                    <TextView
+                        android:id="@+id/order_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1dip"
+                        android:text="待付款"
+                        android:textColor="@color/orange"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_toLeftOf="@+id/order_status"
+                        android:gravity="center_vertical|right"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="距结束："
+                            android:textColor="#FF9942"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/textView_order_thr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/order_time_down"
+                            android:paddingLeft="3dp"
+                            android:paddingRight="3dp"
+                            android:text=""
+                            android:textColor="#FF9942"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="分"
+                            android:textColor="#FF9942"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/textView_order_time_two"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/order_time_down"
+                            android:paddingLeft="3dp"
+                            android:paddingRight="3dp"
+                            android:text=""
+                            android:textColor="#FF9942"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="秒"
+                            android:textColor="#FF9942"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/order_status"
+                        android:text="请在15分钟内完成支付，超时订单将自动关闭"
+                        android:textColor="#74726D" />
+                </RelativeLayout>
+                <!-- 为了布局写着方便添加 可去掉 -->
+                <LinearLayout  
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    
+               
+	                 <!-- 宠物1 -->
+	                <LinearLayout
+	                    android:id="@+id/layout_more_pet_one"  
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:gravity="center_vertical"
+	                    android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical" >
+
+                                <TextView
+                                    android:id="@+id/more_pet_name_one"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="4"
+                                    android:paddingLeft="10dp"
+                                    android:paddingTop="5dp"
+                                    android:textColor="@color/a333333"
+                                	android:textSize="@dimen/TITLE_SIZE_SECOND"
+                                    android:text="宠物姓名1" />
+
+                                <TextView
+                                    android:id="@+id/more_pet_price_one"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="right"
+                                    android:paddingRight="10dp"
+                                    android:textColor="@color/orange"
+                                    android:text="¥ 1025" />
+                            </LinearLayout>
+
+	                    <!-- <RelativeLayout
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content"
+	                        android:layout_marginTop="5dp"
+	                        android:layout_marginBottom="5dp"
+	                        >
+	                        <TextView
+                                android:id="@+id/more_pet_name_one"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_toLeftOf="@+id/more_pet_price_one_other"
+                                android:layout_centerVertical="true"
+                                android:textColor="@color/a333333"
+                                android:textSize="@dimen/TITLE_SIZE_SECOND"
+                                android:text="宠物姓名1" />
+
+                            <TextView
+                                android:id="@+id/more_pet_direction_one"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginRight="5dp"
+                                android:textColor="@color/a757575"
+                                android:textSize="20sp"
+                                android:layout_centerVertical="true"
+                                android:text="∨" />
+
+                            <TextView
+                                android:id="@+id/more_pet_price_one"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_toLeftOf="@+id/more_pet_direction_one"
+                                android:textColor="@color/orange"
+                                android:layout_centerVertical="true"
+                                android:text="¥1025" />
+
+                            <TextView
+                                android:id="@+id/more_pet_price_one_other"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_toLeftOf="@+id/more_pet_price_one"
+                                android:background="@drawable/bg_search_orangeborder"
+                                android:layout_marginRight="3dp"
+                                android:textColor="@color/orange"
+                                android:padding="3dp"
+                                android:textSize="10sp"
+                                android:layout_centerVertical="true"
+                                android:text="有单项" />
+
+	                    </RelativeLayout> -->
+	                    <com.haotang.pet.view.MyGridView
+						        android:id="@+id/gridView_more_pet_one"
+						        android:layout_width="match_parent"
+						        android:layout_height="match_parent"
+						        android:listSelector="@android:color/transparent"
+						        android:layout_marginLeft="10dp"
+						        android:layout_marginBottom="10dp"
+						        android:numColumns="2" />
+	                    <View 
+	                        android:layout_width="match_parent"
+	                        android:layout_height="1dp"
+	                        android:layout_marginLeft="10dp"
+	                        android:background="@color/bggray"/>
+	                </LinearLayout>
+	                <!-- 宠物2 -->
+					<LinearLayout 
+					    android:id="@+id/layout_more_pet_two"  
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:gravity="center_vertical"
+	                    android:orientation="vertical">
+
+	                        <LinearLayout
+	                            android:layout_width="match_parent"
+	                            android:layout_height="wrap_content"
+	                            android:gravity="center_vertical" >
+
+	                            <TextView
+	                                android:id="@+id/more_pet_name_two"
+	                                android:layout_width="0dp"
+	                                android:layout_height="wrap_content"
+	                                android:layout_weight="4"
+	                                android:paddingLeft="10dp"
+	                                android:paddingTop="5dp"
+	                                android:textColor="@color/a333333"
+                                	android:textSize="@dimen/TITLE_SIZE_SECOND"
+	                                android:text="宠物姓名2" />
+
+	                            <TextView
+	                                android:id="@+id/more_pet_price_two"
+	                                android:layout_width="0dp"
+	                                android:layout_height="wrap_content"
+	                                android:layout_weight="1"
+	                                android:gravity="right"
+	                                android:paddingRight="10dp"
+	                                android:textColor="@color/orange"
+	                                android:text="¥ 1025" />
+	                        </LinearLayout>
+
+	                    <!-- <RelativeLayout
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content"
+	                        android:layout_marginTop="5dp"
+	                        android:layout_marginBottom="5dp">
+                            
+                            <TextView
+                                android:id="@+id/more_pet_name_two"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_toLeftOf="@+id/more_pet_price_two_other"
+                                android:layout_centerVertical="true"
+                                android:textColor="@color/a333333"
+                                android:textSize="@dimen/TITLE_SIZE_SECOND"
+                                android:text="宠物姓名2" />
+
+                            <TextView
+                                android:id="@+id/more_pet_direction_two"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginRight="5dp"
+                                android:layout_centerVertical="true"
+                                android:textColor="@color/a757575"
+                                android:textSize="20sp"
+                                android:text="∨" />
+
+                            <TextView
+                                android:id="@+id/more_pet_price_two"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toLeftOf="@+id/more_pet_direction_two"
+                                android:textColor="@color/orange"
+                                android:layout_centerVertical="true"
+                                android:text="¥1025" />
+
+                            <TextView
+                                android:id="@+id/more_pet_price_two_other"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toLeftOf="@+id/more_pet_price_two"
+                                android:background="@drawable/bg_search_orangeborder"
+                                android:layout_marginRight="3dp"
+                                android:textColor="@color/orange"
+                                android:padding="3dp"
+                                android:textSize="10sp"
+                                android:text="有单项" />
+
+	                    </RelativeLayout> -->
+	                    <com.haotang.pet.view.MyGridView
+						        android:id="@+id/gridView_more_pet_two"
+						        android:layout_width="match_parent"
+						        android:layout_height="match_parent"
+						        android:listSelector="@android:color/transparent"
+						        android:layout_marginLeft="10dp"
+						        android:layout_marginBottom="10dp"
+						        android:numColumns="2" />
+	                    <View 
+	                        android:layout_width="match_parent"
+	                        android:layout_height="1dp"
+	                        android:layout_marginLeft="10dp"
+	                        android:background="@color/bggray"/>
+					</LinearLayout>
+	                <!-- 宠物3 -->
+					<LinearLayout 
+					    android:id="@+id/layout_more_pet_thr"  
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:gravity="center_vertical"
+	                    android:orientation="vertical"
+	                    android:layout_marginTop="5dp"
+	                    android:layout_marginBottom="5dp">
+	                    
+					    <LinearLayout
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:gravity="center_vertical" >
+
+					        <TextView
+					            android:id="@+id/more_pet_name_thr"
+					            android:layout_width="0dp"
+					            android:layout_height="wrap_content"
+					            android:layout_weight="4"
+					            android:paddingLeft="10dp"
+					            android:paddingTop="5dp"
+					            android:textColor="@color/a333333"
+                                android:textSize="@dimen/TITLE_SIZE_SECOND"
+					            android:text="宠物姓名3" />
+
+					        <TextView
+					            android:id="@+id/more_pet_price_thr"
+					            android:layout_width="0dp"
+					            android:layout_height="wrap_content"
+					            android:layout_weight="1"
+					            android:gravity="right"
+					            android:paddingRight="10dp"
+					            android:textColor="@color/orange"
+					            android:text="¥ 1025" />
+					    </LinearLayout>
+
+	                    <!-- <RelativeLayout
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content">
+
+	                       <TextView
+	                           android:id="@+id/more_pet_name_thr"
+	                           android:layout_width="match_parent"
+	                           android:layout_height="wrap_content"
+	                           android:layout_marginLeft="10dp"
+	                           android:layout_toLeftOf="@+id/more_pet_price_thr_other"
+	                           android:layout_centerVertical="true"
+	                           android:textColor="@color/a333333"
+                               android:textSize="@dimen/TITLE_SIZE_SECOND"
+	                           android:text="宠物姓名3" />
+
+	                       <TextView
+	                           android:id="@+id/more_pet_direction_thr"
+	                           android:layout_width="wrap_content"
+	                           android:layout_height="wrap_content"
+	                           android:layout_alignParentRight="true"
+	                           android:layout_alignParentTop="true"
+	                           android:layout_marginRight="5dp"
+	                           android:textColor="@color/a757575"
+	                           android:layout_centerVertical="true"
+	                           android:textSize="20sp"
+	                           android:text="∨" />
+
+	                       <TextView
+	                           android:id="@+id/more_pet_price_thr"
+	                           android:layout_width="wrap_content"
+	                           android:layout_height="wrap_content"
+	                           android:layout_alignParentTop="true"
+	                           android:layout_toLeftOf="@+id/more_pet_direction_thr"
+	                           android:textColor="@color/orange"
+	                           android:layout_centerVertical="true"
+	                           android:text="¥1025" />
+
+	                       <TextView
+	                           android:id="@+id/more_pet_price_thr_other"
+	                           android:layout_width="wrap_content"
+	                           android:layout_height="wrap_content"
+	                           android:layout_alignParentTop="true"
+	                           android:layout_toLeftOf="@+id/more_pet_price_thr"
+	                           android:background="@drawable/bg_search_orangeborder"
+                               android:layout_marginRight="3dp"
+                               android:textColor="@color/orange"
+                               android:padding="3dp"
+                               android:textSize="10sp"
+                               android:layout_centerVertical="true"
+	                           android:text="有单项" />
+						</RelativeLayout> -->
+	                    <com.haotang.pet.view.MyGridView
+						        android:id="@+id/gridView_more_pet_thr"
+						        android:layout_width="match_parent"
+						        android:layout_height="match_parent"
+						        android:listSelector="@android:color/transparent"
+						        android:layout_marginLeft="10dp"
+						        android:layout_marginBottom="10dp"
+						        android:numColumns="2" />
+	                    <View 
+	                        android:layout_width="match_parent"
+	                        android:layout_height="1dp"
+	                        android:layout_marginLeft="10dp"
+	                        android:background="@color/bggray"/>
+					</LinearLayout>
+	                <!-- 宠物4 -->
+					<LinearLayout 
+					    android:id="@+id/layout_more_pet_four"  
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:gravity="center_vertical"
+	                    android:orientation="vertical">
+
+	                    <LinearLayout
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content"
+	                        android:gravity="center_vertical" >
+
+	                        <TextView
+	                            android:id="@+id/more_pet_name_four"
+	                            android:layout_width="0dp"
+	                            android:layout_height="wrap_content"
+	                            android:layout_weight="4"
+	                            android:paddingLeft="10dp"
+	                            android:paddingTop="5dp"
+	                            android:textColor="@color/a333333"
+                                android:textSize="@dimen/TITLE_SIZE_SECOND"
+	                            android:text="宠物姓名4" />
+
+	                        <TextView
+	                            android:id="@+id/more_pet_price_four"
+	                            android:layout_width="0dp"
+	                            android:layout_height="wrap_content"
+	                            android:layout_weight="1"
+	                            android:gravity="right"
+	                            android:paddingRight="10dp"
+	                            android:textColor="@color/orange"
+	                            android:text="¥ 1025" />
+	                    </LinearLayout>
+   
+	                    <!-- <RelativeLayout
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content"
+	                        android:layout_marginTop="5dp"
+	                    	android:layout_marginBottom="5dp">
+
+	                                <TextView
+	                                    android:id="@+id/more_pet_name_four"
+	                                    android:layout_width="match_parent"
+	                                    android:layout_height="wrap_content"
+	                                    android:layout_marginLeft="10dp"
+	                                    android:layout_toLeftOf="@+id/more_pet_price_four_other"
+	                                    android:layout_centerVertical="true"
+	                                    android:textColor="@color/a333333"
+                                		android:textSize="@dimen/TITLE_SIZE_SECOND"
+	                                    android:text="宠物姓名4" />
+
+	                                <TextView
+	                                    android:id="@+id/more_pet_direction_four"
+	                                    android:layout_width="wrap_content"
+	                                    android:layout_height="wrap_content"
+	                                    android:layout_alignParentRight="true"
+	                                    android:layout_marginRight="5dp"
+	                                    android:textColor="@color/a757575"
+	                                    android:layout_centerVertical="true"
+	                                    android:textSize="20sp"
+	                                    android:text="∨" />
+
+	                                <TextView
+	                                    android:id="@+id/more_pet_price_four"
+	                                    android:layout_width="wrap_content"
+	                                    android:layout_height="wrap_content"
+	                                    android:layout_alignParentTop="true"
+	                                    android:layout_toLeftOf="@+id/more_pet_direction_four"
+	                                    android:textColor="@color/orange"
+	                                    android:layout_centerVertical="true"
+	                                    android:text="¥1025" />
+
+	                                <TextView
+	                                    android:id="@+id/more_pet_price_four_other"
+	                                    android:layout_width="wrap_content"
+	                                    android:layout_height="wrap_content"
+	                                    android:layout_alignParentTop="true"
+	                                    android:layout_toLeftOf="@+id/more_pet_price_four"
+	                                    android:background="@drawable/bg_search_orangeborder"
+                               			android:layout_marginRight="3dp"
+		                                android:textColor="@color/orange"
+		                                android:padding="3dp"
+		                                android:textSize="10sp"
+		                                android:layout_centerVertical="true"
+	                                    android:text="有单项" />
+
+	                    </RelativeLayout> -->
+	                    <com.haotang.pet.view.MyGridView
+						        android:id="@+id/gridView_more_pet_four"
+						        android:layout_width="match_parent"
+						        android:layout_height="match_parent"
+						        android:listSelector="@android:color/transparent"
+						        android:layout_marginLeft="10dp"
+						        android:layout_marginBottom="10dp"
+						        android:numColumns="2" />
+	                    <View 
+	                        android:layout_width="match_parent"
+	                        android:layout_height="1dp"
+	                        android:layout_marginLeft="10dp"
+	                        android:background="@color/bggray"/>
+					</LinearLayout>
+	                <!-- 宠物5 -->
+					<LinearLayout 
+					    android:id="@+id/layout_more_pet_five"  
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:gravity="center_vertical"
+	                    android:orientation="vertical">
+
+	                    <LinearLayout
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content"
+	                        android:gravity="center_vertical" >
+
+	                        <TextView
+	                            android:id="@+id/more_pet_name_five"
+	                            android:layout_width="0dp"
+	                            android:layout_height="wrap_content"
+	                            android:layout_weight="4"
+	                            android:paddingLeft="10dp"
+	                            android:paddingTop="5dp"
+	                            android:textColor="@color/a333333"
+                                android:textSize="@dimen/TITLE_SIZE_SECOND"
+	                            android:text="宠物姓名5" />
+
+	                        <TextView
+	                            android:id="@+id/more_pet_price_five"
+	                            android:layout_width="0dp"
+	                            android:layout_height="wrap_content"
+	                            android:layout_weight="1"
+	                            android:gravity="right"
+	                            android:paddingRight="10dp"
+	                            android:textColor="@color/orange"
+	                            android:text="¥ 1025" />
+	                    </LinearLayout>
+
+	                    <!-- <RelativeLayout
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content"
+	                        android:layout_marginTop="5dp"
+	                    	android:layout_marginBottom="5dp">
+	                                
+	                        <TextView
+                                android:id="@+id/more_pet_name_five"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_toLeftOf="@+id/more_pet_price_five_other"
+                                android:layout_centerVertical="true"
+                                android:textColor="@color/a333333"
+                                android:textSize="@dimen/TITLE_SIZE_SECOND"
+                                android:text="宠物姓名5" />
+
+                            <TextView
+                                android:id="@+id/more_pet_direction_five"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="5dp"
+                                android:textColor="@color/a757575"
+                                android:layout_centerVertical="true"
+                                android:textSize="20sp"
+                                android:text="∨" />
+
+                            <TextView
+                                android:id="@+id/more_pet_price_five"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toLeftOf="@+id/more_pet_direction_five"
+                                android:textColor="@color/orange"
+                                android:layout_centerVertical="true"
+                                android:text="¥1025" />
+
+                            <TextView
+                                android:id="@+id/more_pet_price_five_other"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_toLeftOf="@+id/more_pet_price_five"
+                                android:background="@drawable/bg_search_orangeborder"
+                               	android:layout_marginRight="3dp"
+                               	android:textColor="@color/orange"
+                                android:padding="3dp"
+                                android:textSize="10sp"
+                                android:layout_centerVertical="true"
+                                android:text="有单项" />
+
+	                    </RelativeLayout> -->
+	                    <com.haotang.pet.view.MyGridView
+						        android:id="@+id/gridView_more_pet_five"
+						        android:layout_width="match_parent"
+						        android:layout_height="match_parent"
+						        android:listSelector="@android:color/transparent"
+						        android:layout_marginLeft="10dp"
+						        android:layout_marginBottom="10dp"
+						        android:numColumns="2" />
+					</LinearLayout>
+					<View 
+	                        android:layout_width="match_parent"
+	                        android:layout_height="5dp"
+	                        android:background="@color/bggray"/>
+				 </LinearLayout>
+				 <!-- UI预约时间到美容师信息展示 -->
+				 <LinearLayout 
+				     android:layout_width="match_parent"
+				     android:layout_height="wrap_content"
+				     android:layout_marginLeft="10dp"
+				     android:orientation="vertical">
+					<!-- 预约时间 -->
+				     <RelativeLayout 
+					    android:id="@+id/layout_more_pet_time"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:orientation="horizontal"
+					    android:gravity="center_vertical"
+					    android:layout_marginTop="5dp"
+				    	>
+
+			                    <TextView
+			                        android:id="@+id/textView_more_pet_appm"
+			                        android:layout_width="wrap_content"
+			                        android:layout_height="wrap_content"
+			                        android:textColor="@color/a757575"
+			                        android:text="预约时间：" />
+
+			                    <TextView
+			                        android:id="@+id/textView_more_pet_yuyue_time"
+			                        android:layout_width="wrap_content"
+			                        android:layout_height="wrap_content"
+			                        android:layout_alignParentTop="true"
+			                        android:layout_toRightOf="@+id/textView_more_pet_appm"
+			                        android:text="2016-3-14 15:28" />
+
+			                    <TextView
+			                        android:id="@+id/textView_more_pet_goshoporhome"
+			                        android:layout_width="wrap_content"
+			                        android:layout_height="wrap_content"
+			                        android:layout_alignParentTop="true"
+			                        android:layout_marginLeft="3dp"
+			                        android:layout_toRightOf="@+id/textView_more_pet_yuyue_time"
+			                        android:background="#01AAEF"
+			                        android:textColor="@color/white"
+			                        android:textSize="12sp"
+			                        android:paddingLeft="5dp"
+			                        android:paddingRight="5dp"
+			                        android:text="到店" />
+			                    <!-- 上门颜色 01AAEF -->
+
+					</RelativeLayout>
+					<!-- 宠物地址 -->
+					<RelativeLayout 
+		                android:id="@+id/layout_more_pet_address"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:layout_below="@+id/layout_more_pet_time"
+					    android:layout_marginTop="5dp"
+					    android:gravity="center_vertical"
+				    	>
+			            <TextView
+                            android:id="@+id/textView_more_pet_addre"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentLeft="true"
+                            android:textColor="@color/a757575"
+                            android:gravity="center_vertical"
+                            android:layout_centerVertical="true"
+                            android:text="宠物地址：" />
+
+                        <TextView
+                            android:id="@+id/order_more_pet_show_all"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="5dp"
+                            android:textColor="@color/a757575"
+                            android:layout_centerVertical="true"
+                            android:textSize="20sp"
+                            android:text="∨" />
+
+                        <TextView
+                            android:id="@+id/textView_more_pet_address_detail"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_toLeftOf="@+id/order_more_pet_show_all"
+                            android:layout_toRightOf="@+id/textView_more_pet_addre"
+                            android:layout_centerVertical="true"
+                            android:text="测试领袖新硅谷" />
+
+				 	</RelativeLayout>
+				 	<!-- 根据箭头指示展示或隐藏内部服务方式至美容师位置内容 -->
+				 	<LinearLayout
+				 	    android:id="@+id/layout_show_more_pet_other_detail" 
+				 	    android:layout_width="match_parent"
+				 	    android:layout_height="wrap_content"
+				 	    android:orientation="vertical"
+				 	    android:visibility="gone"
+				 	    >
+				 	    <LinearLayout 
+				 	        android:layout_width="match_parent"
+				 	        android:layout_height="match_parent"
+				 	        android:layout_marginTop="5dp"
+				 	        >
+				 	        <TextView
+							    android:layout_width="wrap_content"
+							    android:layout_height="wrap_content"
+							    android:layout_marginLeft="0dp"
+							    android:textColor="@color/a757575"
+						        android:textSize="14sp"
+							    android:text="服务方式：" />
+				 	        <TextView
+							    android:id="@+id/textView_more_pet_addrtype"
+							    android:layout_width="wrap_content"
+							    android:layout_height="wrap_content"
+							    android:layout_marginLeft="5dp"
+							    android:textColor="@color/a757575"
+						        android:textSize="14sp"
+						        android:layout_marginRight="10dip"
+							    android:text="" />
+				 	    </LinearLayout>
+				 	    <LinearLayout 
+				 	        android:layout_width="match_parent"
+				 	        android:layout_height="match_parent"
+				 	        android:layout_marginTop="5dp"
+				 	        android:visibility="gone"
+				 	        >
+				 	        <TextView
+							    android:layout_width="wrap_content"
+							    android:layout_height="wrap_content"
+							    android:layout_marginLeft="0dp"
+							    android:textColor="@color/a757575"
+						        android:textSize="14sp"
+							    android:text="联  系  人：" />
+				 	        <TextView
+							    android:id="@+id/textView_more_pet_people_name"
+							    android:layout_width="wrap_content"
+							    android:layout_height="wrap_content"
+							    android:layout_marginLeft="5dp"
+							    android:textColor="@color/a757575"
+						        android:textSize="14sp"
+						        android:layout_marginRight="10dip"
+							    android:text="" />
+				 	    </LinearLayout>
+				 	    <LinearLayout 
+				 	        android:layout_width="match_parent"
+				 	        android:layout_height="match_parent"
+				 	        android:layout_marginTop="5dp"
+				 	        >
+				 	        <TextView
+							    android:layout_width="wrap_content"
+							    android:layout_height="wrap_content"
+							    android:layout_marginLeft="0dp"
+							    android:textColor="@color/a757575"
+						        android:textSize="14sp"
+							    android:text="备注信息：" />
+				 	        <TextView
+							    android:id="@+id/textView_more_pet_remark_detail"
+							    android:layout_width="wrap_content"
+							    android:layout_height="wrap_content"
+							    android:layout_marginLeft="5dp"
+							    android:textColor="@color/a757575"
+						        android:textSize="14sp"
+						        android:layout_marginRight="10dip"
+							    android:text="" />
+				 	    </LinearLayout>
+				 	    <View 
+	                        android:layout_width="match_parent"
+	                        android:layout_height="1dp"
+	                        android:layout_marginTop="5dp"
+	                        android:background="@color/bggray"/>
+				 	    <!-- 门店信息 -->
+				 	    <include  
+		            	    android:id="@+id/washandotherpetstore"
+		            	    layout="@layout/petstore" />
+				 	    <View 
+			                android:layout_width="match_parent"
+			                android:layout_height="1dip"
+			                android:background="@color/bggray"
+			                />
+				 	    <!-- 美容师信息 -->
+				 	    <RelativeLayout 
+			                android:layout_width="match_parent"
+			                android:layout_height="wrap_content"
+			                android:paddingTop="10dip"
+			                android:paddingBottom="10dip"
+			                android:layout_marginTop="5dip"
+			                android:background="@color/white"
+			                >
+			                <TextView 
+			                    android:id="@+id/tv_orderdetail_beauticianabout"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:text="美容师信息"
+			                    android:textSize="18sp"
+			                    android:textColor="@color/a222222"
+			                    android:visibility="gone"
+			                    />
+			                <View 
+			                    android:id="@+id/view_orderdetail_3"
+			                    android:layout_width="match_parent"
+			                    android:layout_height="1dip"
+			                    android:background="@color/bggray"
+			                    android:layout_below="@+id/tv_orderdetail_beauticianabout"
+			                    android:layout_marginTop="10dip"
+			                    android:visibility="gone"
+			                    />
+			                <com.haotang.pet.view.SelectableRoundedImageView 
+			                    android:id="@+id/sriv_orderdetail_beautician"
+			                    android:layout_width="60dip"
+						        android:layout_height="60dip"
+						        android:scaleType="fitXY"
+						        android:src="@drawable/icon_beautician_default"
+						        custom:sriv_oval="true"
+						        custom:sriv_border_color="@color/bggray"
+						        custom:sriv_border_width="1dip"
+						        android:layout_below="@+id/view_orderdetail_3"
+						        android:layout_marginTop="10dip"
+			                    />
+			                <LinearLayout 
+			                    android:id="@+id/ll_orderdetail_beautician"
+			                    android:layout_width="match_parent"
+			                    android:layout_height="wrap_content"
+			                    android:orientation="horizontal"
+			                    android:layout_toRightOf="@+id/sriv_orderdetail_beautician"
+			                    android:layout_alignTop="@+id/sriv_orderdetail_beautician"
+			                    android:layout_marginLeft="10dip"
+			                    android:gravity="center_vertical"
+			                    >
+			                <TextView 
+			                    android:id="@+id/tv_orderdetail_beauticianname"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:text="测试姓名"
+			                    android:textColor="@color/a222222"
+			                    android:textSize="18sp"
+			                    android:paddingTop="4dip"
+			                    android:paddingBottom="1dip"
+			                    />
+			                	<ImageView 
+			                	    android:id="@+id/iv_orderdetail_beauticianlevel1"
+			                	    android:layout_width="13dip"
+			                	    android:layout_height="13dip"
+			                	    android:layout_marginLeft="3dip"
+			                	    android:scaleType="fitXY"
+			                	    android:background="@drawable/icon_crown_selected"
+			                	    />
+			                	<ImageView 
+			                	    android:id="@+id/iv_orderdetail_beauticianlevel2"
+			                	    android:layout_width="13dip"
+			                	    android:layout_height="13dip"
+			                	    android:layout_marginLeft="2dip"
+			                	    android:scaleType="fitXY"
+			                	    android:background="@drawable/icon_crown_selected"
+			                	    />
+			                	<ImageView 
+			                	    android:id="@+id/iv_orderdetail_beauticianlevel3"
+			                	    android:layout_width="13dip"
+			                	    android:layout_height="13dip"
+			                	    android:layout_marginLeft="2dip"
+			                	    android:scaleType="fitXY"
+			                	    android:background="@drawable/icon_crown_selected"
+			                	    />
+			                	<ImageView 
+			                	    android:id="@+id/iv_orderdetail_beauticianlevel4"
+			                	    android:layout_width="13dip"
+			                	    android:layout_height="13dip"
+			                	    android:layout_marginLeft="2dip"
+			                	    android:scaleType="fitXY"
+			                	    android:background="@drawable/icon_crown_normal"
+			                	    />
+			                	<ImageView 
+			                	    android:id="@+id/iv_orderdetail_beauticianlevel5"
+			                	    android:layout_width="13dip"
+			                	    android:layout_height="13dip"
+			                	    android:layout_marginLeft="2dip"
+			                	    android:scaleType="fitXY"
+			                	    android:background="@drawable/icon_crown_normal"
+			                	    />
+			                    
+			                </LinearLayout>
+			                <TextView 
+			                    android:id="@+id/tv_orderdetail_beauticianlevel"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:text="高级美容师"
+			                    android:textColor="@color/a757575"
+			                    android:textSize="16sp"
+			                    android:layout_below="@+id/ll_orderdetail_beautician"
+			                    android:layout_alignLeft="@+id/ll_orderdetail_beautician"
+			                    />
+			                <TextView 
+			                    android:id="@+id/tv_orderdetail_beauticianordernum"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:text="接单：0"
+			                    android:textColor="@color/orange"
+			                    android:textSize="15sp"
+			                    android:layout_alignTop="@+id/tv_orderdetail_beauticianlevel"
+			                    android:layout_alignParentRight="true"
+			                    android:layout_marginRight="10dip"
+			                    />
+			                
+			            </RelativeLayout>
+				 	</LinearLayout>
+				 </LinearLayout>
+				 <View 
+                     android:layout_width="match_parent"
+                     android:layout_height="5dp"
+                     android:background="@color/bggray"/>
+				 <!-- 上门接送 -->
+				 <LinearLayout 
+				     android:id="@+id/layout_more_pet_isPickUp"
+				     android:layout_width="match_parent"
+				     android:layout_height="wrap_content"
+				     android:layout_marginLeft="10dp"
+				     android:layout_marginTop="5dp"
+				     android:layout_marginBottom="5dp"
+				     android:orientation="horizontal"
+				     android:gravity="center_vertical"
+				     >
+				     <TextView 
+				         android:layout_width="wrap_content"
+				         android:layout_height="wrap_content"
+				         android:text="接送"
+				         android:textSize="18sp"
+                    	 android:textColor="@color/a222222"
+				         />
+				     <ImageView
+				         android:id="@+id/more_pet_show_other" 
+				         android:layout_width="wrap_content"
+				         android:layout_height="wrap_content"
+				         android:background="@drawable/icon_hint"/>
+				     <TextView 
+				         android:id="@+id/textview_more_pet_pickprice"
+				         android:layout_width="match_parent"
+				         android:layout_height="wrap_content"
+				         android:gravity="right"
+				         android:layout_marginRight="10dp"
+				         android:text="¥ 10.00"
+				         />
+				 </LinearLayout>
+				 <View 
+				     android:layout_width="match_parent"
+				     android:layout_height="1dp"
+				     android:background="@color/bggray"/>
+				 <!-- 优惠券 -->
+				 <LinearLayout
+				     android:id="@+id/layout_more_pet_coupon" 
+				     android:layout_width="match_parent"
+				     android:layout_height="wrap_content"
+				     android:paddingLeft="10dp"
+				     android:paddingTop="10dp"
+				     android:paddingBottom="10dp"
+				     >
+				     <TextView 
+				         android:layout_width="0dp"
+				         android:layout_weight="1"
+				         android:layout_height="wrap_content"
+				         android:textSize="18sp"
+                    	 android:textColor="@color/a222222"
+				         android:text="优惠券"
+				         />
+				     <TextView 
+				         android:id="@+id/textview_more_pet_coupon"
+				          android:layout_width="0dp"
+				         android:layout_weight="4"
+				         android:layout_height="wrap_content"
+				         android:text="无可用优惠券"
+				         android:gravity="right"
+				         />
+				     <TextView 
+				          android:layout_width="0dp"
+				         android:layout_weight="0.5"
+				         android:layout_height="wrap_content"
+				         android:gravity="right"
+				         android:layout_marginRight="10dp"
+				         android:text="＞"
+				         />
+				 </LinearLayout>
+				 <View 
+                     android:layout_width="match_parent"
+                     android:layout_height="5dp"
+                     android:background="@color/bggray"/>
+				 <View 
+                     android:layout_width="match_parent"
+                     android:layout_height="20dp"
+                     android:background="@color/white"/>
+				 <LinearLayout 
+				     android:layout_width="match_parent"
+				     android:layout_height="match_parent"
+				     android:orientation="vertical"
+				     android:background="@color/bggray"
+				     android:padding="10dp"
+				     >
+				     <TextView
+				         android:id="@+id/textview_more_pet_ordernum" 
+				         android:layout_width="match_parent"
+				         android:layout_height="wrap_content"
+				         android:text="订单编号测试"/>
+				     <TextView 
+				         android:id="@+id/textview_more_pet_gittime" 
+				         android:layout_width="match_parent"
+				         android:layout_height="wrap_content"
+				         android:layout_marginTop="5dp"
+				         android:text="提交时间测试"/>
+				 </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+<RelativeLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:paddingLeft="10dip"
+         android:background="@color/white"
+         android:layout_marginTop="10dip"
+         >
+         <TextView 
+             android:id="@+id/tv_orderdetail_money_pre"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="实付款："
+             android:textSize="18sp"
+             android:textColor="@color/orange"
+             android:layout_centerVertical="true"
+             />
+         <TextView 
+             android:id="@+id/tv_orderdetail_money"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="￥0.00"
+             android:textSize="18sp"
+             android:textStyle="bold"
+             android:textColor="@color/orange"
+             android:layout_centerVertical="true"
+             android:layout_toRightOf="@+id/tv_orderdetail_money_pre"
+             />
+         <Button 
+             android:id="@+id/bt_orderdetail_pay"
+             android:layout_width="match_parent"
+             android:layout_height="50dip"
+             android:text="去付款"
+             android:textSize="18sp"
+             android:textColor="@color/white"
+             android:background="@drawable/bg_button_orange_noround"
+             android:layout_toRightOf="@+id/tv_orderdetail_money"
+             android:layout_marginLeft="10dip"
+             />
+         </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

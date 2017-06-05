@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/layout_bottom_appoint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_show_top"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="-5.2dp"
+            android:background="@drawable/card_bottom_show"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            >
+
+            <!-- android:background="@color/af8f8f8" -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+
+                    <com.haotang.pet.view.MListview
+                        android:id="@+id/listview_show_cards"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:divider="@null"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:scrollbars="none" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/cards_to_apponit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bg_button_service_apponit_ok"
+                    android:gravity="center"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="2dp"
+                    android:text="去预约"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_cards_used_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="使用记录"
+                    android:textColor="@color/a333333"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/aDDDDDD" />
+
+                <TextView
+                    android:id="@+id/textview_used_history_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text=" "
+                    android:textColor="@color/a666666"
+                    android:visibility="gone" 
+                    android:layout_marginLeft="10dp"
+                    android:paddingBottom="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_show_top"
+            android:layout_width="match_parent"
+            android:layout_height="127.5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp" >
+
+            <ImageView
+                android:id="@+id/my_cards_image_back"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/my_cards_back_show" />
+            <!-- android:src="@drawable/my_cards_back_show" -->
+
+            <LinearLayout
+                android:id="@+id/layout_top_cards_detail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView_top_servicename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="测试比熊犬专属洗美服务卡"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom"
+                    android:orientation="horizontal"
+                    android:paddingBottom="20dp" >
+
+                    <TextView
+                        android:id="@+id/textview_cards_detail"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="测试dd"
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:id="@+id/imageView_open_close"
+                        android:layout_width="10dp"
+                        android:layout_height="9dp"
+                        android:layout_marginRight="15dp"
+                        android:src="@drawable/card_not_open" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

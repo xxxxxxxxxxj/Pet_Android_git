@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#99000000"
+    android:gravity="center"
+    android:id="@+id/layout_all_close"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/pet_wait_beau"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:id="@+id/layout_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+
+            <ImageView
+                android:id="@+id/img_close"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/icon_swim_close" />
+        </LinearLayout>
+        <TextView 
+            android:id="@+id/text_beau_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/a666666"
+            android:text="您的订单被抢了。请等待，测试。。。"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/bggray" />
+        <include layout="@layout/beau_detail"
+            />
+    </LinearLayout>    
+
+</LinearLayout>

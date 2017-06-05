@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     >
+
+    <LinearLayout
+        android:id="@+id/layout_img_back"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/imageView_item_step_show"
+        android:layout_alignParentLeft="true"
+        android:background="#F9E9D0" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_show_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/layout_img_back"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#F9E9D0" >
+
+        <TextView
+            android:id="@+id/textView_item_step_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="我是中国人我是中国人我是中国人我是中国人我是中国人我是中国人我是中国人我是中国人我是中国人我是中国人" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView_item_step_show"
+        android:layout_width="135dp"
+        android:layout_height="104dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:background="@drawable/icon_production_default" />
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dip"
+    android:minHeight="80dip"
+    android:paddingTop="10dip"
+    android:paddingBottom="10dip"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_item_choosetransfer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dip"
+            android:textColor="@color/a333333"
+            android:layout_marginRight="11dip"
+            android:text="TextView" />
+
+        <ImageView
+            android:id="@+id/iv_item_choosetransfer_select"
+            android:layout_width="15dip"
+            android:layout_height="15dip"
+            android:visibility="gone"
+            android:src="@drawable/complaint_reason" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_item_choosetransfer_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dip"
+            android:textColor="@color/a333333"
+            android:text="TextView" />
+    </LinearLayout>
+
+</LinearLayout>

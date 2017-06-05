@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/iv_servicedetail_serviceitems"
+        android:layout_width="1dip"
+        android:layout_height="14dip"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        android:background="@color/bggray"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+         />
+
+    <TextView
+        android:id="@+id/tv_servicedetail_serviceitems"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/iv_servicedetail_serviceitems"
+        android:layout_toLeftOf="@+id/iv_servicedetail_right"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/a9b9b9b"
+        android:layout_marginLeft="5dp"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/iv_servicedetail_right"
+        android:layout_width="1dip"
+        android:layout_height="14dip"
+        android:scaleType="fitXY"
+        android:background="@color/bggray"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="TextView" 
+        android:visibility="invisible"/>
+
+</RelativeLayout>

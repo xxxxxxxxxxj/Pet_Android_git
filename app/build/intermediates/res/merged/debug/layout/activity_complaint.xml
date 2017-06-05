@@ -1,0 +1,209 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/f8f8ff8"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/btn_complaint_submit"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_appointment_next_selector"
+        android:text="提交"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <include
+        android:id="@+id/rl_complaint_title"
+        layout="@layout/titlebar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_complaint_submit"
+        android:layout_below="@id/rl_complaint_title"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dip"
+                android:layout_marginBottom="1dip"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="15dip"
+                android:paddingRight="15dip" >
+
+                <TextView
+                    android:id="@+id/tv_complaint_ordertype"
+                    android:layout_width="36dip"
+                    android:layout_height="17dip"
+                    android:layout_marginRight="10dip"
+                    android:background="@color/orange"
+                    android:gravity="center"
+                    android:text="TextView"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_complaint_ordername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="TextView"
+                    android:textColor="@color/a222222"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="85dip"
+                android:layout_marginBottom="1dip"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="15dip"
+                android:paddingRight="15dip" >
+
+                <com.haotang.pet.view.SelectableRoundedImageView
+                    android:id="@+id/sriv_complaint_petimg"
+                    android:layout_width="45dip"
+                    android:layout_height="45dip"
+                    android:layout_marginRight="10dip"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/user_icon_unnet"
+                    custom:sriv_left_bottom_corner_radius="5dip"
+                    custom:sriv_left_top_corner_radius="5dip"
+                    custom:sriv_right_bottom_corner_radius="5dip"
+                    custom:sriv_right_top_corner_radius="5dip" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dip"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_complaint_orderfwsj"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="TextView"
+                        android:textColor="@color/a666666"
+                        android:textSize="14sp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/tv_complaint_orderprice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="TextView"
+                            android:textColor="@color/a666666"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tv_complaint_orderno"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="10dip"
+                            android:layout_toLeftOf="@id/tv_complaint_orderprice"
+                            android:text="TextView"
+                            android:textColor="@color/a666666"
+                            android:textSize="14sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dip"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dip"
+                android:text="您是否遇到以下问题："
+                android:textColor="@color/a222222"
+                android:textSize="15sp" />
+
+            <com.haotang.pet.view.MListview
+                android:id="@+id/mlv_complaint_tswt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:divider="@color/f8f8ff8"
+                android:dividerHeight="0dip"
+                android:listSelector="@drawable/mlistview_selector"
+                android:scrollbars="none" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="15dip"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dip"
+                android:text=" "
+                android:textColor="@color/a666666"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="157dip"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/et_complaints_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="137dip"
+                    android:background="@null"
+                    android:gravity="top"
+                    android:hint="描述您遇到的其他问题"
+                    android:maxLength="500"
+                    android:padding="15dip"
+                    android:textColor="@color/a666666"
+                    android:textColorHint="#BBBBBB"
+                    android:textSize="14sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingRight="15dip" >
+
+                    <TextView
+                        android:id="@+id/tv_complaints_text_next"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="/500"
+                        android:textColor="@color/bbbbbb"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_complaints_text_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/tv_complaints_text_next"
+                        android:text="0"
+                        android:textColor="@color/bbbbbb"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

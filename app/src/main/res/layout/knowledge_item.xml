@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+     >
+    
+    <ImageView 
+        android:id="@+id/iv_knowledgeitem_hot"
+        android:layout_width="20dip"
+        android:layout_height="20dip"
+        android:scaleType="fitXY"
+        android:background="@drawable/bk_empty"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="10dip"
+        />
+    <TextView 
+        android:id="@+id/tv_knowledgeitem_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="17sp"
+        android:textColor="@color/a222222"
+        android:layout_toRightOf="@+id/iv_knowledgeitem_hot"
+        android:layout_alignTop="@+id/iv_knowledgeitem_hot"
+        android:layout_marginRight="10dip"
+        />
+    <TextView 
+        android:id="@+id/tv_knowledgeitem_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15sp"
+        android:textColor="@color/abdbdbd"
+        android:layout_below="@+id/tv_knowledgeitem_title"
+        android:layout_alignLeft="@+id/tv_knowledgeitem_title"
+        android:layout_alignRight="@+id/tv_knowledgeitem_title"
+        android:layout_marginTop="2dip"
+        android:singleLine="true"
+        android:ellipsize="end"
+        />
+    
+	<View 
+	    android:layout_width="match_parent"
+	    android:layout_height="1dip"
+	    android:background="@color/bordergray"
+	    android:layout_below="@+id/tv_knowledgeitem_content"
+	    android:layout_marginTop="20dip"
+	    android:layout_marginLeft="10dip"
+	    android:layout_marginRight="10dip"
+	    />
+</RelativeLayout>

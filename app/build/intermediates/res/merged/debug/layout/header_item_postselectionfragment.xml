@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:bqmm="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dip" >
+
+        <Button
+            android:id="@+id/btn_item_postselectionfragment_gz"
+            android:layout_width="71dip"
+            android:layout_height="29dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/btn_item_postselectionfragment_notgz"
+            android:gravity="center" />
+
+        <RelativeLayout
+            android:id="@+id/rl_item_postselectionfragment_userinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/btn_item_postselectionfragment_gz"
+            android:gravity="center_vertical" >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="40dip"
+                android:layout_height="40dip" >
+
+                <com.haotang.pet.view.SelectableRoundedImageView
+                    android:id="@+id/sriv_item_postselectionfragment_userimg"
+                    android:layout_width="34dip"
+                    android:layout_height="34dip"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_self"
+                    custom:sriv_left_bottom_corner_radius="5dip"
+                    custom:sriv_left_top_corner_radius="5dip"
+                    custom:sriv_right_bottom_corner_radius="5dip"
+                    custom:sriv_right_top_corner_radius="5dip" />
+
+                <ImageView
+                    android:id="@+id/iv_item_postselectionfragment_level"
+                    android:layout_width="18dip"
+                    android:layout_height="18dip"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/iv_item_postselectionfragment_level"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:layout_toRightOf="@+id/relativeLayout1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_item_postselectionfragment_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textColor="@color/a333333"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_postselectionfragment_fbtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textColor="#bbbbbb"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <com.melink.bqmmsdk.widget.BQMMMessageText
+        android:id="@+id/bqmt_item_postselectionfragment_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:autoLink="web"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="left|center"
+        android:lineSpacingExtra="2dp"
+        android:textColor="#000000"
+        android:textSize="14dip" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/rl_item_postselectionfragment_picorvideo"
+            android:layout_width="match_parent"
+            android:layout_height="345dip"
+            android:layout_marginBottom="10dip" >
+
+            <com.haotang.pet.view.SurfaceVideoView
+                android:id="@+id/sfvv_item_postselectionfragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                android:saveEnabled="true"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_item_postselectionfragment_videoloading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/spinner_small"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_item_postselectionfragment_play_status"
+                android:layout_width="69dip"
+                android:layout_height="69dip"
+                android:layout_centerInParent="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/play_big"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_item_postselectionfragment_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_production_default" />
+
+            <CheckBox
+                android:id="@+id/cb_item_postselectionfragment_voice"
+                android:layout_width="26dip"
+                android:layout_height="26dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="15dip"
+                android:layout_marginRight="15dip"
+                android:background="@drawable/priview_orig_volumn_selector"
+                android:button="@null"
+                android:scaleType="fitXY"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_item_postselectionfragment_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_item_postselectionfragment_picorvideo"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:gravity="center_vertical" >
+
+            <Button
+                android:id="@+id/btn_item_postselectionfragment_num"
+                android:layout_width="41dip"
+                android:layout_height="26dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/btn_sold_color"
+                android:text="99"
+                android:visibility="gone"
+                android:textColor="@color/orange"
+                android:textSize="12sp" />
+
+            <com.haotang.pet.view.HorizontalListView
+                android:id="@+id/hlv_item_postselectionfragment"
+                android:layout_width="match_parent"
+                android:layout_height="26dip"
+                android:layout_alignTop="@+id/btn_item_postselectionfragment_num"
+                android:layout_toLeftOf="@+id/btn_item_postselectionfragment_num"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="5dip" >
+            </com.haotang.pet.view.HorizontalListView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_item_postselectionfragment_cz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_item_postselectionfragment_num"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/ib_item_postselectionfragment_sh"
+                android:layout_width="56dip"
+                android:layout_height="25dip"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/ib_item_postselectionfragment_sh"
+                android:gravity="center" />
+
+            <ImageButton
+                android:id="@+id/ib_item_postselectionfragment_bb"
+                android:layout_width="56dip"
+                android:layout_height="25dip"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/ib_item_postselectionfragment_bb"
+                android:gravity="center" />
+
+            <ImageButton
+                android:id="@+id/ib_item_postselectionfragment_pl"
+                android:layout_width="56dip"
+                android:layout_height="25dip"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/ib_item_postselectionfragment_pl"
+                android:gravity="center" />
+
+            <ImageButton
+                android:id="@+id/ib_item_postselectionfragment_fx"
+                android:layout_width="56dip"
+                android:layout_height="25dip"
+                android:background="@drawable/ib_item_postselectionfragment_fx"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_item_postselectionfragment_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="删除"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/a666666"
+            android:visibility="gone"
+            android:layout_alignBottom="@id/ll_item_postselectionfragment_cz"
+            android:layout_marginRight="10dip"
+            android:layout_marginBottom="5dip"
+            android:textSize="12sp" />
+
+        <com.haotang.pet.view.PeriscopeLayout
+            android:id="@+id/circle_image_flower_other"
+            android:layout_width="56dip"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/ll_item_postselectionfragment_cz"
+            android:layout_alignTop="@id/rl_item_postselectionfragment_picorvideo"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:background="@android:color/transparent" />
+
+        <com.haotang.pet.view.PeriscopeLayout
+            android:id="@+id/circle_image_feces_other"
+            android:layout_width="56dip"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/ll_item_postselectionfragment_cz"
+            android:layout_alignTop="@id/rl_item_postselectionfragment_picorvideo"
+            android:layout_toRightOf="@id/circle_image_flower_other"
+            android:background="@android:color/transparent" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/vw_item_postselectionfragment"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="10dip"
+        android:background="@color/bggray" />
+
+    <TextView
+        android:id="@+id/tv_item_postselectionfragment_qbpl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:text="全部评论"
+        android:textColor="@color/a333333"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/iv_item_postselectionfragment_default"
+        android:layout_width="83dip"
+        android:layout_height="86.5dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dip"
+        android:layout_marginTop="40dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/iv_item_postselectionfragment_default_img"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_item_postselectionfragment_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="你就让这里空着,不说两句?"
+        android:textColor="@color/a333333"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+</LinearLayout>

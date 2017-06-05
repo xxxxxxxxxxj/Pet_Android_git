@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bggray"
+     >
+     <include layout="@layout/titlebar"/>
+     <!-- <com.haotang.pet.view.TopIndicator_B 
+        android:id="@+id/tid_beauti_topindicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="3dip"
+        android:paddingRight="3dip"
+        android:background="@color/white"
+        /> -->
+        <LinearLayout
+         android:id="@+id/show"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+         
+     </LinearLayout>
+     <TextView 
+         android:id="@+id/beaulist_price"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="服务总价：80元"
+            android:gravity="center"
+            android:textColor="@color/aD1494F"
+            android:background="@color/white"
+            android:textSize="@dimen/text_size_large"
+            />
+     <com.haotang.pet.pulltorefresh.PullToRefreshListView 
+	    android:id="@+id/prl_beauticianlist_list"
+	    android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:showDividers="none"
+        android:scrollbars="none"
+        android:fadingEdge="none" 
+	    />
+     
+     <include
+        android:id="@+id/rl_null"
+        layout="@layout/nullhint" />
+
+</LinearLayout>

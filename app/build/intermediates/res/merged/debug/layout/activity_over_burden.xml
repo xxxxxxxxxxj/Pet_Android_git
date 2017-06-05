@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <View 
+         android:id="@+id/view_gift_back"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="#99000000"
+         />
+
+<RelativeLayout
+    android:id="@+id/layout_show_notice"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentTop="true" >
+
+    <ImageView
+        android:id="@+id/relativeLayout_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/notice_one" 
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/relativeLayout_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/relativeLayout_one"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:background="@drawable/notice_two" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/button_thr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout_two"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/notice_thr"
+         />
+
+</RelativeLayout>
+
+</RelativeLayout>

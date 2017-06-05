@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/btn_customercomplaints_histort_lxkf"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_appointment_next_selector"
+        android:text="联系客服"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <include
+        android:id="@+id/rl_cch_title"
+        layout="@layout/titlebar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_customercomplaints_histort_lxkf"
+        android:layout_below="@id/rl_cch_title" >
+
+        <ListView
+            android:id="@+id/lv_customercomplaints_histort"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:divider="@color/f8f8ff8"
+            android:dividerHeight="15dip"
+            android:fadingEdge="none"
+            android:listSelector="@drawable/mlistview_selector"
+            android:scrollbars="none"
+            android:showDividers="none" />
+
+        <ImageView
+            android:id="@+id/iv_customercomplaints_histort_default"
+            android:layout_width="113dip"
+            android:layout_height="115dip"
+            android:layout_centerInParent="true"
+            android:src="@drawable/iv_complaints_histort_default" />
+    </RelativeLayout>
+
+</RelativeLayout>

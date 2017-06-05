@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:id="@+id/ll_pet_add"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bggray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar2" />
+
+    <ScrollView
+        android:id="@+id/sv_petadd_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dip"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <!-- 这个是有多宠物订单添加进来时需要显示的顶部信息默认隐藏 -->
+
+            <LinearLayout
+                android:id="@+id/layout_pet_add_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bggray"
+                android:gravity="center_vertical"
+                android:paddingBottom="20dp"
+                android:paddingTop="8dp"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/imageView_pet_add_img"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/icon_petinfo_wash" />
+
+                <TextView
+                    android:id="@+id/textView_pet_add_showinfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="测试宠物套餐名"
+                    android:textColor="@color/orange"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dip"
+                android:paddingLeft="15dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="头像"
+                    android:textColor="@color/a222222"
+                    android:textSize="18sp" />
+
+                <com.haotang.pet.view.SelectableRoundedImageView
+                    android:id="@+id/sriv_petadd_photo"
+                    android:layout_width="50dip"
+                    android:layout_height="50dip"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/iv_petadd_photo_rightarrow"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_addimage"
+                    custom:sriv_left_bottom_corner_radius="3dip"
+                    custom:sriv_left_top_corner_radius="3dip"
+                    custom:sriv_right_bottom_corner_radius="3dip"
+                    custom:sriv_right_top_corner_radius="3dip" />
+
+                <ImageView
+                    android:id="@+id/iv_petadd_photo_rightarrow"
+                    android:layout_width="30dip"
+                    android:layout_height="30dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_rightarrow" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.8dip"
+                android:layout_marginLeft="15dip"
+                android:background="@color/bordergray" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:paddingLeft="15dip"
+                >
+
+                <TextView
+                    android:id="@+id/tv_petadd_petname_pre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="姓名"
+                    android:textColor="@color/a222222"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/iv_petadd_petname_pre"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_alignTop="@+id/tv_petadd_petname_pre"
+                    android:layout_toRightOf="@+id/tv_petadd_petname_pre"
+                    android:background="@drawable/icon_snow" />
+
+                <EditText
+                    android:id="@+id/et_petadd_petname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="29dp"
+                    android:layout_toRightOf="@+id/iv_petadd_petname_pre"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:hint="不超过10个字符"
+                    android:maxLength="10"
+                    android:singleLine="true"
+                    android:textColor="@color/a757575"
+                    android:textColorHint="@color/acccccc"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.8dip"
+                android:layout_marginLeft="15dip"
+                android:background="@color/bordergray" />
+
+            <RelativeLayout
+                android:id="@+id/rl_petadd_petkindname"
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:paddingLeft="15dip" >
+
+                <TextView
+                    android:id="@+id/tv_petadd_petkindname_pre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="品种"
+                    android:textColor="@color/a222222"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/iv_petadd_petkindname_pre"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_alignTop="@+id/tv_petadd_petkindname_pre"
+                    android:layout_toRightOf="@+id/tv_petadd_petkindname_pre"
+                    android:background="@drawable/icon_snow" />
+
+                <TextView
+                    android:id="@+id/tv_petadd_petkindname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/iv_petadd_petkindname_rightarrow"
+                    android:layout_toRightOf="@+id/iv_petadd_petkindname_pre"
+                    android:gravity="right"
+                    android:hint="请选择宝贝的品种"
+                    android:text=""
+                    android:textColor="@color/a757575"
+                    android:textColorHint="@color/acccccc"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/iv_petadd_petkindname_rightarrow"
+                    android:layout_width="30dip"
+                    android:layout_height="30dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_rightarrow" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.8dip"
+                android:layout_marginLeft="15dip"
+                android:background="@color/bordergray" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:paddingLeft="15dip" >
+
+                <TextView
+                    android:id="@+id/tv_petadd_petsex_pre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="性别"
+                    android:textColor="@color/a222222"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/iv_petadd_petsex_pre"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_alignTop="@+id/tv_petadd_petsex_pre"
+                    android:layout_toRightOf="@+id/tv_petadd_petsex_pre"
+                    android:background="@drawable/icon_snow" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/tv_petadd_petsex_pre"
+                    android:gravity="right" >
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="30dp"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/rb_petadd_sex_1"
+                            style="@style/CustomRadioButtonTheme"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="5dip"
+                            android:text="帅哥"
+                            android:textColor="@color/a757575"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/rb_petadd_sex_2"
+                            style="@style/CustomRadioButtonTheme"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dip"
+                            android:paddingLeft="5dip"
+                            android:text="美女"
+                            android:textColor="@color/a757575"
+                            android:textSize="18sp" />
+                    </RadioGroup>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.8dip"
+                android:layout_marginLeft="15dip"
+                android:background="@color/bordergray" />
+
+            <RelativeLayout
+                android:id="@+id/rl_petadd_petbirthday"
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:paddingLeft="15dip" >
+
+                <TextView
+                    android:id="@+id/tv_petadd_petbirthday_pre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="生日"
+                    android:textColor="@color/a222222"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_petadd_petbirthday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/iv_petadd_petbirthday_rightarrow"
+                    android:layout_toRightOf="@+id/tv_petadd_petbirthday_pre"
+                    android:gravity="right"
+                    android:hint="请选择宝贝的出生日期"
+                    android:text=""
+                    android:textColor="@color/a757575"
+                    android:textColorHint="@color/acccccc"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/iv_petadd_petbirthday_rightarrow"
+                    android:layout_width="30dip"
+                    android:layout_height="30dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_rightarrow" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.8dip"
+                android:layout_marginLeft="15dip"
+                android:background="@color/bordergray" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:paddingLeft="15dip" >
+
+                <TextView
+                    android:id="@+id/tv_petadd_pethigh_pre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="肩高"
+                    android:textColor="@color/a222222"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/tv_petadd_pethigh_pre"
+                    android:gravity="right" >
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="30dp"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/rb_petadd_high_1"
+                            style="@style/CustomRadioButtonThemejg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="5dip"
+                            android:text="35cm"
+                            android:textColor="@color/a757575"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/rb_petadd_high_2"
+                            style="@style/CustomRadioButtonThemejg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="20dip"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="5dip"
+                            android:text=" >35cm"
+                            android:textColor="@color/a757575"
+                            android:textSize="18sp" />
+                    </RadioGroup>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.8dip"
+                android:layout_marginLeft="15dip"
+                android:background="@color/bordergray" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="15dip" >
+
+                <TextView
+                    android:id="@+id/textview_pet_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="毛色"
+                    android:textColor="@color/a222222"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/textview_pet_color"
+                    android:gravity="center_vertical|right" >
+
+                    <EditText
+                        android:id="@+id/edit_pet_get_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="30dp"
+                        android:background="@null"
+                        android:gravity="right|center_vertical"
+                        android:hint="如：白色"
+                        android:maxLength="10"
+                        android:singleLine="true"
+                        android:textColor="@color/a757575"
+                        android:textColorHint="@color/acccccc"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.8dip"
+                android:layout_marginLeft="15dip"
+                android:background="@color/bordergray" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:paddingLeft="15dip" >
+
+                <TextView
+                    android:id="@+id/tv_petadd_petnote_pre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="备注"
+                    android:textColor="@color/a222222"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/tv_petadd_petnote_pre"
+                    android:gravity="right" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="30dp"
+                        android:orientation="horizontal" >
+
+                        <CheckBox
+                            android:id="@+id/cb_petadd_note_1"
+                            style="@style/CustomCheckboxTheme"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="5dip"
+                            android:text="已打疫苗"
+                            android:textColor="@color/a757575"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/cb_petadd_note_2"
+                            style="@style/CustomCheckboxTheme"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dip"
+                            android:paddingLeft="5dip"
+                            android:text="已绝育"
+                            android:textColor="@color/a757575"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.8dip"
+                android:background="@color/bordergray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bggray"
+                android:orientation="vertical"
+                android:paddingBottom="20dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="20dip" >
+
+                <Button
+                    android:id="@+id/bt_petadd_submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dip"
+                    android:background="@drawable/bg_button_orange"
+                    android:text="保存"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/rl_null"
+        layout="@layout/nullhint"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bggray"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button_footer_add_address"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_complaint_bottom_selector"
+        android:text="添加新地址"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+    <!-- android:background="@drawable/add_service_listview_footer_click" -->
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <include
+        android:id="@+id/include1"
+        layout="@layout/titlebar2" />
+
+    <View
+        android:id="@+id/vw1"
+        android:layout_width="fill_parent"
+        android:layout_height="15dip"
+        android:layout_below="@id/include1"
+        android:background="@color/f8f8ff8" />
+
+    <com.haotang.pet.pulltorefresh.PullToRefreshListView
+        android:id="@+id/prl_postselection_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/vw1"
+        android:layout_marginBottom="55dip"
+        android:divider="#f8f8f8"
+        android:dividerHeight="1dip"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        android:showDividers="none" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <RelativeLayout
+            android:id="@+id/messageToolBox"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="@color/f8f8ff8" >
+
+            <com.melink.bqmmsdk.widget.BQMMSendButton
+                android:id="@+id/chatbox_send"
+                android:layout_width="56dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="15dip"
+                android:background="@drawable/img_bqmm_sendbutton_bg" />
+
+            <CheckBox
+                android:id="@+id/chatbox_open"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="5dip"
+                android:background="@drawable/bqmm_selector_chat_face"
+                android:button="@null" />
+
+            <com.melink.bqmmsdk.widget.BQMMEditView
+                android:id="@+id/chatbox_message"
+                android:layout_width="match_parent"
+                android:layout_height="35dip"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/chatbox_send"
+                android:layout_toRightOf="@+id/chatbox_open"
+                android:background="@drawable/my_coupon_change_new"
+                android:ems="10"
+                android:maxLength="200"
+                android:gravity="center_vertical"
+                android:hint="添加评价"
+                android:inputType="textMultiLine"
+                android:maxHeight="120dp"
+                android:minHeight="35dip"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:singleLine="false"
+                android:textColor="@color/a333333"
+                android:textColorHint="@color/dddddd"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <com.melink.bqmmsdk.ui.keyboard.BQMMKeyboard
+            android:id="@+id/chat_msg_input_box"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@id/messageToolBox"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

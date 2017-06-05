@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/iv_landingpage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:id="@+id/btn_landing_tg"
+        android:layout_width="59dip"
+        android:layout_height="27dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:alpha="0.3"
+        android:background="@drawable/btn_tg_selector"
+        android:text="跳过  3"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+</RelativeLayout>

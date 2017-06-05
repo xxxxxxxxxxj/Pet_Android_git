@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/rl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.haotang.pet.view.PullPushLayout
+            android:id="@+id/ppl_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:overScrollMode="never"
+            android:fadingEdge="none"
+            android:layout_below="@+id/rl_servicedetail_title"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bggray" >
+
+              <include 
+                  android:id="@+id/rl_ppllayout_top"
+              	  android:layout_width="match_parent"
+              	  android:layout_height="160dip"
+                  layout="@layout/header_bathservicedetail" 
+                  />
+
+              <include 
+                  android:id="@+id/rl_ppllayout_content"
+              	  android:layout_width="match_parent"
+              	  android:layout_height="match_parent"
+             	  android:layout_below="@+id/rl_ppllayout_top"
+                  layout="@layout/servicedetail_content_new" />
+            </RelativeLayout>
+        </com.haotang.pet.view.PullPushLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_servicedetail_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/a3a3636"
+            android:gravity="center_vertical" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip" >
+
+                <LinearLayout
+                    android:id="@+id/layout_service_back_blow"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical" >
+
+                    <ImageView
+                        android:id="@+id/service_back_blow"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/icon_back_big"
+                        android:scaleType="fitXY" 
+                        android:visibility="gone"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_service_back"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical" >
+
+                    <ImageView
+                        android:id="@+id/service_back"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/btn_back"
+                        android:scaleType="fitXY" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dip" >
+
+                <ImageView
+                    android:id="@+id/service_share_below"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/icon_share_big"
+                    android:scaleType="fitXY"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/service_share"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/service_share"
+                    android:scaleType="fitXY"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="title"
+                android:textSize="@dimen/TITLE_SIZE"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bggray"
+            android:paddingBottom="5dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="5dip"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/bt_servicedetail_submit"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:background="@drawable/bg_button_orange"
+                android:text="预  约"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/rl_null"
+        layout="@layout/nullhint"
+        android:visibility="gone" />
+
+</RelativeLayout>

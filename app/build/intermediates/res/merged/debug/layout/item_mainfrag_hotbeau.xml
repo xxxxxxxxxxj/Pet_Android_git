@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_item_mainfrag_hotbeau"
+        android:layout_width="100dip"
+        android:layout_height="130dip"
+        android:gravity="center_horizontal"
+        android:background="@color/aECF4F5"
+        android:layout_marginRight="5dip"
+        android:orientation="vertical" >
+
+        <com.haotang.pet.view.CircleImageView
+            android:id="@+id/iv_mainbeauticianitem_photo"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_marginBottom="6dip"
+            android:layout_marginTop="10dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_production_default"
+            custom:border_color="#ffffff"
+            custom:border_width="0dip" />
+
+        <TextView
+            android:id="@+id/tv_mainbeauticianitem_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:text=""
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:maxLength="6"
+            android:textColor="@color/a333333"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_mainbeauticianitem_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:maxLength="10"
+            android:textColor="@color/a666666"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

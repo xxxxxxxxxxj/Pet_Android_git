@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_dayitme"
+    android:background="@drawable/icon_selecttime_normal"
+     >
+    <TextView 
+        android:id="@+id/tv_dayitem_daydes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="今天"
+        android:textSize="18sp"
+        android:textColor="@color/a888888"
+        android:gravity="center"
+        />
+    <TextView 
+        android:id="@+id/tv_dayitem_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="8/21"
+        android:textSize="18sp"
+        android:textColor="@color/a757575"
+        android:gravity="center"
+        />
+
+</LinearLayout>

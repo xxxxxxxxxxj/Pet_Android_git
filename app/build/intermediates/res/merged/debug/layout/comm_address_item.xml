@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/layout_common_item_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical" >
+
+         <TextView
+            android:id="@+id/textView_common_address_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:padding="8dp"
+            android:layout_toLeftOf="@+id/imageView_common_address_item_choose"
+            android:gravity="center_vertical"
+            android:minLines="2"
+            android:textColor="@color/a333333"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:text="地点选择" />
+		<ImageView
+            android:id="@+id/imageView_common_address_item_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:visibility="invisible"
+            android:src="@drawable/icon_city_selected" />
+
+		<TextView
+		    android:id="@+id/textView_show"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_alignParentRight="true"
+		    android:layout_alignTop="@+id/textView_common_address_item_name"
+		    android:layout_alignBottom="@+id/textView_common_address_item_name"
+		    android:layout_toRightOf="@+id/textView_common_address_item_name"
+		    android:visibility="visible"
+		    android:gravity="center"
+		    android:textColor="@color/white"
+		    android:textSize="16sp"
+		    android:background="#F95970"
+		    android:text="删除" />
+
+    </RelativeLayout>
+	<View 
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="#E4E2DF"/>
+</LinearLayout>

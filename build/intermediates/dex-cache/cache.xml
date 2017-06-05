@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0_d66299e4ccd465c0f5b250848ddb1eda5b202f6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\SocialSDK_tencentWB_3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ffa8f4a76d210b0e34c255891e4d7478faf7b918">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\SocialSDK_tencentWB_3_6dd5ccb01f4f12d21e675ad8443b27aa6181b448.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\org.eclipse.jdt.annotation_1.0.1.v20130111-135246.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b53cca6c9db3a088197d72433fe3b8b80d99eb38">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\org.eclipse.jdt.annotation_1.0.1.v20130111-135246_fadd1b1ebcc7e70d483950709ff974c9495fe2d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\SocialSDK_QQZone_2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a69b33758dcba3ef519cbd4b6c8af5f41603c4f">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_2_c1e74cc038104ff4eecaeb4d31a9673ea5ee0283.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\rxandroid-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\rxandroid-1.1.0_c1abe9907af07ad86a03834a568a8c177891c7cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\umeng-analytics-v5.5.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5d503ec571e2e98d972209afa203f94d11882c15">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\umeng-analytics-v5.5.3_c74fdc65b6c7850f22fb45905c4b764d42d1f746.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.1\2e66da15851f9f5b5079228f856c2f090ba98c38\gson-2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2e66da15851f9f5b5079228f856c2f090ba98c38">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\gson-2.1_d4eefe71e313f09ce8cf6d2fd2a46ee1e91aaba0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_e21e3fea698112b47d73ca3e251fceda0e703c97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_a23fd58a83e5ba485e3fbe4cf2081523ae664936.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\SocialSDK_WeiXin_2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b651be701cb256e3972e7c5a07119f26bb7b44a4">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_2_44848a54685e052cf662c09023d985c046e046d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\json_simple-1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\json_simple-1.1_f01e57f10580f832de2f417e84c4f713ff3d4789.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\bqmm_v1.7.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8feb674ae7db91b6b07bbdcc0ba293db6201940d">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\bqmm_v1.7.5_290f115a08bc6c5c301d73ddb0cd503a310efd6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\httpmime-4.1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\httpmime-4.1.3_81e2e9968fedb277582c3ef30b525c3c44a19cd2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\alipaysecsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7413c074c9edf523050267b93d0875151dc4b644">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\alipaysecsdk_587e3b1d37039856ef1843fa07fd6e69e8770eb8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\cyberplayer-sdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="412f0f2ebc711540ef966d931418e8320783146c">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\cyberplayer-sdk_965178631ee854419a2c9367cbe7134df9ced1d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\zxing.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e88c14e6e7daa0fa65172a62b54ee6a16ff4162d">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\zxing_798d5f4f483ce909f95a907bc25e8fc630472f15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="de91930b1dcc0308ab72296404c4138aa4081086">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\BaiduLBS_Android_d6abf898f181e5d9b6d8e0f2d66f33fde5b68579.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\libammsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c2f29c05b35e8c8713be2b81c41cf18f98b64a">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\libammsdk_4ce8eef0156e7b4240a98655ee25fe5115f3ce10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\recorderlibrary.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5c45c2a85ca3ef2fdf5c27144bf86ff974d068f0">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\recorderlibrary_301e2d91f0533bfcbb88324f98c54edfe8dc7a65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\SocialSDK_tencentWB_1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="328c5351cae13f2ab29450d22b6c02d0ac88a855">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\SocialSDK_tencentWB_1_44eb78abe76ee5a97ee97e9360a1b9dc948df021.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4_31604c68d0d3a1b58ed8351ea37fd0f4b8bf3f9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\SocialSDK_QQZone_1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_1_52188581c95feb950086f6788b8d91d334e42e93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\alipayutdid.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\alipayutdid_2f9dbc9efeb015a77a08952fede5403286527557.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\umeng_social_sdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4688dc44ccef22b7f057301ee6abbe187a8d35ea">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\umeng_social_sdk_8a44a568adf36fc6387742706de5a000ed600dad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\rxjava-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="748f0546d5c3c27f1aef07270ffea0c45f0c42a4">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\rxjava-1.1.0_fc39c967d7b5b550b5812441f7fffeb1605cfc43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3_86fd0d60cf0a42c3963238955bd58910982c3c93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\SocialSDK_Sina.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a6eee0ece63ba5e74411057d09eda1a5a01ca940">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\SocialSDK_Sina_b7c1e5d6cd1d1e74108e0d011b9516e04a1f9355.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\SocialSDK_QQZone_3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="931ab461b91c2a2fd5c697e7f622cdca8c2b3ac5">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_3_785335e2c5531054751542dea484e2acc8ef770f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\jpush-android-2.1.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38dd284400de7ff5fab09098a1b8fd30cc5980c7">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\jpush-android-2.1.7_45bb9c00de862fd99b6213760e426901468f9a38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\studiosdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_ae89944cf544bca36214f31b0b294f093165b8e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\SocialSDK_tencentWB_2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6f744074067eb201171c9c8ff1ca45ed821a76a8">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\SocialSDK_tencentWB_2_9e8d5755481eab6c9eca8711b0c14ece0cba279a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\alipaysdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0c3384f9877b711c3f0b6556ce9ec7f63dc2426e">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\alipaysdk_94640d2739c1fdf61ff89ccf7304a176a181accf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\qiaobin\Pet_Android_git_3.3.0\app\libs\SocialSDK_AtFriends.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="801adcdfad1a73f352ab0fbfadaf315e88b26823">
+        <dex dex="E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\pre-dexed\debug\SocialSDK_AtFriends_b2c4a920ea51c99e30c102cc946dc78280156cd3.jar" />
+    </item>
+
+</items>

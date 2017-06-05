@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:id="@+id/item_eva_layout" >
+
+    <!-- 抽出评价布局 后期将洗澡美容服务详情页 以此布局替换统一 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/bggray" />
+    <LinearLayout
+        android:id="@+id/ll_servicedetail_comments"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/view_servicedetail_privilege_blow"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+         >
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/orange"
+            android:visibility="gone" />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/a333333"
+            android:textSize="17sp"
+            android:text="全部评价"
+            android:layout_marginLeft="10dp"
+            />
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+	            android:id="@+id/tv_servicedetail_goodcomments"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_marginTop="1dip"
+	            android:layout_weight="1"
+	            android:ellipsize="end"
+	            android:gravity="center"
+	            android:singleLine="true"
+	            android:text="好评：0条"
+	            android:textColor="@color/a9b9b9b"
+	            android:textSize="14sp" />
+            <TextView
+	            android:id="@+id/tv_servicedetail_badcomments"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_marginTop="1dip"
+	            android:layout_weight="1"
+	            android:ellipsize="end"
+	            android:gravity="center"
+	            android:singleLine="true"
+	            android:text="差评：0条"
+	            android:textColor="@color/a9b9b9b"
+	            android:textSize="14sp" />
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                >
+                <ImageView
+	                android:layout_width="30dip"
+	                android:layout_height="35dip"
+	                android:background="@drawable/icon_rightarrow"
+	                android:scaleType="fitXY" />
+            </LinearLayout>
+        </LinearLayout>
+		<!-- <TextView
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/orange" />
+        <TextView
+            android:id="@+id/tv_servicedetail_goodcomments"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dip"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="好评：0条"
+            android:textColor="@color/a9b9b9b"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_servicedetail_badcomments"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dip"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="差评：0条"
+            android:textColor="@color/a9b9b9b"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_servicedetail_allcomments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dip"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="全部评论"
+                android:textColor="@color/a9b9b9b"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="30dip"
+                android:layout_height="35dip"
+                android:background="@drawable/icon_rightarrow"
+                android:scaleType="fitXY" />
+        </LinearLayout> -->
+    </LinearLayout>
+    <!-- <LinearLayout
+        android:id="@+id/ll_servicedetail_comments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="2dip"
+        android:paddingTop="2dip" >
+
+        <TextView
+            android:id="@+id/tv_servicedetail_goodcomments"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dip"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="好评：0条"
+            android:textColor="@color/a9b9b9b"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_servicedetail_badcomments"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dip"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="差评：0条"
+            android:textColor="@color/a9b9b9b"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_servicedetail_allcomments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dip"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="全部评论"
+                android:textColor="@color/a9b9b9b"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="30dip"
+                android:layout_height="35dip"
+                android:background="@drawable/icon_rightarrow"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+    </LinearLayout> -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/bggray" />
+
+    <LinearLayout
+        android:id="@+id/service_layout_eva_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical" >
+		<RelativeLayout 
+		    android:layout_width="44dp"
+		    android:layout_height="44dp"
+		    android:layout_marginLeft="10dp"
+		    >
+		    <ImageView
+	            android:id="@+id/service_eva_one"
+	            android:layout_width="44dip"
+	            android:layout_height="44dip"
+	            android:scaleType="centerCrop"
+	            android:src="@drawable/user_icon_unnet"
+	            />
+		    <ImageView 
+		        android:id="@+id/service_eva_is_member_one"
+		        android:layout_width="15dp"
+		        android:layout_height="15dp"
+		        android:src="@drawable/dz_jl_icon"
+		        android:layout_alignParentRight="true"
+		        android:layout_alignParentBottom="true"
+		        android:visibility="gone"
+		        />
+		</RelativeLayout>
+        
+
+        <TextView
+            android:id="@+id/textView_service_eva_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text=" "
+            android:textColor="@color/a9b9b9b" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/service_layout_eva_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/bggray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="10dp" >
+			<RelativeLayout 
+			    android:layout_width="44dp"
+			    android:layout_height="44dp"
+			    android:layout_marginLeft="10dp"
+			    >
+			    <ImageView
+	                android:id="@+id/service_eva_two"
+	                android:layout_width="44dip"
+	                android:layout_height="44dip"
+	                android:scaleType="centerCrop"
+	                android:src="@drawable/user_icon_unnet"
+	                />
+			    <ImageView
+			        android:id="@+id/service_eva_is_member_two"
+			        android:layout_width="15dp"
+			        android:layout_height="15dp"
+			        android:src="@drawable/dz_jl_icon"
+			        android:layout_alignParentRight="true"
+			        android:layout_alignParentBottom="true"
+			        android:visibility="gone"
+			        />
+			</RelativeLayout>
+            
+            <TextView
+                android:id="@+id/textView_service_eva_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text=" "
+                android:textColor="@color/a9b9b9b" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

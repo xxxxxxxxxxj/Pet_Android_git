@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bggray"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar" />
+
+    <com.haotang.pet.pulltorefresh.PullToRefreshScrollView
+        android:id="@+id/prs_mulpetservice_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginTop="5dip"
+        android:layout_weight="1"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ll_mulpetservice_bath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_mulpetservice_bath"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginRight="15dip"
+                    android:paddingBottom="10dip"
+                    android:paddingTop="10dip" >
+
+                    <ImageView
+                        android:id="@+id/iv_mulpetservice_bath_icon"
+                        android:layout_width="30dip"
+                        android:layout_height="30dip"
+                        android:background="@drawable/icon_bath"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dip"
+                        android:layout_toRightOf="@+id/iv_mulpetservice_bath_icon"
+                        android:text="洗澡"
+                        android:textColor="@color/a333333"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tv_mulpetservice_bathprice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dip"
+                        android:layout_toLeftOf="@+id/iv_mulpetservice_bath"
+                        android:text="¥0"
+                        android:textColor="@color/a333333"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_mulpetservice_bath"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/icon_pay_normal" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_mulpetservice_bathinfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:visibility="gone" >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.8dip"
+                        android:layout_marginLeft="10dip"
+                        android:background="@color/bggray" />
+
+                    <ImageView
+                        android:id="@+id/iv_mulpetservice_bath_addservice_title_pre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginTop="15dip"
+                        android:background="@drawable/icon_snow_gray"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dip"
+                        android:layout_toRightOf="@+id/iv_mulpetservice_bath_addservice_title_pre"
+                        android:text="可选单项服务"
+                        android:textColor="@color/a999999"
+                        android:textSize="14sp" />
+
+                    <com.haotang.pet.view.MyGridView
+                        android:id="@+id/gv_mulpetservice_bath_addservice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/iv_mulpetservice_bath_addservice_title_pre"
+                        android:layout_margin="10dip"
+                        android:numColumns="2"
+                        android:verticalSpacing="10dip" />
+
+                    <TextView
+                        android:id="@+id/tv_mulpetservice_total_bathprice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/gv_mulpetservice_bath_addservice"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dip"
+                        android:text="¥0.00"
+                        android:textColor="@color/aD1494F"
+                        android:textSize="18sp"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.8dip"
+                    android:background="@color/bordergray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_mulpetservice_beauty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_mulpetservice_beauty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginRight="15dip"
+                    android:paddingBottom="10dip"
+                    android:paddingTop="10dip" >
+
+                    <ImageView
+                        android:id="@+id/iv_mulpetservice_beauty_icon"
+                        android:layout_width="30dip"
+                        android:layout_height="30dip"
+                        android:background="@drawable/icon_beauty"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dip"
+                        android:layout_toRightOf="@+id/iv_mulpetservice_beauty_icon"
+                        android:text="美容"
+                        android:textColor="@color/a333333"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tv_mulpetservice_beautyprice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dip"
+                        android:layout_toLeftOf="@+id/iv_mulpetservice_beauty"
+                        android:text="¥0.00"
+                        android:textColor="@color/a333333"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_mulpetservice_beauty"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/icon_pay_normal" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_mulpetservice_beautyinfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:visibility="gone" >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.8dip"
+                        android:layout_marginLeft="10dip"
+                        android:background="@color/bggray" />
+
+                    <ImageView
+                        android:id="@+id/iv_mulpetservice_beauty_addservice_title_pre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginTop="15dip"
+                        android:background="@drawable/icon_snow_gray"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dip"
+                        android:layout_toRightOf="@+id/iv_mulpetservice_beauty_addservice_title_pre"
+                        android:text="可选单项服务"
+                        android:textColor="@color/a999999"
+                        android:textSize="14sp" />
+
+                    <com.haotang.pet.view.MyGridView
+                        android:id="@+id/gv_mulpetservice_beauty_addservice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/iv_mulpetservice_beauty_addservice_title_pre"
+                        android:layout_margin="10dip"
+                        android:numColumns="2"
+                        android:verticalSpacing="10dip" />
+
+                    <TextView
+                        android:id="@+id/tv_mulpetservice_total_beautyprice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/gv_mulpetservice_beauty_addservice"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dip"
+                        android:text="¥0.00"
+                        android:textColor="@color/aD1494F"
+                        android:textSize="18sp"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.8dip"
+                    android:background="@color/bordergray" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.haotang.pet.pulltorefresh.PullToRefreshScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_mulpetservice_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/bggray"
+        android:orientation="vertical"
+        android:paddingBottom="20dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip" >
+
+        <Button
+            android:id="@+id/bt_mulpetservice_submit"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="@drawable/bg_button_orange"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/rl_null"
+        layout="@layout/nullhint"
+        android:visibility="gone" />
+
+</LinearLayout>

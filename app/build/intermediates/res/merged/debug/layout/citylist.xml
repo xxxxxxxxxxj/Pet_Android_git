@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bggray"
+    android:orientation="vertical" >
+	<include layout="@layout/titlebar"/>
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="40dip"
+	    android:text="GPS定位城市"
+	    android:textSize="20sp"
+	    android:textColor="@color/a777777"
+	    android:layout_marginLeft="20dip"
+	    android:gravity="center_vertical"
+	    />
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="60dip"
+	    android:background="@color/white"
+	    >
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="0.5dip"
+	        android:background="#E1E1E1"
+	        />
+	    <RelativeLayout 
+	        android:id="@+id/rl_citylist_defaultcity"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        >
+	    <TextView 
+	        android:id="@+id/tv_citylist_defaultcity"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:text=""
+		    android:textSize="20sp"
+		    android:textColor="@color/a777777"
+		    android:layout_marginLeft="20dip"
+		    android:gravity="center"
+		    />
+	        <ImageView 
+	          android:id="@+id/iv_city_selected"
+	          android:layout_width="30dip"
+	          android:layout_height="30dip"
+	          android:scaleType="fitXY"
+	          android:background="@drawable/icon_city_selected"
+	          android:layout_alignParentRight="true"
+	          android:layout_marginRight="10dip"
+	          android:layout_centerVertical="true"
+	          android:visibility="gone"
+	          />
+	    </RelativeLayout>
+	    
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="0.5dip"
+	        android:background="#E1E1E1"
+	        android:layout_alignParentBottom="true"
+	        />
+	    
+	</RelativeLayout>
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="40dip"
+	    android:text="已开通服务城市"
+	    android:textSize="20sp"
+	    android:textColor="@color/a777777"
+	    android:layout_marginLeft="20dip"
+	    android:gravity="center_vertical"
+	    />
+	
+	<com.haotang.pet.pulltorefresh.PullToRefreshListView 
+	    android:id="@+id/prl_citylist_list"
+	    android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:showDividers="none"
+        android:scrollbars="none"
+        android:fadingEdge="none" 
+	    />
+	
+    
+</LinearLayout>

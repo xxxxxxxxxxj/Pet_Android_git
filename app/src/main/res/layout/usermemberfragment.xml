@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/f8f8ff8"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dip"
+                android:layout_marginBottom="15dip"
+                android:background="@drawable/usermember_topimg" >
+
+                <LinearLayout
+                    android:id="@+id/linearlayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dip"
+                    android:visibility="gone"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/tv_member_des"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_member_loginorcz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="TextView"
+                        android:textColor="@color/orange"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_member_czz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/linearlayout1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dip"
+                    android:text="TextView"
+                    android:visibility="gone"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@id/tv_member_czz">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_member_login"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dip"
+                        android:layout_centerInParent="true" >
+
+                        <com.haotang.pet.view.FancyCoverFlow
+                            android:id="@+id/fcf_member_level"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerHorizontal="true" />
+
+                        <ProgressBar
+                            android:id="@+id/pb_member_level"
+                            style="@style/StyleProgressBarMini"
+                            android:layout_width="match_parent"
+                            android:layout_height="5dip"
+                            android:layout_marginTop="55dip"
+                            android:background="@drawable/shape_progressbar_bg"
+                            android:max="100"
+                            android:progress="50"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/iv_member_nologin"
+                        android:layout_width="103dip"
+                        android:layout_height="103dip"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/usermember_notloginimg"
+                        android:visibility="gone" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dip"
+                android:background="@color/white" >
+
+                <View
+                    android:id="@+id/vw_member_1"
+                    android:layout_width="2dip"
+                    android:layout_height="16dip"
+                    android:layout_centerVertical="true"
+                    android:background="#BB996C" />
+
+                <TextView
+                    android:id="@+id/tv_member_hyjs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="13dip"
+                    android:layout_toRightOf="@id/vw_member_1"
+                    android:text="会员特权"
+                    android:textColor="#323333"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_member_hynum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/tv_member_hyjs"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dip"
+                    android:layout_toRightOf="@id/tv_member_hyjs"
+                    android:text="TextView"
+                    android:textColor="#BB996C"
+                    android:textSize="10sp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <com.haotang.pet.view.MyGridView
+                android:id="@+id/mgv_member_service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:listSelector="@color/bggray"
+                android:numColumns="4"
+                android:paddingBottom="15dip"
+                android:paddingTop="15dip"
+                android:scrollbars="none"
+                android:verticalSpacing="30dip"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/rl_member_hyjs"
+                android:layout_width="match_parent"
+                android:layout_height="44dip"
+                android:background="@drawable/my_fragment_back_show" >
+
+                <View
+                    android:id="@+id/vw_member_2"
+                    android:layout_width="2dip"
+                    android:layout_height="16dip"
+                    android:layout_centerVertical="true"
+                    android:background="#BB996C" />
+
+                <TextView
+                    android:id="@+id/tv_member_hyjs2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="13dip"
+                    android:layout_toRightOf="@id/vw_member_2"
+                    android:text="会员介绍"
+                    android:textColor="#323333"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dip"
+                    android:text="更多"
+                    android:textColor="#999899"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <com.haotang.pet.view.MListview
+                android:id="@+id/mlv_member_hyjs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="10dip"
+                android:listSelector="@android:color/transparent"
+                android:padding="15dip"
+                android:scrollbars="none"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

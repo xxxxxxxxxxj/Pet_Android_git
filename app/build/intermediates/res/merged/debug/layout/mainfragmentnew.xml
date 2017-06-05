@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <RelativeLayout
+        android:id="@+id/rl_mainfragment_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@color/a3a3636" >
+
+        <ImageView
+            android:id="@+id/iv_mainfragment_scan"
+            android:layout_width="35dip"
+            android:layout_height="35dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:background="@drawable/sacn" />
+
+        <ImageView
+            android:id="@+id/iv_mainfragment_tousu"
+            android:layout_width="35dip"
+            android:layout_height="35dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:background="@drawable/complaint" />
+
+        <TextView
+            android:id="@+id/tv_mainfragment_areaname"
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_toLeftOf="@id/iv_mainfragment_tousu"
+            android:layout_toRightOf="@id/iv_mainfragment_scan"
+            android:background="@drawable/mainfrag_top_title_shape"
+            android:ellipsize="end"
+            android:gravity="center|left"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:singleLine="true"
+            android:text="请选择服务区域"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_mainfragment_jyzb"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:alpha="0.9"
+        android:background="#5bb0ec"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/iv_mainfragment_jyzb"
+            android:layout_width="24.5dip"
+            android:layout_height="15dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:background="@drawable/iv_mainfragment_jyzb"
+            android:scaleType="fitXY" />
+
+        <RelativeLayout
+            android:id="@+id/rl_mainfragment_jyzb_delete"
+            android:layout_width="50dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent" >
+
+            <ImageView
+                android:layout_width="14dip"
+                android:layout_height="14dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dip"
+                android:background="@drawable/iv_mainfragment_jyzb_delete"
+                android:scaleType="fitXY" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_mainfragment_jyzb_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_toLeftOf="@id/rl_mainfragment_jyzb_delete"
+            android:layout_toRightOf="@+id/iv_mainfragment_jyzb"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="您的宠物宝贝正在直播"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <com.haotang.pet.view.ObservableScrollView
+        android:id="@+id/osv_mainfrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_mainfragment_title"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/rl_mainfragmentcontent_topmsg"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:paddingLeft="15dip" >
+
+                <com.haotang.pet.view.AutoTextView
+                    android:id="@+id/tv_mainfragmentcontent_topmsg_msg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true" />
+
+                <ImageView
+                    android:id="@+id/iv_mainfragmentcontent_newred"
+                    android:layout_width="42dip"
+                    android:layout_height="42dip"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/tv_mainfragmentcontent_topmsg_msg"
+                    android:scaleType="fitXY"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <com.haotang.pet.view.rollviewpager.RollPagerView
+                android:id="@+id/rvpBanner5"
+                android:layout_width="match_parent"
+                android:layout_height="77dip"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                custom:rollviewpager_hint_alpha="0"
+                custom:rollviewpager_hint_color="#7c7c7c"
+                custom:rollviewpager_hint_gravity="right"
+                custom:rollviewpager_hint_mode="point"
+                custom:rollviewpager_hint_paddingRight="10dip"
+                custom:rollviewpager_play_delay="3000" />
+
+            <com.haotang.pet.view.MyGridView
+                android:id="@+id/gv_mainfragmentcontent_service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="4"
+                android:paddingBottom="15dip"
+                android:paddingTop="15dip"
+                android:verticalSpacing="15dip" />
+
+            <com.haotang.pet.view.rollviewpager.RollPagerView
+                android:id="@+id/rvp_mainfragment_banner1"
+                android:layout_width="match_parent"
+                android:layout_height="150dip"
+                android:layout_margin="15dip"
+                custom:rollviewpager_hint_alpha="0"
+                custom:rollviewpager_hint_color="#7c7c7c"
+                custom:rollviewpager_hint_gravity="right"
+                custom:rollviewpager_hint_mode="point"
+                custom:rollviewpager_hint_paddingBottom="10dip"
+                custom:rollviewpager_hint_paddingRight="10dip"
+                custom:rollviewpager_play_delay="3000" >
+            </com.haotang.pet.view.rollviewpager.RollPagerView>
+
+            <RelativeLayout
+                android:id="@+id/rl_mainfragmentcontent_hotbeautician"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="15dip"
+                android:background="@color/white"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tv_mainfragmentcontent_hotbeautician"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dip"
+                    android:text="热门美容师"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/iv_mainfragmentcontent_hotbeautician_rightarrow"
+                    android:layout_width="20dip"
+                    android:layout_height="30dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_rightarrow"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/tv_mainfragmentcontent_hotbeautician_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/iv_mainfragmentcontent_hotbeautician_rightarrow"
+                    android:text="更多"
+                    android:textColor="@color/a666666"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginBottom="15dip"
+                android:background="#d3d3d3" />
+
+            <com.haotang.pet.view.HorizontalListView
+                android:id="@+id/hlv_mainfragment_beautician"
+                android:layout_width="match_parent"
+                android:layout_height="150dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:visibility="gone" >
+            </com.haotang.pet.view.HorizontalListView>
+
+            <RelativeLayout
+                android:id="@+id/rl_mainfragmentcontent_community"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="10dip"
+                android:background="@color/white"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tv_mainfragmentcontent_community_what"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dip"
+                    android:text="宠圈精选"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/iv_mainfragmentcontent_community_rightarrow"
+                    android:layout_width="20dip"
+                    android:layout_height="30dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_rightarrow"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/tv_mainfragmentcontent_community_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/iv_mainfragmentcontent_community_rightarrow"
+                    android:text="更多"
+                    android:textColor="@color/a666666"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_toLeftOf="@id/tv_mainfragmentcontent_community_more"
+                    android:layout_toRightOf="@id/tv_mainfragmentcontent_community_what"
+                    android:gravity="center_vertical|right"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/iv_mainfragmentcontent_community_other"
+                        android:layout_width="30dip"
+                        android:layout_height="19dip"
+                        android:layout_marginRight="10dip"
+                        android:background="@drawable/icon_production_default"
+                        android:scaleType="fitXY"
+                        android:visibility="gone" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/tv_mainfragmentcontent_community_other"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="textview"
+                            android:textColor="@color/orange"
+                            android:textSize="15sp"
+                            android:visibility="gone" />
+
+                        <View
+                            android:id="@+id/vw_mainfragmentcontent_community_other"
+                            android:layout_width="8dip"
+                            android:layout_height="8dip"
+                            android:layout_toRightOf="@id/tv_mainfragmentcontent_community_other"
+                            android:background="@drawable/bg_red_circle"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:background="#d3d3d3" />
+
+            <com.haotang.pet.view.MListview
+                android:id="@+id/mlv_mainfragment_petcircle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/list_item_divider"
+                android:dividerHeight="0.5dip"
+                android:listSelector="@drawable/mlistview_selector"
+                android:scrollbars="none"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="15dip"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_mainfragment_tsfw"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/tv_mainfragment_tsfw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="特色服务"
+                        android:textColor="@color/aD1494F"
+                        android:textSize="17sp" />
+
+                    <View
+                        android:id="@+id/vw_mainfragment_tsfw"
+                        android:layout_width="36dip"
+                        android:layout_height="3dip"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="#D1494F" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_mainfragment_tjyy"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_mainfragment_tjyy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="推荐医院"
+                        android:textColor="@color/black"
+                        android:textSize="17sp" />
+
+                    <View
+                        android:id="@+id/vw_mainfragment_tjyy"
+                        android:layout_width="36dip"
+                        android:layout_height="3dip"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="#D1494F"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_mainfragment_cwbk"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_mainfragment_cwbk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="宠物百科"
+                        android:textColor="@color/black"
+                        android:textSize="17sp" />
+
+                    <View
+                        android:id="@+id/vw_mainfragment_cwbk"
+                        android:layout_width="36dip"
+                        android:layout_height="3dip"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="#D1494F"
+                        android:visibility="gone" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:background="#d3d3d3" />
+
+            <com.haotang.pet.view.MListview
+                android:id="@+id/mlv_mainfragment_service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/list_item_divider"
+                android:dividerHeight="0.5dip"
+                android:listSelector="@drawable/mlistview_selector"
+                android:scrollbars="none" />
+        </LinearLayout>
+    </com.haotang.pet.view.ObservableScrollView>
+
+</RelativeLayout>

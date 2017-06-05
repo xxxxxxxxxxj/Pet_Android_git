@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/service_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" " 
+            android:textColor="@color/a222222"
+            android:textSize="16sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_toRightOf="@+id/service_name"
+            android:layout_alignParentRight="true"
+            android:gravity="right">
+
+            <RatingBar
+                android:id="@+id/ratingBar_major_grade"
+                style="@style/myCustomizeRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="19dp"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:layout_alignParentRight="true"
+                android:stepSize="1" />
+            <TextView 
+                android:id="@+id/textview_eva_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ratingBar_major_grade"
+               	android:layout_alignLeft="@+id/ratingBar_major_grade"
+               	android:layout_marginLeft="5dp"
+               	android:layout_marginTop="5dp"
+               	android:textSize="12sp"
+               	android:textColor="@color/aD1494F"
+               	android:singleLine="true"
+               	android:ellipsize="end"
+                android:text=" "/>
+        </RelativeLayout>
+    </RelativeLayout>
+	<View android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/aDDDDDD"/>
+
+	<TextView
+	    android:id="@+id/textView_eva_content"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="10dp"
+	    android:textSize="14sp"
+	    android:textColor="@color/a666666"
+	    android:text=" " />
+
+	<TextView
+	    android:id="@+id/textView_eva_time"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dp"
+	    android:text=" " 
+	    android:textSize="10sp"
+	    android:textColor="@color/a999999"
+	    android:layout_marginBottom="5dp"/>
+	<LinearLayout
+        android:id="@+id/ll_beauticiancommetslist_item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_beauticiancommentslist_item_image1"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:background="@drawable/icon_production_default"
+            android:scaleType="centerCrop"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/iv_beauticiancommentslist_item_image2"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_marginLeft="6dip"
+            android:background="@drawable/icon_production_default"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_beauticiancommentslist_item_image3"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_marginLeft="6dip"
+            android:background="@drawable/icon_production_default"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+    </LinearLayout>
+	<LinearLayout
+        android:id="@+id/item_layout_reply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        >
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="5dp"
+            android:layout_marginBottom="-1dp"
+            android:layout_marginLeft="10dp"
+           
+            android:src="@drawable/eva_reply" />
+ <!-- android:layout_marginTop="10dp" -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/aDDDDDD"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView_waiter_Reply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text=" "
+                android:textColor="@color/a555555"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textview_waiter_reply_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text=" "
+                android:textColor="@color/a757575"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/white"
+        android:layout_marginTop="5dp"/>
+</LinearLayout>

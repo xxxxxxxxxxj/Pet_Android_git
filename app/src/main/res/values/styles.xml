@@ -1,0 +1,239 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="StyleProgressBarMini" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">50dip</item>
+        <item name="android:minHeight">10dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:progressDrawable">@drawable/shape_progressbar_mini</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="Crop"></style>
+
+    <style name="Crop.DoneCancelBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/crop__bar_height</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:divider">@drawable/crop__divider</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="Crop.ActionButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="Crop.ActionButtonText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingRight">20dp</item>
+        <!-- Offsets left drawable -->
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:textColor">@color/crop__button_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="Crop.ActionButtonText.Done">
+        <item name="android:text">@string/crop__done</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Crop.ActionButtonText.Cancel">
+        <item name="android:text">@string/crop__cancel</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- 自定义仿IOS的AlertDialog的样式 -->
+    <style name="AlertDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- 选择照片底部弹出层 -->
+    <style name="MenuAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/dd_menu_in</item>
+        <item name="android:windowExitAnimation">@anim/dd_menu_out</item>
+    </style>
+
+    <style name="dialogWindowAnim" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/zoomin</item>
+        <item name="android:windowExitAnimation">@anim/zoomout</item>
+    </style>
+
+    <style name="CustomCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style</item>
+    </style>
+
+    <style name="CustomRadioButtonThemejg" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/checkbox_style_2</item>
+    </style>
+
+    <style name="CustomRadioButtonTheme" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/checkbox_style_1</item>
+    </style>
+
+    <style name="myCustomizeRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/star_conf_file</item>
+        <item name="android:minHeight">18.5dip</item>
+        <item name="android:maxHeight">18.5dip</item>
+    </style>
+
+    <style name="NumberProgressBar_Passing_Green">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="max">100</item>
+        <item name="progress">0</item>
+        <item name="progress_unreached_color">#cccccc</item>
+        <item name="progress_reached_color">#70A800</item>
+        <item name="progress_text_size">12sp</item>
+        <item name="progress_text_color">#FFFFFF</item>
+        <item name="progress_reached_bar_height">18dip</item>
+        <item name="progress_unreached_bar_height">18dip</item>
+    </style>
+	<style name="service_score_left">
+	    <item name="android:textSize">15sp</item>
+	    <item name="android:textStyle">normal</item>
+	    <item name="android:textColor">@color/aB59A6C</item>
+	</style>
+	<style name="service_score_right">
+	    <item name="android:textSize">15sp</item>
+	    <item name="android:textStyle">normal</item>
+	    <item name="android:textColor">@color/a333333</item>
+	</style>
+    <style name="service_old_service_one">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/aE2364A</item>
+    </style>
+
+    <style name="service_old_service_two">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+         <item name="android:textColor">@color/aE2364A</item>
+    </style>
+    <style name="order_show_left_heji">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+         <item name="android:textColor">@color/a333333</item>
+    </style>
+    <style name="styleorder">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="styleorderprice">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+	<style name="one_text_color">
+	    <item name="android:textSize">19dip</item>  
+	    <item name="android:textColor">@color/orange</item>  
+	</style>
+	<style name="two_text_color">
+	    <item name="android:textSize">19dip</item>  
+	    <item name="android:textColor">@color/a323333</item>  
+	</style>
+    <style name="style0">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="style1">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="style6">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="style2">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="style3">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="style4">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="foster_style_y">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="oneone_normal">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="foster_style_show">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="swimdetailshowtext0">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="swimdetailshowtext1">
+        <item name="android:textSize">13sp</item>
+    </style>
+    <!-- 选择照片底部弹出层 -->
+    <style name="MenudownAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/dd_menu_in</item>
+        <item name="android:windowExitAnimation">@anim/dd_menu_out</item>
+    </style>
+
+    <style name="loadingdialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@drawable/bg_loading_round</item>
+    </style>
+
+    <!-- activity进入与退出 start -->
+    <style name="bqmm_horizontal_slide" parent="android:Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/AnimFade2</item>
+    </style>
+
+    <style name="AnimFade2" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/bqmm_slide_in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/bqmm_slide_out_to_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/bqmm_slide_out_to_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/bqmm_slide_in_from_left</item>
+    </style>
+
+</resources>

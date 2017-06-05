@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:minHeight="50dip"
+        android:layout_height="wrap_content" >
+        <ImageView
+            android:id="@+id/iv_item_orderpay_tc"
+            android:layout_width="26dip"
+            android:layout_height="26dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_pay_normal"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tv_item_orderpay_tc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="textview"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/iv_item_orderpay_tc"
+            android:textColor="@color/a757575"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</LinearLayout>

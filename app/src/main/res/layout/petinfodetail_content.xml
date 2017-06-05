@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_petinfodetail_petcard"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dip"
+        android:background="@color/white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/my_fragment_dimen_coupon_text"
+            android:text="@string/my_fragment_blgz"
+            android:textColor="@color/a333333"
+            android:textSize="@dimen/my_fragment_dimen_coupon_textsize" />
+
+        <ImageView
+            android:id="@+id/iv_petinfodetail_dj"
+            android:layout_width="21dip"
+            android:layout_height="47dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dip"
+            android:src="@drawable/icon_selecttime_arrowright" />
+
+        <TextView
+            android:id="@+id/tv_petinfodetail_petcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/iv_petinfodetail_dj"
+            android:text="GO"
+            android:textColor="@color/ad74040"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_petinfodetail_reson"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/f8f8ff8"
+        android:padding="15dip"
+        android:visibility="gone" >
+
+        <com.haotang.pet.view.MListview
+            android:id="@+id/mlv_petinfodetail_reson"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="10dip"
+            android:fadingEdge="none"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" >
+        </com.haotang.pet.view.MListview>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="101dip"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/ll_petinfodetail_xz"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ll_maine_border"
+            android:orientation="vertical"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="30dip"
+                    android:layout_height="30dip"
+                    android:src="@drawable/cus_petinfo_xz" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="2"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_petinfodetail_xz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dip"
+                    android:text="洗澡"
+                    android:textColor="@color/a333333"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_petinfodetail_xzcount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dip"
+                    android:text="0次"
+                    android:textColor="@color/a333333"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_petinfodetail_mr"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ll_maine_border"
+            android:orientation="vertical"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="30dip"
+                    android:layout_height="30dip"
+                    android:src="@drawable/cus_petinfo_mr" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="2"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_petinfodetail_mr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dip"
+                    android:text="美容"
+                    android:textColor="@color/a333333"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_petinfodetail_mrcount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dip"
+                    android:text="0次"
+                    android:textColor="@color/a333333"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_petinfodetail_jy"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ll_maine_border"
+            android:orientation="vertical"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="30dip"
+                    android:layout_height="30dip"
+                    android:src="@drawable/cus_petinfo_jy" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="2"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_petinfodetail_jy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dip"
+                    android:text="寄养"
+                    android:textColor="@color/a333333"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_petinfodetail_jycount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dip"
+                    android:text="0天"
+                    android:textColor="@color/a333333"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="101dip"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/ll_petinfodetail_yy"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ll_maine_border"
+            android:orientation="vertical"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="30dip"
+                    android:layout_height="30dip"
+                    android:src="@drawable/cus_petinfo_yy" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="2"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_petinfodetail_yy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dip"
+                    android:text="游泳"
+                    android:textColor="@color/a333333"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_petinfodetail_yycount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dip"
+                    android:text="0次"
+                    android:textColor="@color/a333333"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_petinfodetail_qjz"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ll_maine_border"
+            android:orientation="vertical"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="30dip"
+                    android:layout_height="30dip"
+                    android:src="@drawable/cus_petinfo_qjz" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="2"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_petinfodetail_qjz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dip"
+                    android:text="清洁值"
+                    android:textColor="@color/a333333"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_petinfodetail_qjzcount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dip"
+                    android:text="0分"
+                    android:textColor="@color/a333333"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_petinfodetail_mlz"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ll_maine_border"
+            android:orientation="vertical"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="30dip"
+                    android:layout_height="30dip"
+                    android:src="@drawable/cus_petinfo_mlz" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="2"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_petinfodetail_mlz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dip"
+                    android:text="魅力值"
+                    android:textColor="@color/a333333"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_petinfodetail_mlzcount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dip"
+                    android:text="0分"
+                    android:textColor="@color/a333333"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_petinfodetail_other"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@android:color/transparent" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_petinfodetail_ts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip" >
+
+        <ImageView
+            android:id="@+id/iv_petinfodetail_mode"
+            android:layout_width="29dip"
+            android:layout_height="19.5dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="20dip"
+            android:src="@drawable/icon_mood_1" />
+
+        <TextView
+            android:id="@+id/tv_petinfodetail_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_petinfodetail_mode"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dip"
+            android:text="textview"
+            android:textColor="@color/a666666"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</LinearLayout>

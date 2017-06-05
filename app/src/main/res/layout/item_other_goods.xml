@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="10dp">
+        
+       <TextView
+            android:id="@+id/other_textview_name" 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/layout_right"
+            android:gravity="center_vertical"
+            android:textColor="@color/a555555"
+            android:text="二货狗粮测试中水电费水电费水电费水电费水电费水电费sdf胜多负少地方sdfsdfsdf删掉发送到发送到"/>
+        <LinearLayout 
+            android:id="@+id/layout_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true">
+            <TextView
+	            android:id="@+id/other_textview_goods_rmb" 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="@color/a555555"
+	            android:text="¥35"/>
+	        <TextView
+	            android:id="@+id/other_textview_goods_num" 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="@color/a555555"
+	            android:text="x11"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

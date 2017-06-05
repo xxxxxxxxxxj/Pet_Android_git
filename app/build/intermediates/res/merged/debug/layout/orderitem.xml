@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dip"
+        android:background="@color/bggray" />
+	<LinearLayout 
+	    android:id="@+id/layout_title_YearAndMonth"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:gravity="center_vertical">
+	    <View 
+		    android:layout_width="0dp"
+		    android:layout_weight="1"
+		    android:layout_height="1dp"
+		    android:layout_marginLeft="10dp"
+		    android:background="@color/black"/>
+	    <TextView 
+	        android:id="@+id/title_YearandMonth"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:paddingLeft="5dp"
+		    android:paddingRight="5dp"
+		    android:textSize="18sp"
+		    android:textStyle="bold"
+		    android:textColor="@color/black"
+		    android:text=" "/>
+	    <View 
+		    android:layout_width="0dp"
+		    android:layout_weight="5"
+		    android:layout_height="1dp"
+		    android:layout_marginRight="10dp"
+		    android:background="@color/black"/>
+	    
+	</LinearLayout>
+	
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/iv_orderitem_type"
+            android:layout_width="25dip"
+            android:layout_height="25dip"
+            android:layout_centerVertical="true"
+            android:background="@drawable/wash"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tv_orderitem_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/iv_orderitem_type"
+            android:text="洗澡"
+            android:textColor="@color/a222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_orderitem_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="已付款"
+            android:textColor="@color/orange_light"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dip"
+        android:layout_marginLeft="10dip"
+        android:background="@color/bggray" 
+        android:visibility="gone"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dip" >
+		<TextView 
+		    android:id="@+id/title_month_day"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="10dp"
+		    android:textSize="16sp"
+		    android:textColor="@color/black"
+		    android:text=" "/>
+        <RelativeLayout
+            android:id="@+id/layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true" 
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/title_month_day"
+            >
+
+            <com.haotang.pet.view.SelectableRoundedImageView
+                android:id="@+id/sriv_orderitem_pet"
+                android:layout_width="80dip"
+                android:layout_height="80dip"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_production_default"
+                custom:sriv_left_bottom_corner_radius="5dip"
+                custom:sriv_left_top_corner_radius="5dip"
+                custom:sriv_right_bottom_corner_radius="5dip"
+                custom:sriv_right_top_corner_radius="5dip" />
+
+            <com.haotang.pet.view.SelectableRoundedImageView
+                android:id="@+id/sriv_orderitem_pet_up"
+                android:layout_width="80dip"
+                android:layout_height="80dip"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/order_list_up_show"
+                custom:sriv_left_bottom_corner_radius="5dip"
+                custom:sriv_left_top_corner_radius="5dip"
+                custom:sriv_right_bottom_corner_radius="5dip"
+                custom:sriv_right_top_corner_radius="5dip" />
+            <TextView
+                android:id="@+id/iv_orderitem_type_up" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:text="洗澡"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_order_middle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@+id/layout"
+            android:layout_toLeftOf="@+id/textView_right_status"
+            android:layout_weight="3.5"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_orderitem_servicename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="高级洗澡套餐"
+                android:textColor="@color/a222222"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_orderitem_servicefee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip"
+                android:text="¥0"
+                android:textColor="@color/orange"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_orderitem_starttime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip"
+                android:text="预约时间："
+                android:textColor="@color/a757575"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_orderitem_addrtype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="服务方式：门店服务"
+                    android:textColor="@color/a757575"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_orderitem_pickup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(需接送)"
+                    android:textColor="@color/orange_light"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView_right_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bg_button_orange_noround"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:textColor="@color/white"
+            android:text="已取消" />
+    </RelativeLayout>
+
+</LinearLayout>

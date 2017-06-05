@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/item_layout_show">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" 
+        android:layout_marginBottom="10dp">
+
+        <com.haotang.pet.view.SelectableRoundedImageView
+            android:id="@+id/imageView_pet_circle_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/user_icon_unnet"
+            custom:sriv_left_bottom_corner_radius="4dp"
+            custom:sriv_left_top_corner_radius="4dp"
+            custom:sriv_right_bottom_corner_radius="4dp"
+            custom:sriv_right_top_corner_radius="4dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/item_petcircle_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="124"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="@color/a333333"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/item_petcircle_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="1458"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="@color/a666666"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" 
+                    android:layout_marginRight="10dp">
+
+                    <Button
+                        android:id="@+id/item_petcircle_addin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="3dp"
+                        android:paddingBottom="3dp"
+                        android:background="@drawable/bg_button_appoiment_ok"
+                        android:text="+ 加入"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/aD1494F" />
+                    <ImageView 
+                        android:id="@+id/item_oetcircle_alreadyin"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/icon_right_swim"
+                        android:visibility="gone"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+	<View 
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/aEEEEEE"/>
+</LinearLayout>

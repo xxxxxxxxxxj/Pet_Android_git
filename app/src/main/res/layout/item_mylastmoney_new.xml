@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bggray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" 
+        >
+
+        <!--
+        <LinearLayout
+            android:id="@+id/rech_layout"
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="2.5"
+	        android:orientation="horizontal"
+	        android:gravity="center_vertical"
+	        android:background="@drawable/item_money_back_1_new" >
+	        <ImageView
+	            android:id="@+id/imageview_logo_rech" 
+	            android:layout_width="60dp"
+	            android:layout_height="60dp"
+	            android:layout_marginLeft="20dp"
+	            android:background="@drawable/item_money_back_logo_1"/>
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:orientation="vertical"
+	            android:gravity="right|center_vertical"
+	            android:layout_marginRight="10dp">
+	            <TextView
+	                android:id="@+id/textView_item_money_price" 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textStyle="bold"
+	                android:textColor="@color/white"
+	                android:textSize="@dimen/textview_title_large"
+	                android:text="80000"/>
+	            <TextView 
+	                android:id="@+id/textview_item_detail"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textColor="@color/aFFE3A4"
+	                android:text="充8000送500元"/>
+	        </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1.5"
+	        android:orientation="vertical"
+	        android:background="@drawable/item_money_all"
+	        android:gravity="center_vertical" >
+	        <TextView 
+	            android:id="@+id/textview_item_time"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:textSize="@dimen/text_size_small"
+	            android:textColor="@color/a999999"
+	            android:text=" "/>
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:textColor="@color/a999999"
+	            android:textSize="@dimen/text_size_small"
+	            android:text="可用于宠物家APP内所有服务"/>
+        </LinearLayout>
+        -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical" >
+
+            <!-- <View
+                android:id="@+id/most_money_show_left"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone" /> -->
+            <RelativeLayout
+                android:id="@+id/rechar_left_show" 
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rechar_left_show_high"
+                >
+
+                <TextView
+                    android:id="@+id/textview_item_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="充XX送XX" />
+
+                <TextView
+                    android:id="@+id/textView_item_money_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/textview_item_detail"
+                    android:layout_alignLeft="@+id/textview_item_detail"
+                    android:textSize="25sp"
+                    android:text="50000" />
+
+                <TextView
+                    android:id="@+id/textview_item_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textview_item_detail"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/textView_item_money_price"
+                    android:textSize="11sp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/a666666"
+                    android:text="可永久用于宠物家app内所有服务" />
+
+                <TextView
+                    android:id="@+id/textView_unit_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView_item_money_price"
+                    android:layout_alignBottom="@+id/textView_item_money_price"
+                    android:layout_toRightOf="@+id/textView_item_money_price"
+                    android:text="元" />
+                
+            </RelativeLayout>
+        </LinearLayout>
+		<LinearLayout 
+		    android:layout_width="1dp"
+		    android:layout_height="match_parent"
+		    android:background="@color/white"
+		    android:layout_marginTop="8dp"
+		    android:layout_marginBottom="8dp"
+		    android:gravity="center"
+		    >
+		    <View
+	            android:layout_width="1dp"
+	            android:layout_height="match_parent"
+	            android:background="@drawable/rechar_middle_show"
+	            android:layout_gravity="center"
+	            />
+		</LinearLayout>
+        
+
+        <LinearLayout
+            android:id="@+id/rechar_right_show" 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical" 
+            android:background="@drawable/rechar_right_show"
+            >
+
+           <!--  <View
+                android:id="@+id/most_money_show_right"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginLeft="10dp"
+                android:visibility="gone"/> -->
+            <RelativeLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            >
+	            <LinearLayout 
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:orientation="vertical"
+	                android:gravity="center"
+	                >
+	                <TextView 
+	                    android:id="@+id/textview_time_down"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:textSize="12sp"
+	                    android:textColor="@color/red"
+	                    android:text="剩余13天"/>
+	                <TextView
+	                    android:id="@+id/textview_go_to_pay" 
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="立即充值"/>
+	            </LinearLayout>
+	            <ImageView 
+	                android:id="@+id/imageview_tag_show_youhui"
+	                android:layout_width="20dp"
+	                android:layout_height="20dp"
+	                android:layout_alignParentRight="true"
+	                android:layout_alignParentTop="true"
+	                android:layout_marginTop="3dp"
+	                android:src="@drawable/good_friend"
+	                android:visibility="gone"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

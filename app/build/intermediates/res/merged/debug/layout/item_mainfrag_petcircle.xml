@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dip" >
+
+        <ImageView
+            android:id="@+id/iv_mainfrag_petcircle"
+            android:layout_width="150dip"
+            android:layout_height="100dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_production_default" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:layout_toLeftOf="@+id/iv_mainfrag_petcircle"
+            android:orientation="vertical"
+            android:paddingLeft="15dip" >
+
+            <LinearLayout
+                android:id="@+id/ll_mainfrag_petcircle"
+                android:layout_width="match_parent"
+                android:layout_height="30dip"
+                android:layout_alignParentBottom="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <com.haotang.pet.view.CircleImageView
+                    android:id="@+id/civ_item_mainfragpetcircleimg"
+                    android:layout_width="14dip"
+                    android:layout_height="15dip"
+                    android:layout_marginRight="5dip"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/about_other"
+                    custom:border_color="#ffffff"
+                    custom:border_width="0dip" />
+
+                <TextView
+                    android:id="@+id/tv_item_mainfragpetcircle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dip"
+                    android:text="TextView"
+                    android:textColor="@color/a999999"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:layout_width="14dip"
+                    android:layout_height="11.5dip"
+                    android:layout_marginRight="5dip"
+                    android:src="@drawable/pet_circle_readnum" />
+
+                <TextView
+                    android:id="@+id/tv_item_mainfragpetcircle_ydl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0.5dip"
+                    android:text="TextView"
+                    android:textColor="@color/a999999"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_item_mainfragpetcircle_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/ll_mainfrag_petcircle"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dip"
+                android:text="TextView"
+                android:textColor="@color/a333333"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

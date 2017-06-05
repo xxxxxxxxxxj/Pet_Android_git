@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="-5dp"
+            android:orientation="vertical" 
+            android:layout_below="@+id/layout_top">
+
+            <com.haotang.pet.view.MListview
+                android:id="@+id/listview_cards_nums"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/card_bottom_show"
+                android:divider="@null"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:scrollbars="none" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_top"
+            android:layout_width="match_parent"
+            android:layout_height="127.5dp" >
+
+            <ImageView
+                android:id="@+id/imageview_show_back_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mycard_back" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="127.5dp"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/item_choose_cards_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text=" "
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/item_choose_cards_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text=" "
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical" >
+
+                    <ImageView
+                        android:id="@+id/item_image_choose_card"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/card_not_choose_show" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

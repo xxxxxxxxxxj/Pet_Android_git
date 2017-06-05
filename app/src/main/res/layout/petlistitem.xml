@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:layout_width="match_parent"
+    android:layout_marginRight="10dip"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rl_petlistitem"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip" >
+
+        <com.haotang.pet.view.SelectableRoundedImageView
+            android:id="@+id/sriv_petlistitem_image"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/user_icon_unnet"
+            custom:sriv_left_bottom_corner_radius="5dip"
+            custom:sriv_left_top_corner_radius="5dip"
+            custom:sriv_right_bottom_corner_radius="5dip"
+            custom:sriv_right_top_corner_radius="5dip" />
+
+        <RelativeLayout
+            android:id="@+id/rl_petlistitem_state"
+            android:layout_width="fill_parent"
+            android:layout_height="15dip"
+            android:layout_alignParentBottom="true"
+            android:alpha="0.8"
+            android:background="@drawable/pet_state_tu" >
+
+            <TextView
+                android:id="@+id/tv_petlistitem_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxEms="6"
+                android:singleLine="true"
+                android:layout_centerInParent="true"
+                android:text="状态"
+                android:textColor="@color/a666666"
+                android:textSize="10sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_petlistitem_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_petlistitem"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="5dip"
+        android:ellipsize="end"
+        android:maxEms="5"
+        android:singleLine="true"
+        android:visibility="gone"
+        android:text="名字"
+        android:textColor="@color/a666666"
+        android:textSize="12sp" />
+
+</RelativeLayout>

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bggray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            >
+
+            <LinearLayout
+                android:id="@+id/layout_recharge_activity"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/white" 
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/textview_recharge_hot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="1dp"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:paddingTop="1dp"
+                    android:layout_marginRight="5dp"
+                    android:text="hot" 
+                    android:textColor="@color/white"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/textview_recharge_activity"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text=" "
+                    android:textColor="@color/aD1494F"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_recharge_normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="20dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tv_recharge_sj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="售价"
+                    android:textColor="#FAA04A"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView_rechar_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="8000"
+                    android:textColor="#FAA04A"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical" >
+				<LinearLayout 
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:gravity="center_vertical"
+				    android:layout_marginBottom="5dp"
+				    >
+				   <!--  这个控件运营那边需要控制长度，避免破坏整体界面效果  产品语录 -->
+				    <TextView
+	                    android:id="@+id/tv_recharge_into"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="10dp"
+	                    android:text="充值卡介绍"
+	                    android:textSize="20sp" 
+	                    android:textColor="@color/a333333"
+	                    />
+				    <TextView 
+				        android:id="@+id/textview_show_left"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="(活动剩余："
+				        android:textColor="@color/a666666"
+				        android:visibility="gone"/>
+				    <TextView 
+				        android:id="@+id/textview_surplus"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:textColor="@color/aD1494F"
+				        android:text="20"
+				        android:visibility="gone"/>
+				    <TextView 
+				        android:id="@+id/textview_day"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="天)"
+				        android:visibility="gone"
+				        android:textColor="@color/aD1494F"/>
+				</LinearLayout>    
+                
+
+                <LinearLayout
+                    android:id="@+id/layout_showrech_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_showrech_make_use_can_not_use"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/layout_showrech_make_use"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_recharge_payway"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="visible" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="请选择支付方式"
+                    android:textColor="@color/a777777"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_yaoqing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible" >
+
+                <RelativeLayout
+                    android:id="@+id/ll_recharge_yq"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dip"
+                    android:layout_marginBottom="1dip"
+                    android:background="@color/white" >
+
+                    <ImageView
+                        android:id="@+id/iv_recharge_yaoqing"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/complaint_reason_disable"
+                        android:scaleType="fitXY" />
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="41dip"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_toLeftOf="@+id/iv_recharge_yaoqing"
+                        android:fillViewport="true"
+                        android:scrollbars="vertical" >
+
+                        <EditText
+                            android:id="@+id/et_recharge_yaoqing"
+                            android:layout_width="match_parent"
+                            android:layout_height="41dip"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dip"
+                            android:layout_toLeftOf="@+id/iv_recharge_yaoqing"
+                            android:background="@drawable/bg_order_pay_et"
+                            android:hint="请输入邀请码"
+                            android:inputType="number"
+                            android:maxLength="4"
+                            android:paddingLeft="10dip"
+                            android:textColor="@color/a777777"
+                            android:textColorHint="@color/acccccc"
+                            android:textSize="16sp" >
+                        </EditText>
+                    </ScrollView>
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_recharge_paywaytwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_rechargepage_wx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:padding="10dp" >
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="26dip"
+                        android:layout_height="23dip"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/icon_pay_wx" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="14dp"
+                        android:layout_toRightOf="@+id/imageView1"
+                        android:text="微信支付"
+                        android:textColor="@color/a757575"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView_choose_rech_weixin"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/complaint_reason" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/bggray" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_rechargepage_ali"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:padding="10dp" >
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="26dip"
+                        android:layout_height="26dip"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/icon_pay_ali" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="14dp"
+                        android:layout_toRightOf="@+id/imageView3"
+                        android:text="支付宝支付"
+                        android:textColor="@color/a757575"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView_choose_rech_zhifubao"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/complaint_reason_disable" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/ll_recharge_dhm"
+                android:layout_width="match_parent"
+                android:layout_height="65dip"
+                android:layout_marginBottom="1dip"
+                android:layout_marginTop="15dip"
+                android:background="@color/white" >
+
+                <ImageView
+                    android:id="@+id/iv_recharge_dhm"
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dip"
+                    android:background="@drawable/complaint_reason_disable"
+                    android:scaleType="fitXY" />
+
+                <EditText
+                    android:id="@+id/et_recharge_dhm"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="20dip"
+                    android:layout_toLeftOf="@id/iv_recharge_dhm"
+                    android:background="@drawable/bg_order_pay_et"
+                    android:hint="请输入兑换码"
+                    android:paddingLeft="10dip"
+                    android:textColor="@color/a777777"
+                    android:textColorHint="@color/acccccc"
+                    android:textSize="16sp" >
+                </EditText>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_recharge_dhmts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dip"
+                    android:background="@color/white"
+                    android:text="＊输入兑换码显示金额"
+                    android:textColor="@color/orange"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="10dp" >
+
+                <Button
+                    android:id="@+id/button_rech_to_pay"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/btn_complaint_bottom_selector"
+                    android:gravity="center"
+                    android:text="立即支付"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

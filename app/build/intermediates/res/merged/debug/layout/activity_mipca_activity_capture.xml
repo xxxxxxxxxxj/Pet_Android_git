@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <include
+        android:id="@+id/include1"
+        layout="@layout/titlebar2"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/include1" >
+
+        <SurfaceView
+            android:id="@+id/preview_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <com.mining.app.zxing.view.ViewfinderView
+            android:id="@+id/viewfinder_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_mipca_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dip"
+        android:layout_centerHorizontal="true"
+        android:text="取消"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_mipca_cancle"
+        android:layout_marginBottom="30dip"
+        android:layout_centerHorizontal="true"
+        android:text="将二维码放入框内,即可自动扫描"
+        android:textColor="@color/white"
+        android:textSize="13sp" />
+
+</RelativeLayout>

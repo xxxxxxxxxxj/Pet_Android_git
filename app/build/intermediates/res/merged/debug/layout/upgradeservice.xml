@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar" />
+
+    <LinearLayout
+        android:id="@+id/ll_upgradeservice_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.haotang.pet.pulltorefresh.PullToRefreshScrollView
+            android:id="@+id/prs_upgradeservice_main"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_orderpay_xfje"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="支付剩余时间"
+                        android:textColor="@color/a333333"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tv_orderpay_xfprice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:textColor="@color/aE33A4A"
+                        android:textSize="24sp"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_orderpay_djs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/textView_order_thr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="3dp"
+                            android:paddingRight="3dp"
+                            android:text=""
+                            android:textColor="@color/aD1494F"
+                            android:textSize="19sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="分"
+                            android:textColor="@color/aD1494F"
+                            android:textSize="19sp" />
+
+                        <TextView
+                            android:id="@+id/textView_order_time_two"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="3dp"
+                            android:paddingRight="3dp"
+                            android:text=""
+                            android:textColor="@color/aD1494F"
+                            android:textSize="19sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="秒"
+                            android:textColor="@color/aD1494F"
+                            android:textSize="19sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/bordergray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dip"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text="待升级项目"
+                    android:textColor="@color/a333333"
+                    android:textSize="15sp" />
+
+                <com.haotang.pet.view.MListview
+                    android:id="@+id/lv_upgradeservice_serviceitems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/af8f8f8"
+                    android:divider="@android:color/transparent"
+                    android:scrollbars="none" />
+
+                <TextView
+                    android:id="@+id/tv_upgradeservice_totalfee"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dip"
+                    android:gravity="center_vertical|right"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text="合计 ¥ "
+                    android:textColor="@color/aD1494F"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="15dip"
+                    android:background="@color/bggray" />
+
+                <TextView
+                    android:id="@+id/tv_upgradeservice_payway"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dip"
+                    android:background="@drawable/ll_orderpay_selector"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text="请选择支付方式"
+                    android:textColor="@color/a666666"
+                    android:textSize="14sp" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_upgradeservice_balance"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dip"
+                    android:background="@drawable/ll_orderpay_selector"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip" >
+
+                    <ImageView
+                        android:id="@+id/iv_upgradeservice_balance_icon"
+                        android:layout_width="26dip"
+                        android:layout_height="24dip"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/icon_pay_balance_normal"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:id="@+id/tv_upgradeservice_balance_pre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dip"
+                        android:layout_toRightOf="@+id/iv_upgradeservice_balance_icon"
+                        android:text="我的余额："
+                        android:textColor="@color/a333333"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tv_upgradeservice_balance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/tv_upgradeservice_balance_pre"
+                        android:text="0.00"
+                        android:textColor="@color/orange"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/tv_upgradeservice_balance"
+                        android:text="元"
+                        android:textColor="@color/a757575"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_upgradeservice_balance"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dip"
+                        android:background="@drawable/icon_pay_selected"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:id="@+id/tv_orderdetail_balance_hint"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="40dip"
+                        android:layout_marginRight="10dip"
+                        android:layout_toRightOf="@+id/tv_orderdetail_balance"
+                        android:gravity="right"
+                        android:text=""
+                        android:textColor="@color/orange"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_upgradeservice_paywx"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dip"
+                    android:background="@drawable/ll_orderpay_selector"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip" >
+
+                    <ImageView
+                        android:id="@+id/iv_upgradeservice_paywx_icon"
+                        android:layout_width="26dip"
+                        android:layout_height="23dip"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/icon_pay_wx"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dip"
+                        android:layout_toRightOf="@+id/iv_upgradeservice_paywx_icon"
+                        android:text="微信支付"
+                        android:textColor="@color/a333333"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_upgradeservice_paywx"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dip"
+                        android:background="@drawable/complaint_reason_disable"
+                        android:scaleType="fitXY" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_upgradeservice_payali"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dip"
+                    android:background="@drawable/ll_orderpay_selector"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip" >
+
+                    <ImageView
+                        android:id="@+id/iv_upgradeservice_payali_icon"
+                        android:layout_width="26dip"
+                        android:layout_height="26dip"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/icon_pay_ali"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dip"
+                        android:layout_toRightOf="@+id/iv_upgradeservice_payali_icon"
+                        android:text="支付宝支付"
+                        android:textColor="@color/a333333"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_upgradeservice_payali"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dip"
+                        android:background="@drawable/complaint_reason_disable"
+                        android:scaleType="fitXY" />
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/bt_upgradeservice_pay"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:layout_marginBottom="30dip"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginRight="15dip"
+                    android:layout_marginTop="30dip"
+                    android:background="@drawable/btn_complaint_bottom_selector"
+                    android:text="确认支付"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </com.haotang.pet.pulltorefresh.PullToRefreshScrollView>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/rl_null"
+        layout="@layout/nullhint"
+        android:visibility="gone" />
+
+</LinearLayout>

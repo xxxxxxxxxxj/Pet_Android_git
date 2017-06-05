@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="75dip"
+    android:layout_height="36dip" >
+
+    <RelativeLayout
+        android:id="@+id/rl_item_contenttime"
+        android:layout_width="75dip"
+        android:layout_height="36dip"
+        android:layout_centerInParent="true"
+        android:background="@drawable/time_ky" >
+
+        <TextView
+            android:id="@+id/tv_item_contenttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="TextView"
+            android:textColor="@color/acccccc"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

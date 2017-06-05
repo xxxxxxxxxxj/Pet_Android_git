@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="111dip"
+        android:layout_height="51.5dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/mainpetcircle_layer_img_wzdl" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="259.5dip"
+        android:layout_height="134.5dip"
+        android:layout_above="@id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/newpost_layer_img" />
+
+</RelativeLayout>

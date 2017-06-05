@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:layout_width="60dip"
+    android:layout_height="92dip" >
+
+    <RelativeLayout
+        android:layout_width="60dip"
+        android:layout_height="60dip" >
+
+        <com.haotang.pet.view.CircleImageView
+            android:id="@+id/civ_appointment_beauticianlist_item_img"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            app:border_color="@color/red"
+            app:border_width="1dip" />
+
+        <ImageView
+            android:id="@+id/iv_appointment_beauticianlist_item"
+            android:layout_width="15dip"
+            android:layout_height="15dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="2.5dip"
+            android:layout_marginRight="2.5dip"
+            android:background="@drawable/beautician_disable"
+            android:button="@null"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_appointment_beauticianlist_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="end"
+        android:gravity="bottom|center_horizontal"
+        android:singleLine="true"
+        android:text="姓名"
+        android:textColor="@color/a333333"
+        android:textSize="14sp" />
+
+</RelativeLayout>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_appointfrg_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginTop="10dip"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="TextView"
+            android:textColor="@color/a666666"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <HorizontalScrollView
+            android:id="@+id/hsv_appointfrg_date"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:layout_below="@id/tv_appointfrg_time"
+            android:background="@color/white"
+            android:fadingEdge="@null"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <GridView
+                    android:id="@+id/gv_appointfrg_top"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="auto_fit"
+                    android:scrollbars="none"
+                    android:stretchMode="spacingWidthUniform" >
+                </GridView>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ScrollView
+            android:id="@+id/sv_appointfrg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <com.haotang.pet.view.MyGridView
+                    android:id="@+id/gv_appointfrg_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:horizontalSpacing="15dip"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="4"
+                    android:padding="15dip"
+                    android:scrollbars="none"
+                    android:verticalSpacing="12dip" />
+
+                <TextView
+                    android:id="@+id/tv_appointfrg_ts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dip"
+                    android:clickable="true"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="提示:如果以上时间都不满意,您可以自己发布时间哦!"
+                    android:textColor="@color/a8E8E8E"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/button_appointfrg_jsyy"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginRight="15dip"
+                    android:background="@null"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="新的预约时间"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_appointment_switchbau"
+                    android:layout_width="match_parent"
+                    android:layout_height="54.5dip"
+                    android:background="@drawable/appointfrag_switch_img"
+                    android:paddingLeft="15dip"
+                    android:visibility="gone"
+                    android:paddingRight="15dip">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="选择美容师"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_appointment_beauticianlevel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/tv_servicedetail_beautician_level1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:text="中级"
+                            android:textColor="@color/aE33A4A"
+                            android:textSize="16sp" />
+
+                        <View
+                            android:id="@+id/vw_servicedetail_beautician1"
+                            android:layout_width="1dip"
+                            android:layout_height="18dip"
+                            android:layout_marginLeft="8dip"
+                            android:background="@color/a333333" />
+
+                        <TextView
+                            android:id="@+id/tv_servicedetail_beautician_level2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dip"
+                            android:singleLine="true"
+                            android:text="高级"
+                            android:textColor="@color/aE33A4A"
+                            android:textSize="16sp" />
+
+                        <View
+                            android:id="@+id/vw_servicedetail_beautician2"
+                            android:layout_width="1dip"
+                            android:layout_height="18dip"
+                            android:layout_marginLeft="8dip"
+                            android:background="@color/a333333" />
+
+                        <TextView
+                            android:id="@+id/tv_servicedetail_beautician_level3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dip"
+                            android:singleLine="true"
+                            android:text="首席"
+                            android:textColor="@color/aE33A4A"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/vw_appoint_beautician"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dip"
+                    android:background="#d3d3d3"
+                    android:visibility="gone" />
+
+                <com.haotang.pet.view.MyGridView
+                    android:id="@+id/mgv_appointfrg_contentbeau"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:horizontalSpacing="15dip"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="4"
+                    android:padding="15dip"
+                    android:scrollbars="none"
+                    android:verticalSpacing="12dip"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btn_appointfrag_submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dip"
+                    android:layout_marginTop="50dip"
+                    android:background="@drawable/btn_appointment_next_selector"
+                    android:text="确 定"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <RelativeLayout 
+        android:id="@+id/rl_servicepet_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/iv_servicepet_delete"
+        android:layout_marginLeft="10dip"
+        android:paddingTop="15dip"
+        android:paddingBottom="15dip"
+        >
+    	<ImageView 
+        	android:id="@+id/iv_servicepet_icon"
+        	android:layout_width="30dip"
+        	android:layout_height="30dip"
+        	android:scaleType="fitXY"
+        	android:visibility="gone"
+        	android:background="@drawable/icon_beauty"
+        	android:layout_centerVertical="true"
+        	/>
+    	
+    	<TextView 
+            android:id="@+id/tv_servicepet_fee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥20"
+            android:textSize="12sp"
+            android:textColor="@color/aE33A4A"
+            android:layout_centerVertical="true"
+       		android:layout_alignParentRight="true"
+            />
+    	
+        <TextView 
+            android:id="@+id/tv_servicepet_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="迷你泰迪高级洗澡套餐"
+            android:textSize="16sp"
+            android:textColor="@color/a757575"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/tv_servicepet_fee"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="10dip"
+            />
+    </RelativeLayout>
+    <ImageView 
+       	android:id="@+id/iv_servicepet_delete"
+       	android:layout_width="30dip"
+       	android:layout_height="30dip"
+       	android:scaleType="fitXY"
+       	android:background="@drawable/icon_close"
+       	android:layout_centerVertical="true"
+       	android:layout_alignParentRight="true"
+       	android:layout_marginLeft="5dip"
+       	android:layout_marginRight="10dip"
+       	/>
+    <View 
+        android:id="@+id/view_servicepet_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dip"
+        android:layout_below="@+id/rl_servicepet_left"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@color/bggray"
+        />
+
+</RelativeLayout>

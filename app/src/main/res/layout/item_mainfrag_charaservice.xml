@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dip" >
+
+        <ImageView
+            android:id="@+id/iv_item_mainfrag_charaser"
+            android:layout_width="130dip"
+            android:layout_height="100dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_production_default" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@id/iv_item_mainfrag_charaser"
+            android:paddingRight="15dip" >
+
+            <RelativeLayout
+                android:id="@+id/rl_item_mainfragcharas_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="23dip"
+                android:layout_alignParentBottom="true" >
+
+                <TextView
+                    android:id="@+id/tv_item_mainfrag_charaser_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:text="TextView"
+                    android:textColor="@color/a999999"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_mainfrag_charaser_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="TextView"
+                    android:textColor="@color/aD1494F"
+                    android:textSize="19sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/rl_item_mainfragcharas_bottom"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/tv_item_mainfrag_charaser_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="TextView"
+                        android:textColor="@color/a333333"
+                        android:textSize="18dip" />
+
+                    <ImageView
+                        android:id="@+id/iv_item_mainfrag_hotornew"
+                        android:layout_width="23dip"
+                        android:layout_height="9.5dip"
+                        android:layout_alignTop="@id/tv_item_mainfrag_charaser_title"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginTop="5dip"
+                        android:layout_toRightOf="@id/tv_item_mainfrag_charaser_title"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/iv_item_mainfrag_hot"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_item_mainfrag_charaser_des"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="TextView"
+                    android:textColor="@color/a666666"
+                    android:textSize="14dip" />
+
+                <TextView
+                    android:id="@+id/tv_item_mainfrag_charaser_activity"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="TextView"
+                    android:textColor="#BB996C"
+                    android:textSize="12sp"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

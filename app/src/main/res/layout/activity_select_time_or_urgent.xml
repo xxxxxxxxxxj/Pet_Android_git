@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <include
+        android:id="@+id/timeorurgent_title"
+        layout="@layout/titlebar" />
+
+    <LinearLayout
+        android:id="@+id/ll_timeorurgent"
+        android:layout_width="match_parent"
+        android:layout_height="44dip"
+        android:layout_below="@id/timeorurgent_title"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:id="@+id/rl_timeorurgent_yy"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_timeorurgent_yy"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="预约"
+                android:textColor="@color/orange" />
+
+            <View
+                android:id="@+id/vw_bottom_yy"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:layout_alignParentBottom="true"
+                android:background="@color/orange" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="0.5dip"
+            android:layout_height="25dip"
+            android:layout_gravity="center_vertical"
+            android:background="@color/acccccc" />
+
+        <RelativeLayout
+            android:id="@+id/rl_timeorurgent_jj"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_timeorurgent_jj"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="加急"
+                android:textColor="@color/a333333" />
+
+            <View
+                android:id="@+id/vw_bottom_jj"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:layout_alignParentBottom="true"
+                android:background="@color/orange"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/vw_line"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_below="@id/ll_timeorurgent"
+        android:background="@color/acccccc" />
+
+    <FrameLayout
+        android:id="@+id/timeorurgent_content"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@color/f8f8ff8"
+        android:layout_below="@+id/vw_line" >
+    </FrameLayout>
+
+</RelativeLayout>

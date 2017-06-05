@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/titlebar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:gravity="center"
+        android:padding="10dp">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单已取消，请告诉我们原因"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/a666666"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我们会努力为您提供更好的服务"
+            android:textColor="@color/orange"
+            android:layout_marginTop="10dp"
+            android:textSize="13sp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:background="@color/white">
+
+        <ListView
+            android:id="@+id/listView_show_reason"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:background="@color/white"
+            android:divider="@null"
+            android:listSelector="@color/white"
+            android:scrollbars="none"
+            android:layout_above="@+id/button_push_reason">
+        </ListView>
+        <Button 
+            android:id="@+id/button_push_reason"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="提  交"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/aBB996C"/>
+        
+    </RelativeLayout>
+
+</LinearLayout>

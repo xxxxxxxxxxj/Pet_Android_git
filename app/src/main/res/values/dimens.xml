@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="widthmemberlevel">244px</dimen>
+    <dimen name="heightmemberlevel">244px</dimen>
+    <dimen name="widthnomemberlevel">140px</dimen>
+    <dimen name="heightnomemberlevel">140px</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="bqmm_titlebar_height">55dip</dimen>
+
+    <!-- 商店标题字号 -->
+    <dimen name="bqmm_title_text_size">19sp</dimen>
+    <!-- 我的表情排序按钮和完成按钮字体大小 -->
+    <dimen name="bqmm_sort_button_text_size">20sp</dimen>
+    <!-- 页面加载失败提示内容字体大小 -->
+    <dimen name="bqmm_shop_network_error_text_size">18sp</dimen>
+    <!-- 键盘初始化失败提示内容字体大小 -->
+    <dimen name="bqmm_keyboard_network_error_text_size">18sp</dimen>
+    <!-- 重新加载按钮内容字体大小 -->
+    <dimen name="bqmm_reload_button_text_size">14sp</dimen>
+    <!-- 点击刷新按钮内容字体大小 -->
+    <dimen name="bqmm_refresh_button_text_size">14sp</dimen>
+
+    <!-- 默认大表情包标题内容字体大小 -->
+    <dimen name="bqmm_preload_package_name_text_size">18sp</dimen>
+    <dimen name="crop__bar_height">48dp</dimen>
+    <dimen name="TITLE_SIZE">20sp</dimen>
+    <dimen name="TITLE_SIZE_SECOND">18sp</dimen>
+    <dimen name="TITLE_SIZE_THR">25sp</dimen>
+    <dimen name="TITLEBAR_HEIGHT">55px</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="TITLE_SIZE_THR_FOUR">30sp</dimen>
+
+    <!-- myFragment -->
+    <dimen name="my_fragment_dimen_coupon_textsize">16sp</dimen>
+    <dimen name="my_fragment_dimen_coupon_img">15dp</dimen>
+    <dimen name="my_fragment_dimen_coupon_text">15dp</dimen>
+    <dimen name="my_fragment_dimen_imageview_size">28dp</dimen>
+    <dimen name="my_fragment_dimen_imageview__heigh_size">25dp</dimen>
+
+    <!-- body content -->
+    <dimen name="body_padding_medium">10dp</dimen>
+    <dimen name="body_padding_large">10dp</dimen>
+    <dimen name="text_size_mostsmall">12sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_xlarge">18sp</dimen>
+    <dimen name="speaker_image_size">36dp</dimen>
+    <dimen name="speaker_image_padding">8dp</dimen>
+    <dimen name="vendor_image_size">100dp</dimen>
+    <dimen name="actionbar_height">45dip</dimen>
+    <dimen name="actionbar_item_height">45dip</dimen>
+    <dimen name="actionbar_item_width">45dip</dimen>
+    <dimen name="body_textsize_foster">16sp</dimen>
+    <dimen name="body_textsize_sample_title">16sp</dimen>
+    <dimen name="body_textsize_top_title">18sp</dimen>
+
+    <!-- coupon -->
+    <dimen name="layout_height">90dip</dimen>
+    <dimen name="layout_width">100dip</dimen>
+    <dimen name="textview_money_toleft">5dip</dimen>
+    <dimen name="textview_title_large">20sp</dimen>
+    <dimen name="textview_title_normal">13sp</dimen>
+    <dimen name="textview_title_normal_big">16sp</dimen>
+
+    <!-- beautifulist item -->
+    <dimen name="tag_item_good">7dp</dimen>
+    <dimen name="tag_marg_left">5dp</dimen>
+    <dimen name="tag_padding_topandbottom">1dp</dimen>
+    <dimen name="tag_padding_leftandright">5dp</dimen>
+    <dimen name="beau_marg_left">10dp</dimen>
+    <dimen name="beau_view_line">1dp</dimen>
+    <dimen name="text_size_myself_introduction">14sp</dimen>
+    <dimen name="text_size_beau_title">16sp</dimen>
+
+    <!-- feature title size -->
+    <dimen name="feature_title_size">17sp</dimen>
+    <dimen name="go_home_and_shop">12dp</dimen>
+    <dimen name="service_price_size">15sp</dimen>
+    <dimen name="item_service_margin_left">0dp</dimen>
+    <dimen name="item_service_appoinment_yue">15sp</dimen>
+
+    <!-- serviceactivity -->
+    <dimen name="service_right_icon_margin_right">3dp</dimen>
+    <dimen name="service_right_icon_up_and_down_width">30dp</dimen>
+    <dimen name="service_right_icon_up_and_down_height">23dp</dimen>
+
+    <!-- swimApp -->
+    <dimen name="swim_textsize">14sp</dimen>
+    <dimen name="swim_liner_padding_top_and_bottom">15dp</dimen>
+    <dimen name="swim_text_margin_right">0dp</dimen>
+    <dimen name="swim_view_margin_Left_right">10dp</dimen>
+    <dimen name="swim_order_confirm">16sp</dimen>
+
+    <!-- cancleorder -->
+    <dimen name="cancle_noticethr">12sp</dimen>
+    <dimen name="cancle_noticeone">16sp</dimen>
+    <dimen name="service_button_height">30dp</dimen>
+    <dimen name="service_old_price">12sp</dimen>
+
+    <!-- recharge -->
+    <dimen name="choose_tag_margin_right">10dp</dimen>
+
+    <!-- train -->
+    <dimen name="every_title_size">15sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <!-- MEDIA CONTROLLER -->
+    <dimen name="media_controller_view_height">40.0dip</dimen>
+
+    <dimen name="icon_home_city_width">19.5dp</dimen>
+    <dimen name="icon_home_city_height">19dp</dimen>
+    
+    <dimen name="item_service_every_margin_right">7dp</dimen>
+    
+    <!-- 满减 退款 卡 图片左侧大小 -->
+    <dimen name="img_width">15dp</dimen>
+    <dimen name="img_height">15dp</dimen>
+</resources>

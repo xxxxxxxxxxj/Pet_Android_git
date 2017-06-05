@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/rl_selectservice_root"
+    android:layout_height="match_parent"
+    android:background="@color/color_fff">
+
+    <include
+        android:id="@+id/include1"
+        layout="@layout/titlebar2" />
+
+    <LinearLayout
+        android:id="@+id/ll_selectarea_add"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/include1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip" >
+
+        <ImageView
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:layout_marginRight="10dip"
+            android:src="@drawable/cet_selectarea_add" />
+
+        <com.haotang.pet.view.ClearEditText
+            android:id="@+id/cet_selectarea"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="请输入您的宠物地址"
+            android:paddingBottom="5dip"
+            android:paddingRight="15dip"
+            android:paddingTop="5dip"
+            android:textColorHint="@color/dddddd"
+            android:textCursorDrawable="@drawable/editshow"
+            android:textSize="14sp" >
+        </com.haotang.pet.view.ClearEditText>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/vw_line"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_below="@+id/ll_selectarea_add"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:background="@color/dddddd" />
+
+    <com.haotang.pet.view.ClearEditText
+        android:id="@+id/cet_selectarea_xxdz"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/vw_line"
+        android:layout_centerVertical="true"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="请输入您的详细地址,如1单元101"
+        android:paddingBottom="5dip"
+        android:paddingLeft="45dip"
+        android:paddingRight="15dip"
+        android:paddingTop="5dip"
+        android:textColorHint="@color/dddddd"
+        android:textCursorDrawable="@drawable/editshow"
+        android:textSize="14sp"
+        android:visibility="gone" >
+    </com.haotang.pet.view.ClearEditText>
+
+    <View
+        android:id="@+id/vw_line1"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_below="@+id/cet_selectarea_xxdz"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:background="@color/dddddd"
+        android:visibility="gone" />
+
+    <HorizontalScrollView
+        android:id="@+id/hsv_selectservicearea_area"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:layout_below="@id/vw_line1"
+        android:background="@color/white"
+        android:fadingEdge="@null"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <GridView
+                android:id="@+id/gv_selectservicearea_area"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="auto_fit"
+                android:scrollbars="none"
+                android:stretchMode="spacingWidthUniform" >
+            </GridView>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <View
+        android:id="@+id/vw_line2"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_below="@+id/hsv_selectservicearea_area"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:background="@color/dddddd" />
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/mv_select_servicearea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/gv_selectarea"
+        android:clickable="true" />
+
+    <RelativeLayout
+        android:id="@+id/rl_selectareafw"
+        android:layout_width="fill_parent"
+        android:layout_height="54dip"
+        android:layout_alignParentBottom="true"
+        android:alpha="0.8"
+        android:background="@color/a4B4A47" >
+
+        <TextView
+            android:id="@+id/tv_selectarea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="所有服务区围绕体验馆三公里范围"
+            android:textColor="@color/color_fff"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

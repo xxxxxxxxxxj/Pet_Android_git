@@ -1,0 +1,1566 @@
+[
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_train_address.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_train_address.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pay_result.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\pay_result.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_pet_circle.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_pet_circle.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_service_area.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_service_area.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_headerview_character.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_headerview_character.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\beauticiandetail_new.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\beauticiandetail_new.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_more_pet_from_order.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\order_more_pet_from_order.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_post_selection_detail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_post_selection_detail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_order.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_my_order.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mainhotservice.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\mainhotservice.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\knowledgefragment.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\knowledgefragment.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_pick_up_image.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_pick_up_image.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropmask.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\dropmask.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_train_appoint.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_train_appoint.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\beauticianproduction_detail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\beauticianproduction_detail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fostercare_chooseroom_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\fostercare_chooseroom_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_express_order.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_express_order.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\servicedetail_content.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\servicedetail_content.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\petinfo.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\petinfo.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_only_my_eva.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_only_my_eva.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_media.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_media.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_titile_bar.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\umeng_socialize_titile_bar.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_choose_dog.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\fragment_choose_dog.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\feedback_fragment.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\feedback_fragment.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_scanshopinfo.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_scanshopinfo.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\locationview.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\locationview.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_pet_viewpager.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_pet_viewpager.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test1.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\test1.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about_us_message.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_about_us_message.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\orderdetail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\orderdetail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mnotification.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\mnotification.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_mylastmoney_new_two.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_mylastmoney_new_two.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragmen_beau_to_appointment.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\fragmen_beau_to_appointment.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_service_play_video.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_service_play_video.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_character.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_character.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fostercare_chooseroom.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\fostercare_chooseroom.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_bak_platform_item_simple.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\umeng_bak_platform_item_simple.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_time_or_urgent.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_select_time_or_urgent.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fostercare_roomdetail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\fostercare_roomdetail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_list.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_accept_beau_vie.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_order_accept_beau_vie.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pickuphint.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\pickuphint.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_beau_to_appointment.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_beau_to_appointment.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\image_detail_pager.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\image_detail_pager.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_pet_circle_inside_detail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_pet_circle_inside_detail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\service_search_address.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\service_search_address.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_bind_select_dialog.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\umeng_socialize_bind_select_dialog.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_service_area.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_select_service_area.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_h5shop_detail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_h5shop_detail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_complaint_reason_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_complaint_reason_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mytimeout_coupon.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_mytimeout_coupon.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fostercare_paysuccess.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\fostercare_paysuccess.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_train_service_adaper.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_train_service_adaper.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\titlebar.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\titlebar.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gift.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\gift.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\servicedetail_content_new.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\servicedetail_content_new.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\petdateseleter.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\petdateseleter.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_swim_show_icon.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_swim_show_icon.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_package_detail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_package_detail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\homebanner.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\homebanner.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pet_circle_post_image.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_pet_circle_post_image.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fostercare_chooseroom_content.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\fostercare_chooseroom_content.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_post_share.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\umeng_socialize_post_share.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\coupon_adapter.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\coupon_adapter.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_cancle_order_success_or_fail_topay.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\dlg_cancle_order_success_or_fail_topay.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_mgvmember_service.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_mgvmember_service.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_customer_pet_info.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_customer_pet_info.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_looper_banner_video.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_looper_banner_video.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\coupon_adapter_new.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\coupon_adapter_new.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_update_show.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_update_show.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropmenu_address.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\dropmenu_address.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detial_message_image.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\detial_message_image.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pick_big_images.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_pick_big_images.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mainhotserviceitem.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\mainhotserviceitem.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mainfragmentnew.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\mainfragmentnew.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\orderdetail_from_order_to_confirm.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\orderdetail_from_order_to_confirm.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myprogressdialogcenter.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\myprogressdialogcenter.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_at_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\umeng_socialize_at_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_bak_platform_selector_dialog.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\umeng_bak_platform_selector_dialog.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clip_picture.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_clip_picture.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fostercareshoplist_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\fostercareshoplist_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pick_or_take_image_activity.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_pick_or_take_image_activity.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\beauticianproduction.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\beauticianproduction.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_to_list_detail_header_view.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\main_to_list_detail_header_view.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_complaint_order_history.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_complaint_order_history.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_fostercarextsadapter.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_fostercarextsadapter.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_mlvitempostselectiondetailadapter.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_mlvitempostselectiondetailadapter.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_pet_reson.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_pet_reson.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fostercare_orderconfirm.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\fostercare_orderconfirm.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_eva_all.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_eva_all.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\orderdetail_new.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\orderdetail_new.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sort_adapter_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\sort_adapter_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fostercare_datebody_new.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\fostercare_datebody_new.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_petcircleinsidedetail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_petcircleinsidedetail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shop_list_footer.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\shop_list_footer.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_mainfrag_hotbeau.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_mainfrag_hotbeau.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_page.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_start_page.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_evaluate.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_my_evaluate.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_to_list_adapter.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\main_to_list_adapter.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mainpetcircle_layer.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\mainpetcircle_layer.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_evaluate.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_evaluate.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_memberleveldesadapter.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_memberleveldesadapter.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_address.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\common_address.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\petstore_witharrow.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\petstore_witharrow.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adbanner.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\adbanner.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\servicedetail_new.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\servicedetail_new.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_service_area.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_service_area.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myfragment_top.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\myfragment_top.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_bak_at_list_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\umeng_bak_at_list_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\top_indicator_item_b.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\top_indicator_item_b.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\newpost_layer.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\newpost_layer.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_post_user_info.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_post_user_info.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_growth.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_growth.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_service_address_search.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_service_address_search.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pet_circle.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\fragment_pet_circle.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pet_add.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\pet_add.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_train_service_open.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_train_service_open.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_train_video.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\header_train_video.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\charact_servicedetail_content.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\charact_servicedetail_content.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\petstore.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\petstore.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mainhothospitalitem.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\mainhothospitalitem.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_serch_beau.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_serch_beau.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_go_home_detail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_go_home_detail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\petstore_otherimage.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\petstore_otherimage.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\image_detail_fragment.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\image_detail_fragment.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_loadimage.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_loadimage.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_petcircle_fragment.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\header_petcircle_fragment.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video_more.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_video_more.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\beauticiancommentslist_item_new.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\beauticiancommentslist_item_new.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pet_circleinsidepost.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_pet_circleinsidepost.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_my_cards.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_my_cards.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_swim_detai.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_swim_detai.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\paysuccess.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\paysuccess.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_postuserinfo.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_postuserinfo.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\comm_address_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\comm_address_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_choose_icon.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\dlg_choose_icon.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_oauth_dialog.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\umeng_socialize_oauth_dialog.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_mainfrag_petcircle.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_mainfrag_petcircle.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_cancle.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_order_cancle.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_pet.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_choose_pet.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\swim_detail_content.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\swim_detail_content.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fostercare_live_full_screen.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_fostercare_live_full_screen.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_rechargepage.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_rechargepage.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\selecttime_new.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\selecttime_new.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\selecttime_dialog.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\selecttime_dialog.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_character.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_character.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_coupon.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_my_coupon.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_customer_complaints_history.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_customer_complaints_history.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fostercare_date.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\fostercare_date.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_base_alert_dialog.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\umeng_socialize_base_alert_dialog.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_full_curtain.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\umeng_socialize_full_curtain.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_drapmenu.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_drapmenu.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\appointfrag_beauticianlist_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\appointfrag_beauticianlist_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_list.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_user_list.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\addserviceitem.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\addserviceitem.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_my_order_all.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\fragment_my_order_all.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\beau_detail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\beau_detail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_alertdialognavandpost.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\view_alertdialognavandpost.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\petlistitem.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\petlistitem.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_go_home_detail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_go_home_detail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\footer_common_address.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\footer_common_address.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\titlebar2.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\titlebar2.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\headerview.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\headerview.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fostercare_live.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_fostercare_live.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_to_wait.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_order_to_wait.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_complaint.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_complaint.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_media_recorder.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_media_recorder.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\appointmentfragment_layout.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\appointmentfragment_layout.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\contact.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\service_search_all_unchoose.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\service_search_all_unchoose.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_postselection_viewpager.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\header_postselection_viewpager.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_zoom_iamge.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\widget_zoom_iamge.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pet_circle_post_image.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\fragment_pet_circle_post_image.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_go_shop_detail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_go_shop_detail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dayitem.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\dayitem.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\install_dialog.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\install_dialog.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_at_overlay.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\umeng_socialize_at_overlay.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\beauticiancommentslist.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\beauticiancommentslist.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customer_notitfication_layout.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\customer_notitfication_layout.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\urgenfragment_layout.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\urgenfragment_layout.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\service_feature_content.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\service_feature_content.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\orderpay.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\orderpay.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_balancerecord.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_balancerecord.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\orderitem.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\orderitem.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\orderfragment.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\orderfragment.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pingjia_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\pingjia_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\choosepetheader.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\choosepetheader.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\petstore_withchange.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\petstore_withchange.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lanshou.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_lanshou.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fullscreen.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_fullscreen.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_cards.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_my_cards.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_member.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_user_member.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_composer_header.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\umeng_socialize_composer_header.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_order_new.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_order_new.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_card_make_dog.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_card_make_dog.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\beauticianproduction_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\beauticianproduction_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_bathservicedetail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\header_bathservicedetail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mulorderpetitem.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\mulorderpetitem.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_account.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_change_account.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_complainhistory_customer.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_complainhistory_customer.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\appointment_beauticianlist_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\appointment_beauticianlist_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_view_album_directory.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_list_view_album_directory.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_titlebar.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_titlebar.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\img_or_video.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\img_or_video.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\charactserviceitem.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\charactserviceitem.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_memberprivilege.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_memberprivilege.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_at_view.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\umeng_socialize_at_view.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\citylist_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\citylist_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\city_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\city_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\top_indicator_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\top_indicator_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_is_show_pick.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_is_show_pick.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_regions_adapter.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_regions_adapter.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_service_show.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_service_show.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\petcircle_layer.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\petcircle_layer.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cancle_adapter_choose.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\cancle_adapter_choose.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\upgradeservice_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\upgradeservice_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_over_burden.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_over_burden.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_mylastmoney_new.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_mylastmoney_new.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_toptime_date.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_toptime_date.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\areahint.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\areahint.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_full_alert_dialog_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\umeng_socialize_full_alert_dialog_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fostercareshoplist.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\fostercareshoplist.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\servicedetail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\servicedetail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_evaluate_new.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_evaluate_new.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_complaint_reason.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_complaint_reason.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_selectphoto.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\pop_selectphoto.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\tab_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_simple_spinner_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\umeng_socialize_simple_spinner_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_oederpay_tc.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_oederpay_tc.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_foster.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_order_foster.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\feedback.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\feedback.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_failed_load_page.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\umeng_socialize_failed_load_page.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_pet_circle_inside.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_pet_circle_inside.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mdialog.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\mdialog.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_order.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_change_order.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_balance_record_detail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_balance_record_detail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fostercare_datebody.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\fostercare_datebody.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\titlebar3.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\titlebar3.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_other_goods.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_other_goods.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_imgview.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_imgview.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\petdateserviceseleter.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\petdateserviceseleter.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\my_order_item_show.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\my_order_item_show.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\postselectionfragment_layout.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\postselectionfragment_layout.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_to_list.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_main_to_list.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bakance_record.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_bakance_record.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_mypet.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_mypet.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\timefrag_guide.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\timefrag_guide.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_community_tab.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_community_tab.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_mainfrag_charaservice.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_mainfrag_charaservice.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\choosepetnew.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\choosepetnew.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_change_beau.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_change_beau.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\beauticianlist.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\beauticianlist.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\beauticiancommentpic_detail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\beauticiancommentpic_detail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_noarea.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\dialog_noarea.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropmenu.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\dropmenu.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_go_shop_detail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_go_shop_detail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\crop__layout_done_cancel.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\crop__layout_done_cancel.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\download_notif.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\download_notif.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_alertdialog_username.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\view_alertdialog_username.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\beauticianproductiondetailfragment.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\beauticianproductiondetailfragment.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\note.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\note.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sharedialog.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\sharedialog.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mulpetservice.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\mulpetservice.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_order_confirm_choose_card.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_order_confirm_choose_card.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_join_work_adapter.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_join_work_adapter.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_appoinment.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_appoinment.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\beauticiancommentslist_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\beauticiancommentslist_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list_viewpager.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_list_viewpager.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\autotextview.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\autotextview.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cards_detail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_cards_detail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\service_featrue.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\service_featrue.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\crop__activity_crop.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\crop__activity_crop.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\citylist.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\citylist.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\change_order_yes_or_no.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\change_order_yes_or_no.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\titlebar4.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\titlebar4.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_pet_circle_inside.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\header_pet_circle_inside.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shop_list.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_shop_list.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_base_alert_dialog_button.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\umeng_socialize_base_alert_dialog_button.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mipca_activity_capture.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_mipca_activity_capture.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\orderdetail_from_order.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\orderdetail_from_order.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_cancle_reason.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_order_cancle_reason.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mainfragment_old.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\mainfragment_old.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pw_main_sendpost.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\pw_main_sendpost.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fostercare_appointment.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\fostercare_appointment.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_cancle_order_new.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\dlg_cancle_order_new.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\newpop_view.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\newpop_view.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mycards_out_data.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_mycards_out_data.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_full_alert_dialog.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\umeng_socialize_full_alert_dialog.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_test.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\complaintorder_frag.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\complaintorder_frag.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\infowindow.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\infowindow.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pet_circle_inside.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_pet_circle_inside.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_cancle_order_success_or_fail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\dlg_cancle_order_success_or_fail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_list.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\layout_list.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\beauticiandetail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\beauticiandetail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\video_control_view.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\video_control_view.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_shop_list.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_shop_list.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\servicedetail_header.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\servicedetail_header.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_mylastmoney.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_mylastmoney.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\petinfodetail_top.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\petinfodetail_top.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_swim_detail_pet.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_swim_detail_pet.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\availablecoupon.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\availablecoupon.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customercomplaints_frag.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\customercomplaints_frag.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_send_select_post.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_send_select_post.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_eva_service_feature.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_eva_service_feature.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_headview.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_headview.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mycoupon_give_other.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\mycoupon_give_other.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_confirm_choose_card.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_order_confirm_choose_card.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pet_info_deatil.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_pet_info_deatil.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video_player.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_video_player.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\beauticianitem.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\beauticianitem.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_item_postselectionfragment.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\header_item_postselectionfragment.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_complainhistory_order.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_complainhistory_order.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_post_userinfoimage.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_post_userinfoimage.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_cards_every_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_cards_every_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_cotent_time.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_cotent_time.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nullhint.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\nullhint.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_order_all_style.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\dlg_order_all_style.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_more_about.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_more_about.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\timeitem.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\timeitem.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\coupon_adapter_my_new.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\coupon_adapter_my_new.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_activity.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_main_activity.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\serviceaddpetitem.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\serviceaddpetitem.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myfragment_content.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\myfragment_content.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_recentorderadapter.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_recentorderadapter.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\to_pay_show_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\to_pay_show_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_footer.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\listview_footer.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_swim.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_swim.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\petinfodetail_content.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\petinfodetail_content.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\evaluate_over_activity.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\evaluate_over_activity.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\memberfragment.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\memberfragment.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_mainfrag_hospital.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_mainfrag_hospital.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_hlvitempostselectionadapter.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_hlvitempostselectionadapter.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\train_detail_content.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\train_detail_content.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\footer_my_coupon.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\footer_my_coupon.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\serviceitem.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\serviceitem.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_cancle_order.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\dlg_cancle_order.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mainbeauticianitem.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\mainbeauticianitem.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\appointmenttimeguide.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\appointmenttimeguide.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_mlvitempostselectionadapter_small.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_mlvitempostselectionadapter_small.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\addrhint.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\addrhint.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_pet_circle_inside_image.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_pet_circle_inside_image.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\img_show_detail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\img_show_detail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_list.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\selecttime.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\selecttime.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\servicewin.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\servicewin.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\upgradeservice.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\upgradeservice.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\coupon_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\coupon_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_choosetransfer.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_choosetransfer.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_mlvitempostselectionadapter.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_mlvitempostselectionadapter.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shoplocation.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\shoplocation.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\beauticiancommentpicdetailfragment.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\beauticiancommentpicdetailfragment.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_mainfrag_petencyclopedia.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_mainfrag_petencyclopedia.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\guide.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\guide.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_header.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\listview_header.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myfragment.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\myfragment.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fostercaredatefooter.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\fostercaredatefooter.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_postselection_fragment.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\header_postselection_fragment.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_beauappoinment.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_beauappoinment.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_usermember_level.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_usermember_level.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\flash.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\flash.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_alertdialog.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\view_alertdialog.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\not_practice.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\not_practice.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_last_money.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_last_money.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pw_usermemberfragment.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\pw_usermemberfragment.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_userlist.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_userlist.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_only_my_evaluate.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_only_my_evaluate.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fostercare_dateheader.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\fostercare_dateheader.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_order_confirm.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_update_order_confirm.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_postselectionfragment.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_postselectionfragment.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_to_beaulist.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_main_to_beaulist.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mainserviceitem.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\mainserviceitem.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_train_guide.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_train_guide.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_shareboard_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\umeng_socialize_shareboard_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mytoast.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\mytoast.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_service_address.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\activity_add_service_address.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\knowledgedetail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\knowledgedetail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_bak_at_list.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\umeng_bak_at_list.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\usermemberfragment.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\usermemberfragment.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mainfragmentcontent.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\mainfragmentcontent.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\top_indicator_item_t.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\top_indicator_item_t.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_pet_circleinsidedetail.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\header_pet_circleinsidedetail.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\servicepet.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\servicepet.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\knowledge_item.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\knowledge_item.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\footerview.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\footerview.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_commentstart.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\item_commentstart.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mallfragment.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout\\mallfragment.xml"
+    }
+]

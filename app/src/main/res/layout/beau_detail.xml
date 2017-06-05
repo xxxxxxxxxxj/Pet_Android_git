@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:padding="10dp">
+
+        <com.haotang.pet.view.SelectableRoundedImageView
+            android:id="@+id/imageView_vie_beau_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/icon_beautician_default" 
+            custom:sriv_left_bottom_corner_radius="5dip"
+            custom:sriv_left_top_corner_radius="5dip"
+            custom:sriv_right_bottom_corner_radius="5dip"
+            custom:sriv_right_top_corner_radius="5dip"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:layout_marginLeft="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/text_beau_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/a666666"
+                    android:textSize="17sp"
+                    android:text=" " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/textview_beau_level"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/a666666"
+                        android:textSize="16sp"
+                        android:text=" " />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right" >
+
+                    <TextView
+                        android:id="@+id/textview_beau_order_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" " 
+                        android:textSize="16sp"
+                        android:textColor="@color/orange"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

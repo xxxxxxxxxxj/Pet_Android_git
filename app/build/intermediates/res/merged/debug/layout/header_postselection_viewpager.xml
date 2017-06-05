@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <com.haotang.pet.view.rollviewpager.RollPagerView
+        android:id="@+id/rpv_header_postselection"
+        android:layout_width="match_parent"
+        android:layout_height="150dip"
+        android:background="@drawable/bg_gray_noround_dddddd"
+        custom:rollviewpager_hint_alpha="0"
+        custom:rollviewpager_hint_color="#7c7c7c"
+        custom:rollviewpager_hint_gravity="right"
+        custom:rollviewpager_hint_mode="point"
+        custom:rollviewpager_play_delay="3000" />
+
+</RelativeLayout>

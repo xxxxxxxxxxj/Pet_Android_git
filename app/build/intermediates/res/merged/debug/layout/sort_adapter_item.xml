@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/catalog"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:background="@color/bggray"
+        android:paddingBottom="5dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:paddingTop="5dip"
+        android:text="A"
+        android:textColor="#454545" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip" >
+
+        <com.haotang.pet.view.SelectableRoundedImageView
+            android:id="@+id/imageView_animal_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/dog_icon_unnew"
+            android:scaleType="fitXY"
+            custom:sriv_left_bottom_corner_radius="5dip"
+            custom:sriv_left_top_corner_radius="5dip"
+            custom:sriv_right_bottom_corner_radius="5dip"
+            custom:sriv_right_top_corner_radius="5dip" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="14dp"
+                android:text="藏獒"
+                android:textColor="#333333"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1.0"
+        android:background="#F2F1EF" />
+
+</LinearLayout>

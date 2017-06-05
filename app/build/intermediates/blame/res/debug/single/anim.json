@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_top.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\slide_in_from_top.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\out_to_right.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\out_to_right.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\right_out.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\right_out.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\left_in.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\left_in.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\transtoright.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\transtoright.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_top.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_fade_in.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\umeng_socialize_fade_in.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\down_in.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\down_in.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\in_from_left.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\in_from_left.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\left_out.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\left_out.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dd_menu_in.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\dd_menu_in.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dd_menu_out.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\dd_menu_out.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\layout_animation.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\layout_animation.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\center_in.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\center_in.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bqmm_slide_in_from_right.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\bqmm_slide_in_from_right.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\down_out.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\down_out.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_fade_out.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\umeng_socialize_fade_out.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_slide_in_from_bottom.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\umeng_socialize_slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\zoomout.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\zoomout.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bqmm_slide_out_to_left.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\bqmm_slide_out_to_left.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\right_in.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\right_in.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\btn_click_alpha_anim.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\btn_click_alpha_anim.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\zoomin.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\zoomin.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_shareboard_animation_in.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\umeng_socialize_shareboard_animation_in.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bqmm_slide_out_to_right.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\bqmm_slide_out_to_right.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_slide_out_from_bottom.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\umeng_socialize_slide_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\custom_item_anim.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\custom_item_anim.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bqmm_slide_in_from_left.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\bqmm_slide_in_from_left.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_shareboard_animation_out.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\umeng_socialize_shareboard_animation_out.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\transtoleft.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\transtoleft.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\center_out.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\center_out.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim\\btn_click_scale_anim.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\anim\\btn_click_scale_anim.xml"
+    }
+]

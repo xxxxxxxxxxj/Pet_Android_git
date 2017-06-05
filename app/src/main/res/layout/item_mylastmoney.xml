@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/layout_item_to_recharge"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/item_money_back_1"
+        >
+
+        <TextView
+            android:id="@+id/textView_item_money_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="80000"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textview_item_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView_item_money_price"
+            android:layout_below="@+id/textView_item_money_price"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"
+            android:text="充500送测试" />
+
+        <TextView
+            android:id="@+id/textview_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textview_item_detail"
+            android:layout_below="@+id/textview_item_detail"
+            android:textColor="@color/white"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView_item_money_price"
+            android:layout_marginRight="50dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:text="充值卡" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

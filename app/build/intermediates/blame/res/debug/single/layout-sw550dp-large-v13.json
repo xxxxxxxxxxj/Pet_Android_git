@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw550dp-large-v13\\umeng_socialize_titile_bar.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout-sw550dp-large\\umeng_socialize_titile_bar.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw550dp-large-v13\\umeng_socialize_post_share.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout-sw550dp-large\\umeng_socialize_post_share.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw550dp-large-v13\\umeng_socialize_full_alert_dialog.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout-sw550dp-large\\umeng_socialize_full_alert_dialog.xml"
+    },
+    {
+        "merged": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw550dp-large-v13\\umeng_socialize_oauth_dialog.xml",
+        "source": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\layout-sw550dp-large\\umeng_socialize_oauth_dialog.xml"
+    }
+]

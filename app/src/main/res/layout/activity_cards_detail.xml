@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/layout_top_set_back"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" >
+
+                <ImageView
+                    android:id="@+id/imageview_show_back_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/mycard_back" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="10dp"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/imageView_left"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/logo" />
+
+                    <TextView
+                        android:id="@+id/textView_cards_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/imageView_left"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/imageView_left"
+                        android:text="月度服务卡"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout_middle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/textView_cards_name"
+                        android:layout_centerVertical="true"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:id="@+id/layout_wash"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/textview_wash_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="次洗澡"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layout_beau"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/textview_beau_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:text=""
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:text="次美容"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView_cards_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imageView_left"
+                        android:layout_alignLeft="@+id/linearLayout_middle"
+                        android:text="测试 即日起 "
+                        android:textColor="@color/a333333"
+                        android:textSize="10sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/logo" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/af8f8f8" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textview_cards_dog_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toLeftOf="@+id/textview_cards_changepet"
+                        android:text="宠物名称"
+                        android:textColor="@color/a333333"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textview_cards_changepet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dip"
+                        android:autoLink="all"
+                        android:gravity="center"
+                        android:text="切换宠物"
+                        android:textColor="@color/aBB996C"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView_cards_activity_notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/aF8E8E8"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text=" "
+                android:textColor="@color/aD1494F" />
+
+            <TextView
+                android:id="@+id/textView_cards_cannot_support"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/af8f8f8"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:textColor="@color/a999999"
+                android:text="该犬种不支持办理犬证" />
+
+            <com.haotang.pet.view.MListview
+                android:id="@+id/choose_make_dog_cards"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/bggray"
+                android:dividerHeight="0dip"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/af8f8f8" />
+
+            <TextView
+                android:id="@+id/textView_cards_cannot_support_make"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/aF8E8E8"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="该犬种不支持购买该次卡" />
+
+            <com.haotang.pet.view.MListview
+                android:id="@+id/listView_choose_cards_every"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/bggray"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/af8f8f8" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="服务卡介绍"
+                android:textColor="@color/a333333" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/aDDDDDD" />
+
+            <com.haotang.pet.view.MListview
+                android:id="@+id/cards_scaling_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/bggray"
+                android:dividerHeight="0dip"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

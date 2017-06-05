@@ -1,0 +1,456 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:id="@+id/right"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/swim_detail_showback"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textview_swim_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal|bottom"
+                    android:text="4.8分"
+                    android:textColor="@color/aBB996C" />
+
+                <TextView
+                    android:id="@+id/textview_swim_score_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="非常棒"
+                    android:textColor="@color/aBB996C"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/right" >
+
+                <TextView
+                    android:id="@+id/textview_swim_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="营业时间：09:00-18:00"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textview_swim_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/textview_swim_time"
+                    android:layout_marginTop="3dp"
+                    android:singleLine="true"
+                    android:text="乐园地址："
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/ImageView_go_map"
+                    android:layout_width="@dimen/icon_home_city_width"
+                    android:layout_height="@dimen/icon_home_city_height"
+                    android:layout_below="@+id/textview_swim_time"
+                    android:layout_toRightOf="@+id/textview_swim_address"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/icon_home_city" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+        <!--
+             <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textview_swim_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="营业时间：09:00-18:00" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/textview_swim_address"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="乐园地址：通州张彩采路小北关村" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/ImageView_go_map"
+                        android:layout_width="15dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/icon_home_city" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textview_swim_score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:textColor="@color/orange"
+                        android:text="4.8分" />
+
+                    <TextView
+                        android:id="@+id/textview_swim_score_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:textColor="@color/orange"
+                        android:text="非常棒" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        -->
+
+        <View
+            android:id="@+id/address_line"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/bggray" />
+	    <TextView
+	        android:id="@+id/textview_give_other_money"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/aF8E8E8"
+	        android:padding="10dp"
+	        android:textColor="@color/aD1494F"
+	        android:text=" " />
+        <com.haotang.pet.view.MListview
+            android:id="@+id/swim_pets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" />
+
+        <LinearLayout
+            android:id="@+id/layout_add_pet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp" >
+
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="再添加一只宠物"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/aD1494F"
+                android:background="@drawable/swim_back_addpet"/>
+            <!-- <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/addpetimg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="添加一只宠物"
+                android:textColor="@color/acccccc"
+                android:textSize="14sp" /> -->
+        </LinearLayout>
+       <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/bggray" />
+		<LinearLayout
+		    android:id="@+id/layout_pet_time" 
+		    android:layout_width="match_parent"
+		    android:layout_height="50dp"
+		    android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+		    >
+		     <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/icon_service_time" />
+		     <TextView 
+		         android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:layout_marginLeft="10dp"
+		         android:textSize="18sp"
+		         android:text="预约时间"/>
+		     <RelativeLayout 
+		         android:layout_width="match_parent"
+		         android:layout_height="50dp">
+
+
+		          <LinearLayout
+		              android:id="@+id/layout_swim_right"
+		              android:layout_width="wrap_content"
+		              android:layout_height="wrap_content"
+		              android:layout_alignParentRight="true"
+		              android:layout_centerVertical="true"
+		              android:gravity="right" >
+
+		              <ImageView
+		                  android:layout_width="30dip"
+		                  android:layout_height="30dip"
+		                  android:layout_alignParentRight="true"
+		                  android:layout_centerVertical="true"
+		                  android:src="@drawable/icon_right_swim" />
+		          </LinearLayout>
+
+		          <TextView
+		              android:id="@+id/textView_choose_time"
+		              android:layout_width="wrap_content"
+		              android:layout_height="wrap_content"
+		              android:layout_centerVertical="true"
+		              android:layout_toLeftOf="@+id/layout_swim_right"
+		              android:gravity="right"
+		              android:textSize="14sp"
+                      android:textColorHint="@color/dddddd"
+                      android:layout_marginRight="@dimen/swim_text_margin_right"
+                      android:hint="请选择您的预约时间"/>
+
+		     </RelativeLayout>
+		    
+		     
+		</LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/bggray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.haotang.pet.view.MyGridView
+                android:id="@+id/swim_bottom_icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:divider="@null"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="5"
+                android:scrollbars="none" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/bggray"
+            />
+
+        <LinearLayout
+            android:id="@+id/layout_safe"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp" 
+            >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/icon_swim_safe" />
+
+            <TextView
+                android:id="@+id/textview_swim_safe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                android:text="来自宠物家的安全保证" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right" >
+
+                <ImageView
+                    android:layout_width="30dip"
+                    android:layout_height="30dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_right_swim"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/bggray" />
+        <!-- 下面是介绍的图片内容 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bggray"
+            android:orientation="vertical" >
+			<LinearLayout 
+			    android:id="@+id/layout_add_detail_img"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:paddingLeft="10dp"
+			    android:paddingRight="10dp"
+			    android:paddingBottom="10dp"
+			    android:orientation="vertical">
+			    
+			</LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" 
+                android:background="@color/white"
+                >
+
+                <TextView
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/orange" 
+                    android:visibility="visible"/>
+
+                <TextView
+                    android:id="@+id/text_swim_show_feature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="宠物家游泳特色"
+                    android:textColor="@color/a333333"
+                    android:textSize="17sp" />
+            </LinearLayout>
+            <View android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/bggray"/>
+            <LinearLayout 
+                android:id="@+id/swim_feature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:padding="10dp"
+                android:visibility="gone"
+                >
+                
+            </LinearLayout>
+            <View 
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/bggray"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" 
+                android:background="@color/white"
+                >
+
+                <TextView
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/orange" 
+                    android:visibility="visible"/>
+
+                <TextView
+                    android:id="@+id/textview_swim_notice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="狗狗游泳小贴士"
+                    android:textColor="@color/a333333"
+                    android:textSize="17sp" />
+            </LinearLayout>
+            <View 
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/bggray"/>
+            <LinearLayout 
+                android:id="@+id/swim_dog_notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:padding="10dp"
+                android:layout_marginBottom="40dp"
+                android:visibility="gone"
+                >
+                
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

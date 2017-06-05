@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/bggray"
+    >
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView 
+                android:id="@+id/tv_fostercarepaysuccess_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="支付成功"
+                android:textSize="23sp"
+                android:textColor="@color/a222222"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dip"
+                />
+            <LinearLayout 
+                android:id="@+id/ll_fostercarepaysuccess_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_fostercarepaysuccess_title"
+                android:layout_marginTop="10dip"
+                android:layout_marginLeft="30dip"
+                android:layout_marginRight="30dip"
+                android:background="@drawable/bg_white_round"
+                android:padding="15dip"
+                android:orientation="vertical"
+                android:minHeight="260dip"
+                >
+                
+            </LinearLayout>
+            <Button 
+                android:id="@+id/bt_fostercarepaysuccess_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="50dip"
+                android:text="我知道了"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_below="@+id/ll_fostercarepaysuccess_msg"
+                android:layout_alignLeft="@+id/ll_fostercarepaysuccess_msg"
+                android:layout_alignRight="@+id/ll_fostercarepaysuccess_msg"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/bg_button_orange"
+                />
+        </RelativeLayout>
+    </ScrollView>
+    
+
+</RelativeLayout>

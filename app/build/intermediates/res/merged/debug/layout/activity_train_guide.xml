@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_train_guide_click"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99000000"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+	
+        <LinearLayout
+            android:id="@+id/layout_train_guide_top"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_rain_guide_tel"
+            android:layout_width="199.5dp"
+            android:layout_height="64.5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/layout_train_guide_top"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-27.25dp"
+            android:background="@drawable/train_top_tel"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="电话:"
+                android:textColor="@color/a333333"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textview_train_guide_tel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15340171791"
+                android:textColor="@color/orange" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_bottom"
+            android:layout_width="276.5dp"
+            android:layout_height="236.5dp"
+            android:layout_below="@+id/linearLayout_rain_guide_tel"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/train_botton_guide"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

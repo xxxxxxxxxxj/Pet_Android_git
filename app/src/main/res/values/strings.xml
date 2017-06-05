@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="save_picture">保存图片</string>
+    <string name="save_picture_failed">保存失败</string>
+    <string name="save_picture_success">图片成功保存至%s目录</string>
+    <string name="scan_text">将二维码放入框内,即可自动扫描</string>
+    <string name="guanzhu_success">关注成功</string>
+    <string name="guanzhu_cancle">取消关注</string>
+    <string name="flower_success">小花+1</string>
+    <string name="shit_success">biu~</string>
+    <string name="fasonging">正在发送</string>
+    <string name="fabu_success">发布成功</string>
+    <string name="fasong_success">发送成功</string>
+    <string name="action_settings">Settings</string>
+    <string name="bqmm_downloaded">&#160;%s %%</string>
+    <string name="bqmm_downloaded_en">&#160;%s %%</string>
+    <!-- 商店页面加载失败提示内容 -->
+    <string name="bqmm_shop_network_error_text">页面加载失败，请检查网络后重试</string>
+    <!-- 表情键盘初始化失败提示内容 -->
+    <string name="bqmm_keyboard_network_error_text">表情键盘初始化失败，请检查网络后重试</string>
+    <!-- 重新加载按钮的内容 -->
+    <string name="bqmm_reload_button_text">重新加载</string>
+    <!-- 点击刷新按钮的内容 -->
+    <string name="bqmm_refresh_button_text">点击刷新</string>
+    <!-- 单表情详情页表情包加载失败提示内容 -->
+    <string name="bqmm_failed_get_package_text">获取表情包信息失败</string>
+    <!-- 删除表情时提示语 -->
+    <string name="bqmm_delete_package_text">删除中...</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="record_preview_encoding_format">转码中\t%d%%</string>
+    <string name="record_preview_encoding">正在转码…</string>
+    <string name="record_read_object_faild">拍摄信息读取失败！请检查SD卡，稍后重试！</string>
+    <string name="hint">提示</string>
+    <string name="record_camera_exit_dialog_message">是否放弃这段视频？</string>
+    <string name="record_camera_cancel_dialog_yes">确定</string>
+    <string name="record_camera_cancel_dialog_no">取消</string>
+    <string name="record_camera_progress_message">正在转码…</string>
+    <string name="record_video_transcoding_faild">视频转码失败</string>
+    <string name="app_name">宠物家</string>
+    <string name="order_pay_dum_hint">请输入邀请码</string>
+    <string name="no_bitmap">分享信息加载失败,请稍后重试</string>
+    <string name="my_fragment_blgz">犬证办理</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- 登录 -->
+    <string name="login_message_show">验证手机号马上进入</string>
+    <string name="login_phone_num_write">请输入手机号码</string>
+    <string name="login_phone_num_to_compare">请输入验证码</string>
+    <string name="login_sure">登    录</string>
+    <!-- myFragment -->
+    <string name="my_fragment_coupon">我的优惠券</string>
+    <string name="my_fragment_my_last_money">我的余额</string>
+    <string name="my_fragment_common_address">常用地址</string>
+    <string name="my_fragment_opinion">意见反馈</string>
+    <string name="my_fragment_about_other">更多</string>
+
+    <!-- CommonAddress -->
+    <string name="common_address_show_now_add">添加新地址</string>
+    <string name="actionbar_activity_not_found">Failed to open intent...</string>
+    <string name="share_by_weixin">微信分享</string>
+    <string name="share_by_qq">QQ分享</string>
+    <string name="share_by_yixin">易信分享</string>
+    <string name="shake_share">注册摇一摇截图（分享）</string>
+    <string name="shake_openshare">注册摇一摇（打开分享面板）</string>
+    <string name="shake_scrshot">注册摇一摇（截图）</string>
+    <string name="take_scrshot">直接截图</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="stop">停止</string>
+    <string name="quit">退出</string>
+    <string name="video_start_time">00:00</string>
+    <string name="goto_video">摇一摇视频截图Activity</string>
+    <string name="goto_game">游戏Activity</string>
+    <string name="goto_common">普通Activity</string>
+    <string name="video">VideoActivity</string>
+    <string name="game">GameActivity</string>
+    <string name="common">CommonActivity</string>
+    <string name="back">返回</string>
+    <string name="goto_facebook">添加Facebook分享</string>
+    <string name="fb_login">Facebook登录</string>
+    <string name="fb_logout">Facebook注销</string>
+    <string name="fb_share">Facebook分享</string>
+    <string name="laiwang_share">来往分享</string>
+    <string name="instagram_share">Instagram分享</string>
+    <string name="pocket_share">Pocket分享</string>
+    <string name="linkedin_share">LinkedIn分享</string>
+    <string name="foursquare_share">FourSquare分享</string>
+    <string name="ynote_share">有道云笔记分享</string>
+    <string name="evernote_share">印象笔记分享</string>
+    <string name="pinterest_share">Pinterest分享</string>
+    <string name="custom_platform_share">自定义平台分享</string>
+    <string name="login_sina">登录（新浪微博）</string>
+    <string name="logout_sina">注销登录（新浪微博）</string>
+    <string name="login_qq">登录（QQ）</string>
+    <string name="logout_qq">注销登录（QQ）</string>
+    <string name="login_qzone">登录（QQ空间）</string>
+    <string name="logout_qzone">注销登录（QQ空间）</string>
+    <string name="whatsapp_share">whatsapp分享</string>
+    <string name="line_share">line分享</string>
+    <string name="tumblr_share">tumblr分享</string>
+    <string name="kakao_share">Kakao Talk分享</string>
+    <string name="flickr_share">flickr分享</string>
+    <string name="fb_app_id">567261760019884</string>
+    <string name="photo_post">Photo Post</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Successfully posted \'%1$s\'.\nPost ID: %2$s</string>
+    <string name="error">Error</string>
+    <string name="status_update">Updating Facebook status at </string>
+    <string name="ok">OK</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="facebook_app_id">1444817025830662</string>
+    <string name="title_activity_service_area">ServiceAreaActivity</string>
+    <string name="title_activity_select_service_area">SelectServiceAreaActivity</string>
+    <string name="title_activity_serch_beau">SerchBeauActivity</string>
+    <string name="title_activity_select_time_or_urgent">SelectTimeOrUrgentActivity</string>
+    <string name="title_activity_appoint_ment_info">AppointMentInfoActivity</string>
+    <string name="title_activity_customer_pet_info">CustomerPetInfoActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_pet_card">PetCardActivity</string>
+    <string name="title_activity_pet_card_info">PetCardInfoActivity</string>
+    <string name="title_activity_fostercare_live">FostercareLiveActivity</string>
+    <string name="title_activity_fostercare_live_full_screen">FostercareLiveFullScreen</string>
+
+    <!-- 退款 -->
+    <string name="weixinpay">退款已成功，请您及时查看微信我的钱包里的交易记录</string>
+    <string name="zhifubaopay">退款已成功，请您及时查看支付宝里的账单</string>
+    <string name="coupons">取消订单成功</string>
+    <string name="yu_ezhifu">退款已成功，请您及时查看余额记录</string>
+    <string name="hunhezhifu">退款已成功，请您及时查看支付帐户信息</string>
+    <string name="title_activity_community_tab">CommunityTabActivity</string>
+    <string name="crop__saving" translatable="false">保存照片中…</string>
+    <string name="crop__wait" translatable="false">请稍后…</string>
+    <string name="crop__pick_error" translatable="false">No image sources available</string>
+    <string name="crop__done" translatable="false">确认</string>
+    <string name="crop__cancel" translatable="false" tools:ignore="ButtonCase">取消</string>
+    <string name="title_activity_crop_image">CropImageActivity</string>
+    <string name="title_activity_media_recorder">MediaRecorderActivity</string>
+    <string name="title_activity_send_select_post">SendSelectPostActivity</string>
+    <string name="title_activity_image_pager">ImagePagerActivity</string>
+    <string name="title_activity_postselection_detail">PostSelectionDetailActivity</string>
+    <string name="all_pic">全部图片</string>
+    <string name="preview_without_num">预览</string>
+    <string name="preview_with_num">预览(%1$d)</string>
+    <string name="choose_pic_finish">完成</string>
+    <string name="choose_pic_finish_with_num">完成(%1$d/%2$d)</string>
+    <string name="choose_pic_num_out_of_index">你最多只能选择%1$d张照片</string>
+    <string name="choose_pic">选择</string>
+    <string name="not_choose_any_pick">你还没有选择任何图片</string>
+    <string name="uploading_images">正在批量上传</string>
+    <string name="title_activity_post_selection_detail">PostSelectionDetailActivity</string>
+    <string name="title_activity_video_player">VideoPlayerActivity</string>
+    <string name="title_activity_start_page">StartPageActivity</string>
+    <string name="title_activity_media">MediaActivity</string>
+    <string name="title_activity_post_user_info">PostUserInfoActivity</string>
+
+    <!-- toast message -->
+    <string name="success_guanzhu">关注成功</string>
+    <string name="success_noguanzhu">取消关注</string>
+    <string name="send_success">发送成功</string>
+    <string name="pet_circle_join_success">加入成功</string>
+    <string name="pet_circle_out_success">期待你再次加入哦~</string>
+    <string name="share_success">分享成功~</string>
+    <string name="join_circle_can_postorder">加入圈子才能发帖哟~</string>
+    <string name="title_activity_user_list">UserListActivity</string>
+
+    <!-- coupon -->
+    <string name="coupon_give_text">送好友 ></string>
+    <string name="title_activity_clip_picture">ClipPictureActivity</string>
+    <string name="title_activity_mipca_activity_capture">MipcaActivityCapture</string>
+    <string name="title_activity_user_member">UserMemberActivity</string>
+    <string name="title_activity_pet_info_deatil">PetInfoDeatilActivity</string>
+    <string name="title_activity_my_evaluate">MyEvaluateActivity</string>
+    <string name="title_activity_complaint_order_history">ComplaintOrderHistoryActivity</string>
+    <string name="title_activity_customer_complaints_history">CustomerComplaintsHistoryActivity</string>
+    <string name="title_activity_complaint">ComplaintActivity</string>
+    <string name="title_activity_update_order_confirm">UpdateOrderConfirmActivity</string>
+
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip" >
+
+        <com.haotang.pet.view.SelectableRoundedImageView
+            android:id="@+id/sriv_fostercarechooseroom_item_room"
+            android:layout_width="80dip"
+            android:layout_height="60dip"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg_room_default"
+            custom:sriv_border_width="0dip"
+            custom:sriv_left_bottom_corner_radius="5dip"
+            custom:sriv_left_top_corner_radius="5dip"
+            custom:sriv_right_bottom_corner_radius="5dip"
+            custom:sriv_right_top_corner_radius="5dip" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" >
+
+            <TextView
+                android:id="@+id/tv_fostercarechooseroom_item_roomprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="￥0"
+                android:textColor="@color/aD1494F"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_fostercarechooseroom_item_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/tv_fostercarechooseroom_item_roomprice"
+                android:layout_marginBottom="3.5dip"
+                android:layout_marginRight="5dip"
+                android:layout_toLeftOf="@id/tv_fostercarechooseroom_item_roomprice"
+                android:ellipsize="end"
+                android:maxLength="4"
+                android:singleLine="true"
+                android:textColor="#ff0000"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_fostercarechooseroom_item_room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginTop="5dip"
+            android:layout_toRightOf="@+id/sriv_fostercarechooseroom_item_room"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_fostercarechooseroom_item_roomname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="textview"
+                android:textColor="@color/a333333"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_fostercarechooseroom_item_roomdes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="textview"
+                android:textColor="@color/a666666"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_fostercarechooseroom_item_roomflag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="3dip"
+                android:background="@drawable/bg_redline_round"
+                android:ellipsize="end"
+                android:paddingBottom="2dip"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:paddingTop="2dip"
+                android:singleLine="true"
+                android:text="textview"
+                android:textColor="@color/afa4a63"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_fostercarechooseroom_item_roominvalid"
+        android:layout_width="59dip"
+        android:layout_height="34.5dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_gary_triangle"
+        android:ellipsize="end"
+        android:gravity="right"
+        android:paddingRight="6dip"
+        android:paddingTop="3dip"
+        android:singleLine="true"
+        android:text="订满"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:textSize="12sp"/>
+
+</RelativeLayout>

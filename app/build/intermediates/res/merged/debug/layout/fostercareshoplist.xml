@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/bggray"
+    >
+    <include layout="@layout/titlebar"/>
+    
+    <com.haotang.pet.pulltorefresh.PullToRefreshListView 
+	    android:id="@+id/prl_fostercareshoplist_list"
+	    android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:showDividers="none"
+        android:scrollbars="none"
+        android:fadingEdge="none"
+        android:layout_marginTop="15dip" 
+        android:background="@color/white"
+	    />
+    
+    <include 
+        android:id="@+id/rl_null"
+        layout="@layout/nullhint"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

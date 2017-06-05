@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_petcircle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="43dp"
+                android:layout_height="43dp" >
+
+                <com.haotang.pet.view.SelectableRoundedImageView
+                    android:id="@+id/imageview_petcircle_icon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/icon_self" 
+                    android:adjustViewBounds="true"
+           			android:scaleType="fitXY"
+            		custom:sriv_left_bottom_corner_radius="5dip"
+		            custom:sriv_left_top_corner_radius="5dip"
+		            custom:sriv_right_bottom_corner_radius="5dip"
+		            custom:sriv_right_top_corner_radius="5dip" />
+                <ImageView 
+                    android:id="@+id/imageview_petcircle_tag"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/dz_jl_icon"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <LinearLayout
+                        android:id="@+id/circle_inside_top"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/circle_inisde_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:textColor="@color/a333333"
+                            android:text="测试" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:orientation="horizontal"
+                            android:visibility="visible" >
+		
+                            <!-- <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="测试" />
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:src="@drawable/about_other" /> -->
+
+                            <TextView
+                                android:id="@+id/txt_post_time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#BBBBBB"
+                                android:textSize="12sp"
+                                android:text="测试" /> 
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/circle_inside_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/circle_inside_top"
+                        android:layout_marginLeft="10dp" 
+                        android:layout_marginTop="5dp">
+
+                        <com.melink.bqmmsdk.widget.BQMMMessageText
+                            android:id="@+id/circle_inside_context"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:textColor="@color/a666666"
+                            android:text="测试内容" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/circle_inisde_image_more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/circle_inside_content"
+                        android:layout_marginLeft="10dp" 
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal"
+                        >
+						<ImageView 
+						    android:id="@+id/one_img"
+						    android:layout_width="80dp"
+						    android:layout_height="80dp"
+						    android:adjustViewBounds="true"
+						    android:scaleType="centerCrop"
+						    android:src="@drawable/icon_production_default"/>
+						<ImageView 
+						    android:id="@+id/two_img"
+						    android:layout_width="80dp"
+						    android:layout_height="80dp"
+						    android:layout_marginLeft="10dp"
+						    android:adjustViewBounds="true"
+						    android:scaleType="centerCrop"
+						    android:src="@drawable/icon_production_default"/>
+						<ImageView
+						    android:id="@+id/thr_img"
+						    android:layout_marginLeft="10dp"
+						    android:layout_width="80dp"
+						    android:layout_height="80dp"
+						    android:adjustViewBounds="true"
+						    android:scaleType="centerCrop"
+						    android:src="@drawable/icon_production_default"/>
+                        <!-- <GridView
+                            android:id="@+id/gridView_circle_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:listSelector="@color/transparent"
+                            android:numColumns="3"
+                            android:horizontalSpacing="3dp"
+                            android:background="@color/transparent"
+                            android:scrollbars="none" >
+                        </GridView> -->
+                    </LinearLayout>
+					<LinearLayout 
+					    android:id="@+id/layout_form_eva"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:layout_below="@+id/circle_inisde_image_more"
+					    android:layout_marginLeft="10dp"
+					    android:layout_marginTop="5dp"
+					    android:visibility="visible">
+					    <TextView 
+					        android:id="@+id/textview_form_eva"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:singleLine="true"
+					        android:ellipsize="end"
+					        android:textSize="10sp"
+					        android:paddingTop="5dp"
+					        android:paddingBottom="5dp"
+					        android:textColor="@color/a999999"
+					        android:text=" "/>
+					</LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/layout_form_eva"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:id="@+id/circle_layout_give_flower"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_eeeee_round"
+                            android:gravity="center_vertical"
+                            android:paddingBottom="3dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="3dp" 
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp">
+
+                            <ImageView
+                                android:id="@+id/circle_image_flower"
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/pet_eva_show" />
+
+                            <TextView
+                                android:id="@+id/textview_eva_count"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="评论(99+)"
+                                android:textColor="@color/a666666"
+                                android:layout_marginLeft="3dp"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/circle_layout_layout_give_feces"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/aEEEEEE"
+                            android:gravity="center_vertical"
+                            android:paddingBottom="3dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="3dp"
+                            android:visibility="gone" >
+
+                            <ImageView
+                                android:id="@+id/circle_image_feces"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:src="@drawable/about_other" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="粑粑" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/circle_inside_share"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/bg_eeeee_round"
+                            android:gravity="center_vertical"
+                            android:paddingBottom="3dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="3dp" >
+
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/pet_share_show" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="分享"
+                                android:textColor="@color/a666666"
+                                android:layout_marginLeft="3dp"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+						<LinearLayout
+						    android:layout_width="match_parent"
+						    android:layout_height="match_parent"
+						    android:gravity="right" >
+
+						    <TextView
+						        android:id="@+id/txt_selfpost_can_delete"
+						        android:layout_width="wrap_content"
+						        android:layout_height="match_parent"
+						        android:paddingLeft="10dp"
+						        android:paddingRight="10dp"
+						        android:gravity="right|center_vertical"
+						        android:text="删除"
+						        android:textColor="@color/a666666"
+						        android:textSize="12sp" />
+						</LinearLayout>
+                        
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:gravity="bottom"
+                    android:visibility="gone" >
+
+                    <LinearLayout
+                        android:id="@+id/circle_layout_give_flower_other"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center_vertical|bottom" >
+
+                        <com.haotang.pet.view.PeriscopeLayout
+                            android:id="@+id/circle_image_flower_other"
+                            android:layout_width="40dp"
+                            android:layout_height="100dp"
+                            android:background="@color/transparent"
+                            android:src="@drawable/logo" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="送花"
+                            android:visibility="invisible" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/circle_layout_layout_give_feces_other"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/circle_layout_give_flower_other"
+                        android:gravity="center_vertical|bottom" >
+
+                        <com.haotang.pet.view.PeriscopeLayout
+                            android:id="@+id/circle_image_feces_other"
+                            android:layout_width="40dp"
+                            android:layout_height="100dp"
+                            android:background="@color/transparent"
+                            android:src="@drawable/logo" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="粑粑"
+                            android:visibility="invisible" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

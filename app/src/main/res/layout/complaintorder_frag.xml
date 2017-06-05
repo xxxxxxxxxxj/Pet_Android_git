@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/f8f8ff8" >
+
+    <Button
+        android:id="@+id/btn_complaintorder_frag_lxkf"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_appointment_next_selector"
+        android:text="联系客服"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_complaintorder_lsts"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:background="@drawable/rl_complaint_history_selector"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="历史投诉"
+            android:textColor="@color/a333333"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="10dip"
+            android:layout_height="17dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/rightarrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_complaintorder_qbdd"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:layout_below="@id/rl_complaintorder_lsts"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="最近订单"
+            android:layout_marginTop="10dip"
+            android:textColor="@color/a333333"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_complaintorder_qbdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="全部订单"
+            android:layout_marginTop="10dip"
+            android:textColor="#BB996C"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_complaintorder_frag_lxkf"
+        android:layout_below="@id/rl_complaintorder_qbdd" >
+
+        <ImageView
+            android:id="@+id/iv_no_recentorder_default"
+            android:layout_width="110dip"
+            android:layout_height="72.5dip"
+            android:layout_centerInParent="true"
+            android:src="@drawable/no_recentorder_default" />
+
+        <ListView
+            android:id="@+id/lv_complaintorder_tsdd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:divider="@color/f8f8ff8"
+            android:dividerHeight="15dip"
+            android:listSelector="@drawable/mlistview_selector"
+            android:scrollbars="none" />
+    </RelativeLayout>
+
+</RelativeLayout>

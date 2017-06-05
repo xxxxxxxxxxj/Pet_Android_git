@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingRight="2.5dip" >
+
+    <com.haotang.pet.view.SelectableRoundedImageView
+        android:id="@+id/sriv_item_hlvitempostselectionadapter"
+        android:layout_width="26dip"
+        android:layout_height="26dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_self"
+        custom:sriv_left_bottom_corner_radius="3dip"
+        custom:sriv_left_top_corner_radius="3dip"
+        custom:sriv_right_bottom_corner_radius="3dip"
+        custom:sriv_right_top_corner_radius="3dip" />
+
+    <ImageView
+        android:id="@+id/iv_item_hlvitempostselectionadapter_level"
+        android:layout_width="10dip"
+        android:layout_height="10dip"
+        android:layout_marginLeft="17dip"
+        android:layout_marginTop="17dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/iv_item_postselectionfragment_level"
+        android:visibility="gone" />
+
+</RelativeLayout>

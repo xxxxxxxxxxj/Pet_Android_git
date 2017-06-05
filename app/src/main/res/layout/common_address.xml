@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bggray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar2" />
+
+    <RelativeLayout
+        android:id="@+id/layout_show_no_common_address"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/layout_add_common_address"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bg_button_orange"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView_common_address_show_now_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/common_address_show_now_add"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView_comm_address_self_show_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/layout_add_common_address"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="点击下方添加吧"
+            android:textColor="#CCC8C2" />
+
+        <TextView
+            android:id="@+id/textView_comm_address_self_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView_comm_address_self_show_add"
+            android:layout_centerHorizontal="true"
+            android:text="你还没有地址"
+            android:textColor="#CCC8C2" />
+
+        <ImageView
+            android:id="@+id/imageView_comm_address_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView_comm_address_self_show"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/common_address_back_show" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_show_common_address"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" >
+
+        <com.haotang.pet.swipemenulistview.SwipeMenuListView
+            android:id="@+id/listView_show_common_add_and_delete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:listSelector="@drawable/service_choose_ok" />
+    </RelativeLayout>
+
+</LinearLayout>

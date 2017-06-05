@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="15dip"
+        android:background="@color/aEEEEEE" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/header_postselection_viewpager" />
+
+    <LinearLayout
+        android:id="@+id/ll_header_postselection_sx"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip" >
+
+        <Button
+            android:id="@+id/btn_header_postselection_all"
+            android:layout_width="53dip"
+            android:layout_height="26dip"
+            android:background="@drawable/btn_header_postselection"
+            android:text="全部"
+            android:textColor="@color/aD1494F"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_header_postselection_gz"
+            android:layout_width="53dip"
+            android:layout_height="26dip"
+            android:background="@android:color/transparent"
+            android:text="关注"
+            android:textColor="@color/a333333"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_header_postselection_video"
+            android:layout_width="53dip"
+            android:layout_height="26dip"
+            android:background="@android:color/transparent"
+            android:text="视频"
+            android:textColor="@color/a333333"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#f8f8f8" />
+
+    <ImageView
+        android:id="@+id/iv_postuser_default"
+        android:layout_width="102.5dip"
+        android:layout_height="107dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dip"
+        android:src="@drawable/dongtai_default_img"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_postuser_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_postuser_default"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:text="这里空空如也,宠友们都在等你的关注~"
+        android:visibility="gone" />
+
+</LinearLayout>

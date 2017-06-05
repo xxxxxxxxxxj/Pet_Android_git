@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:bqmm="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_is_show"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+	<View 
+	    android:layout_width="wrap_content"
+	    android:layout_height="1dp"
+	    android:background="@color/aDDDDDD"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingBottom="7.5dip"
+    	android:paddingLeft="15dip"
+	    android:paddingRight="15dip"
+	    android:paddingTop="7.5dip">
+		<RelativeLayout 
+		    android:id="@+id/detail_layout_self_icon"
+		    android:layout_width="43dp"
+		    android:layout_height="43dp">
+		    <com.haotang.pet.view.SelectableRoundedImageView
+	            android:id="@+id/imageView_eva_self_icon"
+	            android:layout_width="40dip"
+	            android:layout_height="40dip"
+	            android:scaleType="fitXY"
+	            android:src="@drawable/icon_production_default"
+	            custom:sriv_left_bottom_corner_radius="3dip"
+	            custom:sriv_left_top_corner_radius="3dip"
+	            custom:sriv_right_bottom_corner_radius="3dip"
+	            custom:sriv_right_top_corner_radius="3dip" />
+		    <ImageView 
+                android:id="@+id/imageview_petcircle_tag"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/dz_jl_icon"
+                android:visibility="gone"/>
+		</RelativeLayout>
+        
+
+        <TextView
+            android:id="@+id/textview_inside_detail_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="TextView"
+            android:textColor="#bbbbbb"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textview_inside_detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_toLeftOf="@id/textview_inside_detail_time"
+            android:layout_toRightOf="@id/detail_layout_self_icon"
+            android:text="TextView"
+            android:textColor="@color/a333333"
+            android:textSize="15sp" />
+
+        <com.melink.bqmmsdk.widget.BQMMMessageText
+            android:id="@+id/textView_eva_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview_inside_detail_name"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="2dip"
+            android:layout_toRightOf="@id/detail_layout_self_icon"
+            android:autoLink="web"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:focusable="true"
+            android:lineSpacingExtra="2dp"
+            android:maxLength="200"
+            android:maxWidth="225.0dip"
+            android:textColor="@color/a666666"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/done_cancel_bar"
+        style="@style/Crop.DoneCancelBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true" >
+
+        <FrameLayout
+            android:id="@+id/btn_cancel"
+            style="@style/Crop.ActionButton" >
+
+            <TextView style="@style/Crop.ActionButtonText.Cancel" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/sure"
+            style="@style/Crop.ActionButton" >
+
+            <TextView style="@style/Crop.ActionButtonText.Done" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/done_cancel_bar"
+        android:background="@color/white" >
+
+        <com.haotang.pet.view.ClipView
+            android:id="@+id/clipview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/src_pic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

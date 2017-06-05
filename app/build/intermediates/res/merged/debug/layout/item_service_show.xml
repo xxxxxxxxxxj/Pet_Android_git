@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_service_show"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E5E0DD"
+        />
+
+    <LinearLayout
+        android:id="@+id/item_service_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="-5dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="5dip"
+                        android:layout_height="5dip"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/bg_red_circle"
+                        android:gravity="center"
+                        android:text=" "
+                        android:textColor="@color/white"
+                        android:textSize="8sp" 
+                        android:visibility="invisible"/>
+
+                    <TextView
+                        android:id="@+id/textview_item_service_name_one"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" "
+                        android:textColor="@color/a333333"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textview_item_service_detail_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="4dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text=" "
+                    android:textColor="#949494"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1.5"
+                android:gravity="center|right"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|right" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/button_go_apponit_one"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/button_go_apponit_one"
+                        android:gravity="bottom|right" >
+
+                        <TextView
+                            android:id="@+id/textview_item_service_up_one"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/textview_item_service_price_one"
+                            android:layout_centerVertical="true"
+                            android:text="¥"
+                            android:textColor="@color/orange"
+                            android:textSize="10sp"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/textview_item_service_price_one"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/textview_item_service_up_one"
+                            android:includeFontPadding="false"
+                            android:text="0"
+                            android:textColor="@color/aE2364A"
+                            android:textSize="@dimen/service_price_size" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/button_go_apponit_one"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/button_go_apponit_one"
+                        android:gravity="bottom"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/old_one_price"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="bottom"
+                            android:text="原价1"
+                            android:textColor="@color/a666666"
+                            android:textSize="@dimen/service_old_price" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/no_old_price_one"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/button_go_apponit_one"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/orange"
+                        android:textSize="@dimen/service_price_size"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/button_go_apponit_one"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/service_button_height"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/bg_button_service_apponit_ok"
+                        android:gravity="center"
+                        android:paddingBottom="3dp"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        android:paddingTop="3dp"
+                        android:text="预约"
+                        android:layout_marginRight="@dimen/item_service_every_margin_right"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/item_service_appoinment_yue" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/item_service_line_one"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/item_service_margin_left"
+            android:layout_marginRight="@dimen/item_service_margin_left"
+            android:background="#E5E0DD" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_service_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+				<LinearLayout 
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="5dip"
+                        android:layout_height="5dip"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/bg_red_circle"
+                        android:gravity="center"
+                        android:text=" "
+                        android:textColor="@color/white"
+                        android:textSize="8sp" 
+                        android:visibility="invisible"/>
+				    <TextView
+	                    android:id="@+id/textview_item_service_name_two"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text=" "
+	                    android:textColor="@color/a333333"
+	                    android:layout_marginLeft="5dp"
+	                    android:textSize="17sp" />
+				</LinearLayout>
+                
+
+                <TextView
+                    android:id="@+id/textview_item_service_detail_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="4dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="  "
+                    android:textColor="#949494"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1.5"
+                android:gravity="center|right"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|right" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/button_go_apponit_two"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/button_go_apponit_two"
+                        android:gravity="bottom|right" >
+
+                        <TextView
+                            android:id="@+id/textview_item_service_up_two"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/textview_item_service_price_one"
+                            android:layout_centerVertical="true"
+                            android:text="¥"
+                            android:textColor="@color/orange"
+                            android:textSize="10sp"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/textview_item_service_price_two"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/textview_item_service_up_one"
+                            android:includeFontPadding="false"
+                            android:text="0"
+                            android:textColor="@color/aE2364A"
+                            android:textSize="@dimen/service_price_size" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/button_go_apponit_two"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/button_go_apponit_two"
+                        android:gravity="bottom"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/old_two_price"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="bottom"
+                            android:text="原价2"
+                            android:textColor="@color/a666666"
+                            android:textSize="@dimen/service_old_price" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/no_old_price_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/button_go_apponit_two"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/orange"
+                        android:textSize="@dimen/service_price_size"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/button_go_apponit_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/service_button_height"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/bg_button_service_apponit_ok"
+                        android:gravity="center"
+                        android:paddingBottom="3dp"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        android:paddingTop="3dp"
+                        android:text="预约"
+                        android:textColor="@color/white"
+                        android:layout_marginRight="@dimen/item_service_every_margin_right"
+                        android:textSize="@dimen/item_service_appoinment_yue" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/item_service_line_two"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/item_service_margin_left"
+            android:layout_marginRight="@dimen/item_service_margin_left"
+            android:background="#E5E0DD" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_service_thr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <LinearLayout 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="5dip"
+                        android:layout_height="5dip"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/bg_red_circle"
+                        android:gravity="center"
+                        android:text=" "
+                        android:textColor="@color/white"
+                        android:textSize="8sp" 
+                        android:visibility="invisible"/>
+                    <TextView
+	                    android:id="@+id/textview_item_service_name_thr"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text=" "
+	                    android:textColor="@color/a333333"
+	                    android:layout_marginLeft="5dp"
+	                    android:textSize="17sp" />
+                </LinearLayout>
+                
+
+                <TextView
+                    android:id="@+id/textview_item_service_detail_thr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="4dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text=" "
+                    android:textColor="#949494"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1.5"
+                android:gravity="center|right"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|right" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/button_go_apponit_thr"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/button_go_apponit_thr"
+                        android:gravity="bottom|right" >
+
+                        <TextView
+                            android:id="@+id/textview_item_service_up_thr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/textview_item_service_price_one"
+                            android:layout_centerVertical="true"
+                            android:text="¥"
+                            android:textColor="@color/orange"
+                            android:textSize="10sp"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/textview_item_service_price_thr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/textview_item_service_up_one"
+                            android:includeFontPadding="false"
+                            android:text="0"
+                            android:textColor="@color/aE2364A"
+                            android:textSize="@dimen/service_price_size" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/button_go_apponit_thr"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/button_go_apponit_thr"
+                        android:gravity="bottom"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/old_thr_price"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="bottom"
+                            android:text="原价3"
+                            android:textColor="@color/a666666"
+                            android:textSize="@dimen/service_old_price" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/no_old_price_thr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/button_go_apponit_thr"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/orange"
+                        android:textSize="@dimen/service_price_size"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/button_go_apponit_thr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/service_button_height"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/bg_button_service_apponit_ok"
+                        android:gravity="center"
+                        android:paddingBottom="3dp"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        android:paddingTop="3dp"
+                        android:text="预约"
+                        android:textColor="@color/white"
+                        android:layout_marginRight="@dimen/item_service_every_margin_right"
+                        android:textSize="@dimen/item_service_appoinment_yue" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/item_service_line_thr"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/item_service_margin_left"
+            android:layout_marginRight="@dimen/item_service_margin_left"
+            android:background="#E5E0DD" />
+    </LinearLayout>
+
+</LinearLayout>

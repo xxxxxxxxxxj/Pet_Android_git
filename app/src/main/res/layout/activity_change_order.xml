@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_appointfrg_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/red"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="三个小时"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:visibility="visible" 
+                    />
+
+                <HorizontalScrollView
+                    android:id="@+id/hsv_appointfrg_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dip"
+                    android:layout_below="@id/tv_appointfrg_time"
+                    android:background="@color/white"
+                    android:fadingEdge="@null"
+                    android:scrollbars="none" 
+                    android:paddingLeft="15dip"
+            		android:paddingRight="15dip">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        >
+
+                        <GridView
+                            android:id="@+id/gv_appointfrg_top"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:listSelector="@android:color/transparent"
+                            android:numColumns="auto_fit"
+                            android:scrollbars="none"
+                            android:stretchMode="spacingWidthUniform" >
+                        </GridView>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <com.haotang.pet.view.MyGridView
+                    android:id="@+id/gv_appointfrg_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/hsv_appointfrg_date"
+                    android:horizontalSpacing="15dip"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="4"
+                    android:padding="15dip"
+                    android:scrollbars="none"
+                    android:verticalSpacing="15dip" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/gv_appointfrg_content"
+                    android:orientation="vertical" >
+					<LinearLayout 
+					    android:layout_width="match_parent"
+					    android:layout_height="40dp"
+					    android:background="@color/white">
+					    <TextView
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="40dp"
+	                        android:gravity="center_vertical"
+	                        android:paddingLeft="10dp"
+	                        android:textSize="15sp"
+	                        android:text="选择美容师" />
+					    <TextView 
+					        android:id="@+id/textview_beau_level"
+					        android:layout_width="match_parent"
+					        android:layout_height="40dp"
+					        android:gravity="center_vertical|right"
+					        android:paddingRight="10dp"
+					        android:textSize="15sp"
+					        android:textColor="@color/orange"
+					        android:text="高级美容师"
+					        android:visibility="gone"/>
+					</LinearLayout>
+                    
+					<View 
+					    android:layout_width="match_parent"
+					    android:layout_height="1dp"
+					    android:background="@color/aDDDDDD"/>
+                    <com.haotang.pet.view.MyGridView
+                        android:id="@+id/gv_appointfrg_beau"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:horizontalSpacing="0dip"
+                        android:listSelector="@android:color/transparent"
+                        android:numColumns="4"
+                        android:padding="15dip"
+                        android:scrollbars="none"
+                        android:verticalSpacing="15dip" />
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/button_ok"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:text="确认修改"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</LinearLayout>

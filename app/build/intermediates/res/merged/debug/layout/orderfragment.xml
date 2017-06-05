@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bggray" >
+
+    <LinearLayout
+        android:id="@+id/ll_orderfragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bggray"
+        android:orientation="vertical" >
+
+        <include layout="@layout/titlebar" />
+
+        <com.haotang.pet.view.TopIndicator_T
+            android:id="@+id/tid_order_topindicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingLeft="3dip"
+            android:paddingRight="3dip" />
+
+        <com.haotang.pet.pulltorefresh.PullToRefreshListView
+            android:id="@+id/prl_order_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:fadingEdge="none"
+            android:scrollbars="none"
+            android:showDividers="none" />
+
+        <include
+            android:id="@+id/rl_null"
+            layout="@layout/nullhint" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_orderfragmentloading"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_loading_round" >
+
+        <ProgressBar
+            style="\@android:style/Widget.ProgressBar.Inverse"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_centerInParent="true"
+            android:indeterminate="false"
+            android:indeterminateDrawable="@drawable/progress_bar_loading" />
+    </RelativeLayout>
+
+</RelativeLayout>

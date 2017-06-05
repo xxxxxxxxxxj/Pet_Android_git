@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99000000"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/layout_all_close" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/pet_wait_beau"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layout_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+
+            <ImageView
+                android:id="@+id/img_close"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/icon_swim_close" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_img_title_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/img_img_title_icon"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/order_new_to_wait" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/text_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="美容师太忙了，您等的越久越容易被美容师看到" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/bggray" />
+
+        <LinearLayout
+            android:id="@+id/layout_to_wait"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:gravity="center"
+            android:padding="10dp"
+            >
+
+            <Button
+                android:id="@+id/button_to_wait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="再等等" 
+                android:textSize="16sp"
+                android:textColor="@color/orange"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

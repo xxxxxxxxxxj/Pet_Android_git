@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/iv_fostercareappointment_fostercareimg"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/swimbacktop"
+                android:scaleType="centerCrop" />
+            <LinearLayout
+                android:id="@+id/show_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_fostercareappointment_fostercareimg"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="-150dip"
+                android:background="@drawable/bg_fostercare_appointment"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/layout_choose_pet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="@dimen/swim_liner_padding_top_and_bottom"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="@dimen/swim_liner_padding_top_and_bottom" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/swim_textsize"
+                        android:text="宠物类型:" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right|center_vertical" >
+
+                        <TextView
+                            android:id="@+id/textview_dog_type"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:textColorHint="@color/dddddd"
+                            android:textSize="14sp"
+                            android:layout_marginRight="@dimen/swim_text_margin_right"
+                            android:hint="请选择您的宠物" />
+
+                        <ImageView
+                            android:layout_width="30dip"
+                            android:layout_height="30dip"
+                            android:src="@drawable/icon_right_swim" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/swim_view_margin_Left_right"
+                    android:layout_marginRight="@dimen/swim_view_margin_Left_right"
+                    android:background="@color/bggray" />
+
+                <LinearLayout
+                    android:id="@+id/layout_pet_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="@dimen/swim_liner_padding_top_and_bottom"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="@dimen/swim_liner_padding_top_and_bottom" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/swim_textsize"
+                        android:text="宠物地址:" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right|center_vertical" >
+
+                        <TextView
+                            android:id="@+id/textview_pet_address"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:textSize="14sp"
+                            android:textColorHint="@color/dddddd"
+                            android:layout_marginRight="@dimen/swim_text_margin_right"
+                            android:hint="请选择您的预约地址" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/icon_right_swim" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/swim_view_margin_Left_right"
+                    android:layout_marginRight="@dimen/swim_view_margin_Left_right"
+                    android:background="@color/bggray" />
+
+                <LinearLayout
+                    android:id="@+id/layout_pet_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="@dimen/swim_liner_padding_top_and_bottom"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="@dimen/swim_liner_padding_top_and_bottom" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/swim_textsize"
+                        android:text="预约时间:" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right|center_vertical" >
+
+                        <TextView
+                            android:id="@+id/textview_pet_time"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:textSize="14sp"
+                            android:textColorHint="@color/dddddd"
+                            android:layout_marginRight="@dimen/swim_text_margin_right"
+                            android:hint="请选择您的预约时间" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/icon_right_swim"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/swim_view_margin_Left_right"
+                    android:layout_marginRight="@dimen/swim_view_margin_Left_right"
+                    android:background="@color/bggray" />
+
+                <LinearLayout
+                    android:id="@+id/layout_pet_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="联系电话:" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right" >
+
+                        <TextView
+                            android:id="@+id/textview_pet_phone"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:hint="请输入您的联系方式" />
+
+                        <ImageView
+                            android:layout_width="30dip"
+                            android:layout_height="20dip"
+                            android:src="@drawable/icon_rightarrow" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@color/bggray"
+                    android:visibility="gone" />
+			<LinearLayout 
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical"
+			    >
+			    <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/cb_login_agree"
+                        style="@style/CustomCheckboxTheme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:checked="true"
+                        android:text="  同意"
+                        android:textColor="@color/a888888"
+                        android:textSize="14sp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_oo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="《宠物家游泳协议》"
+                        android:textColor="#FF9942"
+                        android:textSize="14sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    >
+
+                    <Button
+                        android:id="@+id/button_dog_push_to_service"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/bg_button_orange_noround"
+                        android:text="预约"
+                        android:textColor="@color/white" 
+                        android:textSize="20sp"
+                        android:layout_marginBottom="30dp"/>
+                </LinearLayout>
+			</LinearLayout>
+                
+
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/show_item"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" 
+                >
+
+                <com.haotang.pet.view.MyGridView
+		            android:id="@+id/swim_bottom_icon"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:background="@color/white"
+		            android:padding="10dp"
+		            android:divider="@null"
+		            android:numColumns="5"
+		            android:listSelector="@android:color/transparent"
+		            android:scrollbars="none" 
+		            />
+                <!-- <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/wifi" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="WIFI" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/air_cool" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="空调" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/aired_cool" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="吹风机" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/park" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="停车场" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/sleeping" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="休息室" />
+                </LinearLayout> -->
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

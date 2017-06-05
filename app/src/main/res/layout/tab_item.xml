@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="-3dip"
+    android:layout_marginRight="-3dip"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:id="@+id/tab_flag_pre"
+            android:layout_width="1dip"
+            android:layout_height="1dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dip" />
+
+        <ImageView
+            android:id="@+id/tab_icon"
+            android:layout_width="22dip"
+            android:layout_height="22dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dip"
+            android:contentDescription="@null" />
+
+        <View
+            android:id="@+id/tab_flag"
+            android:layout_width="8dip"
+            android:layout_height="8dip"
+            android:layout_marginLeft="11dip"
+            android:layout_marginTop="3dip"
+            android:layout_toRightOf="@+id/tab_flag_pre"
+            android:background="@drawable/bg_red_circle"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tab_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@drawable/tab_text_color"
+        android:textSize="12sp" />
+
+</LinearLayout>

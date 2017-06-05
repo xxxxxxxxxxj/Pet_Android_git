@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:id="@+id/rl_live_fostercarefullscreen"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip" >
+
+        <ImageView
+            android:id="@+id/iv_live_fostercarefullscreen_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:src="@drawable/about_other" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:textColor="@color/white"
+            android:layout_toRightOf="@id/iv_live_fostercarefullscreen_back"
+            android:text="寄养直播" />
+    </RelativeLayout>
+
+    <com.baidu.cyberplayer.core.BVideoView
+        android:id="@+id/bvv_live_fostercarefullscreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.baidu.cyberplayer.core.BVideoView>
+
+</RelativeLayout>

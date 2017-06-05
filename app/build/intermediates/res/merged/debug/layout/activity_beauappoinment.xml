@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_beauappoinment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5" 
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        
+        android:orientation="vertical" >
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@color/af8f8f8"
+	            android:gravity="center"
+	            android:padding="15dp"
+	            android:text="预约"
+	            android:textColor="@color/a2A2A2A"
+	            android:textSize="@dimen/TITLE_SIZE" />
+            <ImageView 
+                android:id="@+id/beauappoiment_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_close"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="3dp"
+                />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v4.view.ViewPager
+	            android:id="@+id/vp_beauToAppoiment"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent" 
+	            android:background="@color/white"
+	            />
+            <LinearLayout
+                android:id="@+id/point"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+        </RelativeLayout>
+         	
+    </LinearLayout>
+
+</LinearLayout>

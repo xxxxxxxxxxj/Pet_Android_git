@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bggray" >
+
+    <RelativeLayout
+        android:id="@+id/rl_fostercare_chooseroom_back"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/bg_titlebar" >
+
+        <ImageView
+            android:id="@+id/iv_fostercare_chooseroom_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dip"
+            android:layout_centerVertical="true"
+            android:background="@drawable/service_back"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+    <com.haotang.pet.view.PullPushLayout
+        android:id="@+id/ppl_fostercare_chooseroom"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadingEdge="none"
+        android:overScrollMode="never" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/rl_ppllayout_top"
+                android:layout_width="fill_parent"
+                android:layout_height="492px"
+                layout="@layout/servicedetail_header" />
+
+            <include
+                android:id="@+id/rl_ppllayout_content"
+                layout="@layout/fostercare_chooseroom_content" />
+        </LinearLayout>
+    </com.haotang.pet.view.PullPushLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <include layout="@layout/nullhint" />
+    </RelativeLayout>
+
+</RelativeLayout>

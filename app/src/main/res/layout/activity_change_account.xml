@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/bggray" >
+
+    <include layout="@layout/titlebar2"/>
+
+    <RelativeLayout
+        android:id="@+id/layout_change_icon"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/textView_change_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:text="头像" />
+
+        <ImageView
+            android:id="@+id/imageView_change_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/change_account_show" />
+
+        <com.haotang.pet.view.CircleImageView
+            android:id="@+id/imageView_change_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imageView_change_image"
+            android:background="@android:color/transparent" 
+            app:border_width="1dp"
+            android:scaleType="centerCrop"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@+id/textView_change_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:text="用户名" />
+
+        <EditText
+            android:id="@+id/editText_change_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/textView_change_username"
+            android:background="@color/white"
+            android:layout_marginLeft="5dp"
+            android:maxLength="6"
+            android:textCursorDrawable="@drawable/editshow"
+            android:ems="10" >
+            <requestFocus />
+        </EditText>
+
+    </RelativeLayout>
+</LinearLayout>

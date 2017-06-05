@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/bggray"
+    >
+    <!-- 要求图片等比放大到view 宽 居中显示 -->
+    <ImageView 
+       android:id="@+id/iv_beauticianproduction_detail"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:adjustViewBounds="true"
+       android:scaleType="fitCenter"
+       android:src="@drawable/icon_production_default"
+       />
+
+    <TextView
+        android:id="@+id/iv_beauticianproduction_step"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text=" " />
+		
+</RelativeLayout>

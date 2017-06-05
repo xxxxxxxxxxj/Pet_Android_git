@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sriv_fostercare_roomdetail_img_width">720dp</dimen>
+    <dimen name="sriv_fostercare_roomdetail_img_heigth">960dp</dimen>
+    <dimen name="width_tv_fostercarechooseroom_item_roomflag">42.5dip</dimen>
+    <dimen name="page_margin">19.125dp</dimen>
+    <dimen name="height_chooseroom_viewpager">123px</dimen>
+    <dimen name="homebanner_bottom_height">10.75px</dimen>
+    <dimen name="width_not_practice">173.25px</dimen>
+    <dimen name="height_not_practice">264px</dimen>
+</resources>

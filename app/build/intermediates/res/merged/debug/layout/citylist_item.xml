@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dip" 
+    android:background="@color/white"
+    >
+    <TextView 
+       android:id="@+id/tv_citylistitem_city" 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="北京"
+       android:textSize="20sp"
+       android:textColor="@color/a777777"
+       android:layout_marginLeft="25dip"
+       android:layout_centerVertical="true"
+        />
+    <ImageView 
+        android:id="@+id/iv_citylistitem_selected"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:scaleType="fitXY"
+        android:background="@drawable/icon_city_selected"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dip"
+        />
+    
+	<View 
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:background="#E1E1E1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dip"
+        />
+</RelativeLayout>

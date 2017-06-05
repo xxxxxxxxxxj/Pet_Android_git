@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dip"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_item_mainfraghospital"
+            android:layout_width="120dip"
+            android:layout_height="90dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="10dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_production_default" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dip"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@id/iv_item_mainfraghospital"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_item_mainfraghospital_title"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="TextView"
+                android:textColor="#323333"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_item_mainfraghospital_address"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@color/a999999"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

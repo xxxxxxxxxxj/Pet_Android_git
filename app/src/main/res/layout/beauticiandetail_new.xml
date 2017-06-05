@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <!-- com.haotang.pet.pulltorefresh.PullToRefreshScrollView -->
+
+        <com.haotang.pet.pulltorefresh.PullToRefreshScrollView
+            android:id="@+id/prs_beauticiandetail_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/bggray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <com.haotang.pet.view.SelectableRoundedImageView
+                            android:id="@+id/sriv_beauticiandetail_beautician"
+                            android:layout_width="70dip"
+                            android:layout_height="70dip"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/icon_beautician_default"
+                            custom:sriv_oval="true" />
+                        <!-- custom:sriv_border_color="@color/afdf7ef"
+                            custom:sriv_border_width="3dip" -->
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="70dip"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:id="@+id/tv_beauticiandetail_beauticianname"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="姓名"
+                                    android:textColor="@color/a333333"
+                                    android:textSize="@dimen/text_size_beau_title" />
+                                <!--
+                                     <TextView 
+	                                android:id="@+id/tv_beautician_address"
+	                                android:layout_width="wrap_content"
+	                                android:layout_height="wrap_content"
+	                                android:background="@drawable/bg_beau_tag_transparent"
+	                                android:paddingLeft="10dp"
+	                                android:paddingRight="10dp"
+	                                android:paddingTop="3dp"
+	                                android:paddingBottom="3dp"
+	                                android:layout_marginLeft="10dp"
+	                                android:text="体验店"
+	                                android:visibility="gone"/>  -->
+
+                                <LinearLayout
+                                    android:id="@+id/layout_service_go_home"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:visibility="gone" >
+
+                                    <ImageView
+                                        android:layout_width="@dimen/go_home_and_shop"
+                                        android:layout_height="@dimen/go_home_and_shop"
+                                        android:layout_marginLeft="5dp"
+                                        android:src="@drawable/go_home_and_shop" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="2dp"
+                                        android:text="上门"
+                                        android:textColor="@color/a757575" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/layout_service_go_shop"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:visibility="gone" >
+
+                                    <ImageView
+                                        android:layout_width="@dimen/go_home_and_shop"
+                                        android:layout_height="@dimen/go_home_and_shop"
+                                        android:layout_marginLeft="5dp"
+                                        android:src="@drawable/go_home_and_shop" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="2dp"
+                                        android:text="到店"
+                                        android:textColor="@color/a757575" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:id="@+id/beau_detail_tag"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:text="美容师" />
+
+                                <TextView
+                                    android:id="@+id/tv_beauticiandetail_ordernum"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="10dp"
+                                    android:gravity="center_vertical|right"
+                                    android:text="接单"
+                                    android:textColor="@color/orange" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textview_isgo_update"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="90dp"
+                        android:layout_marginTop="-15dp"
+                        android:text=" "
+                        android:textColor="@color/aD1494F"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/bggray" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:id="@+id/textview_major_grade"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="专业：0.0" />
+
+                        <TextView
+                            android:id="@+id/textview_service_grade"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="服务：0.0" />
+
+                        <TextView
+                            android:id="@+id/textview_exchange_grade"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:text="沟通：0.0" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/bggray" />
+
+                <!--
+                <LinearLayout 
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginTop="6dp"
+				    android:layout_marginBottom="1dp"
+				    android:orientation="horizontal">
+				    <TextView 
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_marginLeft="10dp"
+				        android:textColor="@color/a222222"
+				        android:textSize="@dimen/text_size_beau_title"
+				        android:text="专        长"/>
+				    <LinearLayout 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:layout_marginLeft="10dp"
+				        >
+                        <LinearLayout
+                            android:id="@+id/layout_speciality_one"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/already_pay"
+                                android:visibility="gone" />
+
+                            <TextView
+                                android:id="@+id/textview_speciality_one"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="3dp"
+                                android:maxLength="6"
+                                android:singleLine="true"
+		    					android:ellipsize="end"
+                                android:text=" " />
+                        </LinearLayout>
+
+					    <LinearLayout 
+					        android:id="@+id/layout_speciality_two"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					        android:layout_height="wrap_content"
+					        android:gravity="center_vertical"
+					        android:layout_marginLeft="10dp"
+					        >
+	                        <ImageView
+	                            android:layout_width="15dp"
+	                            android:layout_height="15dp"
+	                            android:src="@drawable/already_pay"
+	                            android:visibility="gone" />
+	
+	                        <TextView
+	                            android:id="@+id/textview_speciality_two"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_marginLeft="3dp"
+	                            android:maxLength="6"
+	                            android:singleLine="true"
+		    					android:ellipsize="end"
+	                            android:text=" " />
+	
+					    </LinearLayout>
+				    </LinearLayout>
+				    
+				</LinearLayout>
+                -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" 
+                    android:gravity="center_vertical"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="服务区域"
+                        android:textColor="@color/a222222"
+                        android:textSize="@dimen/text_size_beau_title" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp" >
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:id="@+id/tv_beautician_address"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="体验店" 
+                                android:textColor="@color/a666666"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_instro_out"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:paddingBottom="15dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/textview_intro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:text="简        介" 
+                            android:paddingLeft="10dp"
+                            android:textColor="@color/a222222"
+                        	android:textSize="@dimen/text_size_beau_title"/>
+
+                        <RelativeLayout
+                            android:id="@+id/relayout_out"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:orientation="vertical"
+                            android:layout_toRightOf="@+id/textview_intro"
+                            android:layout_marginLeft="10dp"
+                            android:layout_centerVertical="true"
+                            android:visibility="visible" >
+
+                            <TextView
+                                android:id="@+id/relayout_inside_text"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_toLeftOf="@+id/relayout_inside_img"
+                                android:lineSpacingExtra="3dip"
+                                android:text="是的发生的发生的发生的"
+                                android:layout_centerVertical="true"
+                                android:textColor="@color/a666666"
+                                android:gravity="bottom"
+                                android:layout_marginBottom="0dp"
+		    					android:padding="0dp"
+		    					android:includeFontPadding="false"
+                                />
+
+                            <ImageView
+                                android:id="@+id/relayout_inside_img"
+                                android:layout_width="12dp"
+                                android:layout_height="13dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentRight="true"
+                                android:src="@drawable/icon_arrow_down_beau" 
+                                android:layout_marginRight="10dp"/>
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view_productions_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/bggray" />
+
+                <!--
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                     >
+                    android:padding="@dimen/beau_marg_left"
+
+                        
+                </LinearLayout> -->
+
+
+                <!-- <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/beau_marg_left"
+                    android:background="@color/bggray" />  -->
+
+
+                <!-- 以下服务评价注释掉 -->
+                <!--
+                     <LinearLayout
+                    android:id="@+id/beau_layout_eva_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/beau_marg_left" >
+
+                    <TextView
+                        android:id="@+id/tv_beauticiandetail_comments_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="服务评价（1025）"
+                        android:textColor="@color/a333333"
+                        android:textSize="@dimen/text_size_beau_title" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right" >
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/icon_rightarrow" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/beau_layout_coment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/beau_marg_left" >
+
+                    <com.haotang.pet.view.SelectableRoundedImageView
+                        android:id="@+id/beau_icon"
+                        android:layout_width="30dip"
+                        android:layout_height="30dip"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/user_icon_unnet"
+                        custom:sriv_left_bottom_corner_radius="30dip"
+                        custom:sriv_left_top_corner_radius="30dip"
+                        custom:sriv_right_bottom_corner_radius="30dip"
+                        custom:sriv_right_top_corner_radius="30dip" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/beau_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="美容师姓名"
+                            android:textColor="@color/a777777" />
+
+                        <TextView
+                            android:id="@+id/beau_custom_eva"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="美容师获得的评价"
+                            android:textColor="@color/a777777" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <ImageView
+                                android:id="@+id/beau_product_one"
+                                android:layout_width="60dip"
+                                android:layout_height="60dip"
+                                android:adjustViewBounds="true"
+                                android:scaleType="fitXY"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/beau_product_two"
+                                android:layout_width="60dip"
+                                android:layout_height="60dip"
+                                android:layout_marginLeft="@dimen/tag_marg_left"
+                                android:adjustViewBounds="true"
+                                android:scaleType="fitXY"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/beau_product_thr"
+                                android:layout_width="60dip"
+                                android:layout_height="60dip"
+                                android:layout_marginLeft="@dimen/tag_marg_left"
+                                android:adjustViewBounds="true"
+                                android:scaleType="fitXY"
+                                android:visibility="gone" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/eva_bottom_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/beau_view_line"
+                    android:layout_marginLeft="@dimen/beau_marg_left"
+                    android:background="@color/bggray" /> -->
+                <!-- 以上服务评价注释掉 -->
+
+                <LinearLayout
+                    android:id="@+id/ll_beauticiandetail_productions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_beauticiandetail_productions_more"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dip" >
+
+                        <TextView
+                            android:id="@+id/tv_beauticiandetail_productions_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="作品(6)"
+                            android:textColor="@color/a222222"
+                            android:textSize="@dimen/text_size_beau_title" />
+
+                        <ImageView
+                            android:layout_width="25dip"
+                            android:layout_height="30dip"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/icon_rightarrow"
+                            android:scaleType="fitXY" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_beauticiandetail_productions_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dip"
+                        android:orientation="horizontal"
+                        android:visibility="gone" >
+
+                        <!-- com.haotang.pet.view.SelectableRoundedImageView -->
+
+                        <ImageView
+                            android:id="@+id/sriv_beauticiandetail_productions_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dip"
+                            android:layout_marginRight="5dip"
+                            android:layout_weight="1"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/icon_production_default" />
+                        <!-- custom:sriv_left_bottom_corner_radius="10dip"
+                            custom:sriv_left_top_corner_radius="10dip"
+                            custom:sriv_right_bottom_corner_radius="10dip"
+                            custom:sriv_right_top_corner_radius="10dip" -->
+
+                        <ImageView
+                            android:id="@+id/sriv_beauticiandetail_productions_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dip"
+                            android:layout_marginLeft="5dip"
+                            android:layout_weight="1"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/icon_production_default" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_beauticiandetail_productions_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dip"
+                        android:orientation="horizontal"
+                        android:visibility="gone" >
+
+                        <ImageView
+                            android:id="@+id/sriv_beauticiandetail_productions_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dip"
+                            android:layout_marginRight="5dip"
+                            android:layout_weight="1"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/icon_production_default" />
+
+                        <ImageView
+                            android:id="@+id/sriv_beauticiandetail_productions_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dip"
+                            android:layout_marginLeft="5dip"
+                            android:layout_weight="1"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/icon_production_default" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_beauticiandetail_productions_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dip"
+                        android:orientation="horizontal"
+                        android:visibility="gone" >
+
+                        <ImageView
+                            android:id="@+id/sriv_beauticiandetail_productions_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dip"
+                            android:layout_marginRight="5dip"
+                            android:layout_weight="1"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/icon_production_default" />
+
+                        <ImageView
+                            android:id="@+id/sriv_beauticiandetail_productions_6"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dip"
+                            android:layout_marginLeft="5dip"
+                            android:layout_weight="1"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/icon_production_default" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <include layout="@layout/item_eva_all" />
+
+                <LinearLayout
+                    android:id="@+id/beau_layout_coment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/beau_marg_left"
+                    android:visibility="gone" >
+
+                    <RelativeLayout
+                        android:layout_width="44dp"
+                        android:layout_height="44dp" >
+
+                        <ImageView
+                            android:id="@+id/beau_icon"
+                            android:layout_width="44dip"
+                            android:layout_height="44dip"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/user_icon_unnet" />
+
+                        <ImageView
+                            android:id="@+id/service_eva_is_member_one"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/dz_jl_icon"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/beau_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="美容师姓名"
+                            android:textColor="@color/a222222"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/beau_custom_eva"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dip"
+                            android:text="美容师获得的评价"
+                            android:textColor="@color/a757575"
+                            android:textSize="14sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dip"
+                            android:orientation="horizontal" >
+
+                            <ImageView
+                                android:id="@+id/beau_product_one"
+                                android:layout_width="60dip"
+                                android:layout_height="60dip"
+                                android:adjustViewBounds="true"
+                                android:scaleType="fitXY"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/beau_product_two"
+                                android:layout_width="60dip"
+                                android:layout_height="60dip"
+                                android:layout_marginLeft="@dimen/tag_marg_left"
+                                android:adjustViewBounds="true"
+                                android:scaleType="fitXY"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/beau_product_thr"
+                                android:layout_width="60dip"
+                                android:layout_height="60dip"
+                                android:layout_marginLeft="@dimen/tag_marg_left"
+                                android:adjustViewBounds="true"
+                                android:scaleType="fitXY"
+                                android:visibility="gone" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/beau_layout_coment_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/beau_marg_left"
+                    android:visibility="gone" >
+
+                    <RelativeLayout
+                        android:layout_width="44dp"
+                        android:layout_height="44dp" >
+
+                        <ImageView
+                            android:id="@+id/beau_icon_two"
+                            android:layout_width="44dip"
+                            android:layout_height="44dip"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/user_icon_unnet" />
+
+                        <ImageView
+                            android:id="@+id/service_eva_is_member_two"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/dz_jl_icon"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/beau_name_two"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="美容师姓名"
+                            android:textColor="@color/a222222"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/beau_custom_eva_two"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dip"
+                            android:text="美容师获得的评价"
+                            android:textColor="@color/a757575"
+                            android:textSize="14sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dip"
+                            android:orientation="horizontal" >
+
+                            <ImageView
+                                android:id="@+id/beau_product_one_two"
+                                android:layout_width="60dip"
+                                android:layout_height="60dip"
+                                android:adjustViewBounds="true"
+                                android:scaleType="fitXY"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/beau_product_two_two"
+                                android:layout_width="60dip"
+                                android:layout_height="60dip"
+                                android:layout_marginLeft="@dimen/tag_marg_left"
+                                android:adjustViewBounds="true"
+                                android:scaleType="fitXY"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/beau_product_thr_two"
+                                android:layout_width="60dip"
+                                android:layout_height="60dip"
+                                android:layout_marginLeft="@dimen/tag_marg_left"
+                                android:adjustViewBounds="true"
+                                android:scaleType="fitXY"
+                                android:visibility="gone" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="60dip"
+                    android:background="@color/white" />
+            </LinearLayout>
+        </com.haotang.pet.pulltorefresh.PullToRefreshScrollView>
+
+        <LinearLayout
+            android:id="@+id/beau_detail_layout_to_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/bggray" />
+
+            <Button
+                android:id="@+id/bt_beauticiandetail_booking"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bg_button_orange"
+                android:text="预  约"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

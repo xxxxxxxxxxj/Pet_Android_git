@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/blance_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/logo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toLeftOf="@+id/amount" >
+
+                            <TextView
+                                android:id="@+id/textView_balance_service_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:ellipsize="end"
+                                android:singleLine="true"
+                                android:text="店内商品消费"
+                                android:textColor="@color/a555555"
+                                android:textSize="15sp" />
+
+                            <ImageView
+                                android:id="@+id/imageview_has_tag"
+                                android:layout_width="9dp"
+                                android:layout_height="9dp"
+                                android:layout_alignParentTop="true"
+                                android:src="@drawable/from_shop_sell"
+                                android:layout_marginLeft="3dp"
+                                android:layout_toRightOf="@+id/textView_balance_service_name"
+                                android:visibility="visible" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/amount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:gravity="right"
+                            android:text="套餐金额"
+                            android:textColor="@color/a555555"
+                            android:textSize="17sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/textView_balance_service_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" "
+                        android:textColor="@color/a555555"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textView_balance_service_detail_message"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="金额状态"
+                        android:textColor="@color/a666666"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textview_blance_ordernum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="订单编号：123455"
+                android:textColor="@color/a555555"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textview_blance_payway"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text=" "
+                android:textColor="@color/a555555"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/service_item_top_show"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textview_dianming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-2dp"
+        android:background="@color/bggray"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="测试店名"
+        android:textColor="@color/a555555"
+        android:visibility="gone" />
+
+    <com.haotang.pet.view.MListview
+        android:id="@+id/other_things"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bggray"
+        android:divider="@null"
+        android:listSelector="@color/transparent"
+        android:scrollbars="none" />
+
+</LinearLayout>

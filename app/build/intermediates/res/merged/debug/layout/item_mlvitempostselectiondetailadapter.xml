@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:bqmm="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_item_mlvitempostselectionadapter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingTop="5dip" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="46dip"
+        android:layout_height="46dip" >
+
+        <com.haotang.pet.view.SelectableRoundedImageView
+            android:id="@+id/sriv_item_mlvitempostselectionadapter"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_self"
+            custom:sriv_left_bottom_corner_radius="3dip"
+            custom:sriv_left_top_corner_radius="3dip"
+            custom:sriv_right_bottom_corner_radius="3dip"
+            custom:sriv_right_top_corner_radius="3dip" />
+
+        <ImageView
+            android:id="@+id/iv_item_mlvitempostselectionadapter_level"
+            android:layout_width="18dip"
+            android:layout_height="18dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_self"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_item_mlvitempostselectionadapter_createtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="TextView"
+        android:textColor="#bbbbbb"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_item_mlvitempostselectionadapter_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_toLeftOf="@id/tv_item_mlvitempostselectionadapter_createtime"
+        android:layout_toRightOf="@id/relativeLayout1"
+        android:text="TextView"
+        android:textColor="@color/a333333"
+        android:textSize="15sp" />
+
+    <com.melink.bqmmsdk.widget.BQMMMessageText
+        android:id="@+id/bqmt_item_mlvitempostselectionadapter_userdes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_item_mlvitempostselectionadapter_username"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="2dip"
+        android:layout_toRightOf="@id/relativeLayout1"
+        android:autoLink="web"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:focusable="true"
+        android:lineSpacingExtra="2dp"
+        android:textColor="@color/a666666"
+        android:textSize="14sp" />
+
+</RelativeLayout>

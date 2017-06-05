@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:id="@+id/rl_dropmenu_address"
+    android:layout_height="fill_parent"
+    android:paddingLeft="37dip"
+    android:paddingRight="20dip"
+    android:background="@color/white" >
+    
+    <TextView
+        android:id="@+id/tv_dropmenu_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="10dip"
+        android:visibility="gone"
+        android:layout_marginBottom="10dip"
+        android:textColor="@color/black"
+        android:text="常用地址" />
+
+    <ListView
+        android:id="@+id/lv_dropmenu_address"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/tv_dropmenu_address"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/f8f8ff8"
+        android:dividerHeight="1dip"
+        android:listSelector="@drawable/lv_press_selector"
+        android:scrollbars="none" >
+    </ListView>
+
+</RelativeLayout>

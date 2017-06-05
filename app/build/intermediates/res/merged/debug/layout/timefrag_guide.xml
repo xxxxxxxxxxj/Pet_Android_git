@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_timefrag_guide_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:background="@color/black" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" >
+
+        <ImageView
+            android:id="@+id/iv_timefrag_guide_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="207dip"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/iv_timefrag_guide_bottom" />
+
+        <ImageView
+            android:id="@+id/iv_timefrag_guide_middle"
+            android:layout_width="339dip"
+            android:layout_height="85.5dip"
+            android:layout_above="@id/iv_timefrag_guide_bottom"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dip"
+            android:layout_marginTop="15dip"
+            android:src="@drawable/iv_timefrag_guide_middle" />
+
+        <ImageView
+            android:id="@+id/iv_timefrag_guide_top"
+            android:layout_width="111.5dip"
+            android:layout_height="67.5dip"
+            android:layout_above="@id/iv_timefrag_guide_middle"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/iv_timefrag_guide_top" />
+    </RelativeLayout>
+
+</RelativeLayout>

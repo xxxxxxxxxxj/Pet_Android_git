@@ -1,0 +1,159 @@
+[
+    {
+        "outputFile": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldpi-v4\\values-ldpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 59,
+                    "endOffset": 110
+                },
+                "from": {
+                    "file": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\values-ldpi\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 325,
+                        "endColumn": 59,
+                        "endOffset": 380
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 115,
+                    "endColumn": 51,
+                    "endOffset": 162
+                },
+                "from": {
+                    "file": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\values-ldpi\\dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 501,
+                        "endColumn": 51,
+                        "endOffset": 548
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 167,
+                    "endColumn": 58,
+                    "endOffset": 221
+                },
+                "from": {
+                    "file": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\values-ldpi\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 386,
+                        "endColumn": 58,
+                        "endOffset": 440
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 226,
+                    "endColumn": 46,
+                    "endOffset": 268
+                },
+                "from": {
+                    "file": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\values-ldpi\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 277,
+                        "endColumn": 46,
+                        "endOffset": 319
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 273,
+                    "endColumn": 69,
+                    "endOffset": 338
+                },
+                "from": {
+                    "file": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\values-ldpi\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 127,
+                        "endColumn": 69,
+                        "endOffset": 192
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 343,
+                    "endColumn": 68,
+                    "endOffset": 407
+                },
+                "from": {
+                    "file": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\values-ldpi\\dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 68,
+                        "endOffset": 121
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 412,
+                    "endColumn": 53,
+                    "endOffset": 461
+                },
+                "from": {
+                    "file": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\values-ldpi\\dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 446,
+                        "endColumn": 53,
+                        "endOffset": 495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 466,
+                    "endColumn": 77,
+                    "endOffset": 539
+                },
+                "from": {
+                    "file": "E:\\qiaobin\\Pet_Android_git_3.3.0\\app\\src\\main\\res\\values-ldpi\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 198,
+                        "endColumn": 77,
+                        "endOffset": 271
+                    }
+                }
+            }
+        ]
+    }
+]

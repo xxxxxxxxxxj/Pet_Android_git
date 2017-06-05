@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#ffffff"
+         >
+
+        <com.haotang.pet.view.SelectableRoundedImageView
+            android:id="@+id/headerview_imageView_animal_icon"
+            android:layout_width="60dp"
+             android:layout_height="60dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="10dp"
+             android:adjustViewBounds="true"
+     		 android:scaleType="fitXY"
+             android:background="@drawable/dog_icon_unnew"
+             custom:sriv_left_bottom_corner_radius="5dip"
+             custom:sriv_left_top_corner_radius="5dip"
+             custom:sriv_right_bottom_corner_radius="5dip"
+             custom:sriv_right_top_corner_radius="5dip"
+            />
+
+        <TextView
+            android:id="@+id/headerview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dip"
+            android:layout_marginRight="30dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:text="hhhh"
+            android:textSize="15sp"
+            android:textColor="#333333" />
+<!-- android:layout_gravity="center_vertical" -->
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1.0"
+        android:background="#F2F1EF" />
+    
+</LinearLayout>

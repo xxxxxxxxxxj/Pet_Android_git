@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/bggray" >
+
+    <include layout="@layout/titlebar" />
+
+    <com.haotang.pet.pulltorefresh.PullToRefreshListView
+        android:id="@+id/listView_show_mycoupon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp"
+        android:scrollbars="none"
+        android:layout_marginTop="10dp"
+        android:divider="@null" />
+	<include 
+            android:id="@+id/rl_null"
+            layout="@layout/nullhint"
+            android:visibility="gone"
+            />
+    
+</LinearLayout>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="maxCollapsedLines" format="integer" />
+        <attr name="animDuration" format="integer" />
+        <attr name="animAlphaStart" format="float" />
+        <attr name="expandDrawable" format="reference" />
+        <attr name="collapseDrawable" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="SectionProgressBar">
+        <attr name="section_background" format="color" />
+        <attr name="section_foreground" format="color" />
+        <attr name="section_space_color" format="color" />
+        <attr name="section_text_size" format="dimension" />
+        <attr name="section_text_color" format="color" />
+        <attr name="section_light_text_color" format="color" />
+        <attr name="section_bar_height" format="dimension" />
+        <attr name="section_bar_cursor" format="reference" />
+    </declare-styleable>
+
+    <attr name="cropImageStyle" format="reference" />
+
+    <declare-styleable name="CropImageView">
+        <attr name="highlightColor" format="reference|color" />
+        <attr name="showThirds" format="boolean" />
+        <attr name="showCircle" format="boolean" />
+        <attr name="showHandles">
+            <enum name="changing" value="0" />
+            <enum name="always" value="1" />
+            <enum name="never" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="FancyCoverFlow">
+        <attr name="unselectedAlpha" format="float" />
+        <attr name="unselectedSaturation" format="float" />
+        <attr name="unselectedScale" format="float" />
+        <attr name="maxRotation" format="integer" />
+        <attr name="scaleDownGravity" format="float" />
+        <attr name="actionDistance" format="integer">
+            <enum name="auto" value="2147483647" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="LinearListView">
+        <attr name="android:entries" />
+        <attr name="dividerThickness" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="ColorfulRingProgressView">
+        <attr name="bgColor" format="reference|color" />
+        <attr name="fgColorStart" format="reference|color" />
+        <attr name="fgColorEnd" format="reference|color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="percent" format="float" />
+        <attr name="startAngle" format="float" />
+    </declare-styleable>
+    <declare-styleable name="PullToRefresh">
+
+        <!-- A drawable to use as the background of the Refreshable View -->
+        <attr name="ptrRefreshableViewBackground" format="reference|color" />
+
+        <!-- A drawable to use as the background of the Header and Footer Loading Views -->
+        <attr name="ptrHeaderBackground" format="reference|color" />
+
+        <!-- Text Color of the Header and Footer Loading Views -->
+        <attr name="ptrHeaderTextColor" format="reference|color" />
+
+        <!-- Text Color of the Header and Footer Loading Views Sub Header -->
+        <attr name="ptrHeaderSubTextColor" format="reference|color" />
+
+        <!-- Mode of Pull-to-Refresh that should be used -->
+        <attr name="ptrMode">
+            <flag name="disabled" value="0x0" />
+            <flag name="pullFromStart" value="0x1" />
+            <flag name="pullFromEnd" value="0x2" />
+            <flag name="both" value="0x3" />
+            <flag name="manualOnly" value="0x4" />
+
+            <!-- These last two are depreacted -->
+            <flag name="pullDownFromTop" value="0x1" />
+            <flag name="pullUpFromBottom" value="0x2" />
+        </attr>
+
+        <!-- Whether the Indicator overlay(s) should be used -->
+        <attr name="ptrShowIndicator" format="reference|boolean" />
+
+        <!-- Drawable to use as Loading Indicator. Changes both Header and Footer. -->
+        <attr name="ptrDrawable" format="reference" />
+
+        <!-- Drawable to use as Loading Indicator in the Header View. Overrides value set in ptrDrawable. -->
+        <attr name="ptrDrawableStart" format="reference" />
+
+        <!-- Drawable to use as Loading Indicator in the Footer View. Overrides value set in ptrDrawable. -->
+        <attr name="ptrDrawableEnd" format="reference" />
+
+        <!-- Whether Android's built-in Over Scroll should be utilised for Pull-to-Refresh. -->
+        <attr name="ptrOverScroll" format="reference|boolean" />
+
+        <!-- Base text color, typeface, size, and style for Header and Footer Loading Views -->
+        <attr name="ptrHeaderTextAppearance" format="reference" />
+
+        <!-- Base text color, typeface, size, and style for Header and Footer Loading Views Sub Header -->
+        <attr name="ptrSubHeaderTextAppearance" format="reference" />
+
+        <!-- Style of Animation should be used displayed when pulling. -->
+        <attr name="ptrAnimationStyle">
+            <flag name="rotate" value="0x0" />
+            <flag name="flip" value="0x1" />
+        </attr>
+
+        <!-- Whether the user can scroll while the View is Refreshing -->
+        <attr name="ptrScrollingWhileRefreshingEnabled" format="reference|boolean" />
+
+        <!--
+        	Whether PullToRefreshListView has it's extras enabled. This allows the user to be 
+        	able to scroll while refreshing, and behaves better. It acheives this by adding
+        	Header and/or Footer Views to the ListView.
+        -->
+        <attr name="ptrListViewExtrasEnabled" format="reference|boolean" />
+
+        <!--
+        	Whether the Drawable should be continually rotated as you pull. This only
+        	takes effect when using the 'Rotate' Animation Style.
+        -->
+        <attr name="ptrRotateDrawableWhilePulling" format="reference|boolean" />
+
+        <!-- BELOW HERE ARE DEPRECEATED. DO NOT USE. -->
+        <attr name="ptrAdapterViewBackground" format="reference|color" />
+        <attr name="ptrDrawableTop" format="reference" />
+        <attr name="ptrDrawableBottom" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="SelectableRoundedImageView">
+        <attr name="sriv_left_top_corner_radius" format="dimension" />
+        <attr name="sriv_right_top_corner_radius" format="dimension" />
+        <attr name="sriv_left_bottom_corner_radius" format="dimension" />
+        <attr name="sriv_right_bottom_corner_radius" format="dimension" />
+        <attr name="sriv_border_width" format="dimension" />
+        <attr name="sriv_border_color" format="color" />
+        <attr name="sriv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension"></attr>
+        <attr name="border_color" format="color"></attr>
+    </declare-styleable>
+    <declare-styleable name="SideBar">
+        <attr name="textsize" format="dimension" />
+        <attr name="textcolor" format="color" />
+        <attr name="textselectorcolor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="PullToZoomScrollView">
+        <attr name="scrollHeadView" format="reference" />
+        <attr name="scrollContentView" format="reference" />
+        <attr name="scrollZoomView" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="PullToZoomListView">
+        <attr name="listHeadView" format="reference" />
+        <attr name="isHeadParallax" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="PullToZoomView">
+        <attr name="headerView" format="reference" />
+        <attr name="contentView" format="reference" />
+        <attr name="zoomView" format="reference" />
+        <attr name="isHeaderParallax" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ActionBar">
+        <attr name="title" format="string" localization="suggested" />
+    </declare-styleable>
+    <declare-styleable name="board_column">
+        <attr name="column" format="integer" localization="suggested" />
+    </declare-styleable>
+    <declare-styleable name="NumberProgressBar">
+        <attr name="progressbar" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="progress_unreached_color" format="color" />
+        <attr name="progress_reached_color" format="color" />
+        <attr name="progress_unreached_bar_height" format="dimension" />
+        <attr name="progress_reached_bar_height" format="dimension" />
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+        <attr name="progress_text_offset" format="dimension" />
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="auto3d">
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="textgravity">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="paddingRight" format="dimension" />
+        <attr name="paddingLeft" format="dimension" />
+        <attr name="paddingTop" format="dimension" />
+        <attr name="paddingBottom" format="dimension" />
+        <attr name="at_background" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="RollViewPager">
+        <attr name="rollviewpager_hint_mode">
+            <enum name="point" value="0" />
+            <enum name="number" value="1" />
+        </attr>
+        <attr name="rollviewpager_hint_gravity">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="rollviewpager_hint_paddingRight" format="dimension" />
+        <attr name="rollviewpager_hint_paddingLeft" format="dimension" />
+        <attr name="rollviewpager_hint_paddingTop" format="dimension" />
+        <attr name="rollviewpager_hint_paddingBottom" format="dimension" />
+        <attr name="rollviewpager_play_delay" format="integer" />
+        <attr name="rollviewpager_hint_color" format="color" />
+        <attr name="rollviewpager_hint_alpha" format="integer" />
+        <attr name="rollviewpager_hint_background" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="GifMoviewView">
+        <attr name="gif" format="reference" />
+        <attr name="paused" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CustomTheme">
+        <attr name="gifMoviewViewStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="ProgressTextView">
+        <attr name="reachBarColor" format="reference" />
+        <attr name="reachTextColor" format="reference" />
+        <attr name="unReachBarColor" format="reference" />
+        <attr name="unReachTextColor" format="reference" />
+        <attr name="progress" format="float" />
+    </declare-styleable>
+    <declare-styleable name="AnimDownloadProgressButton">
+        <attr name="progressbtn_radius" format="float" />
+        <attr name="progressbtn_backgroud_color" format="color" />
+        <attr name="progressbtn_backgroud_second_color" format="color" />
+        <attr name="progressbtn_text_color" format="color" />
+        <attr name="progressbtn_text_covercolor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="BQMMMessageView">
+        <attr name="isleftview" format="boolean" />
+    </declare-styleable>
+
+    <attr name="circlecolor" format="color"></attr>
+    <attr name="half" format="dimension"></attr>
+
+    <declare-styleable name="myCircleImage">
+        <attr name="circlecolor"></attr>
+        <attr name="half"></attr>
+    </declare-styleable>
+
+</resources>

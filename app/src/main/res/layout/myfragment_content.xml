@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:layout_marginTop="15dip"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/ll_myfragment_yue"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ll_selector"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="12dip" >
+
+            <ImageView
+                android:layout_width="36dip"
+                android:layout_height="36dip"
+                android:src="@drawable/myfragment_yue" />
+
+            <TextView
+                android:id="@+id/tv_myfragment_yue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="#FE641C"
+                android:textSize="10sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的余额"
+                android:textColor="@color/a333333"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_myfragment_yhq"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ll_selector"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="12dip" >
+
+            <ImageView
+                android:layout_width="36dip"
+                android:layout_height="36dip"
+                android:src="@drawable/myfragment_yhq" />
+
+            <TextView
+                android:id="@+id/tv_myfragment_yhqnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="#FE641C"
+                android:textSize="10sp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="优惠券"
+                android:textColor="@color/a333333"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_myfragment_hyzx"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ll_selector"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="12dip"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="36dip"
+                android:layout_height="36dip"
+                android:layout_marginBottom="13dip"
+                android:src="@drawable/myfragment_hycenter" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="会员中心"
+                android:textColor="@color/a333333"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_myfragment_blqz"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ll_selector"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="12dip" >
+
+            <ImageView
+                android:layout_width="36dip"
+                android:layout_height="36dip"
+                android:layout_marginBottom="13dip"
+                android:src="@drawable/myfragment_petcard" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="办理犬证"
+                android:textColor="@color/a333333"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_myfragment_jyzb"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ll_selector"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="12dip" >
+
+            <ImageView
+                android:layout_width="36dip"
+                android:layout_height="36dip"
+                android:layout_marginBottom="13dip"
+                android:src="@drawable/myfragment_jyzb" />
+
+            <TextView
+                android:id="@+id/tv_myfragment_jyzb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="寄养直播"
+                android:textColor="@color/a333333"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:background="@color/acccccc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/ll_myfragment_yqyl"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ll_selector"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="12dip" >
+
+            <ImageView
+                android:layout_width="36dip"
+                android:layout_height="36dip"
+                android:layout_marginBottom="13dip"
+                android:src="@drawable/myfragment_invite" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="邀请有礼"
+                android:textColor="@color/a333333"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_myfragment_cydz"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ll_selector"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="12dip" >
+
+            <ImageView
+                android:layout_width="36dip"
+                android:layout_height="36dip"
+                android:layout_marginBottom="13dip"
+                android:src="@drawable/myfragment_address" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="常用地址"
+                android:textColor="@color/a333333"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_myfragment_ts"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ll_selector"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="12dip" >
+
+            <ImageView
+                android:layout_width="36dip"
+                android:layout_height="36dip"
+                android:layout_marginBottom="13dip"
+                android:src="@drawable/myfragment_ts" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="投诉"
+                android:textColor="@color/a333333"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_myfragment_myevaluate"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ll_selector"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="12dip" >
+
+            <ImageView
+                android:layout_width="28dip"
+                android:layout_height="28dip"
+                android:layout_marginBottom="13dip"
+                android:layout_marginTop="7dip"
+                android:src="@drawable/myfragment_evaluate" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的评价"
+                android:textColor="@color/a333333"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:background="@color/acccccc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+        
+         <LinearLayout
+            android:id="@+id/ll_myfragment_mypackagecard"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ll_selector"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="12dip" >
+
+            <ImageView
+                android:layout_width="36dip"
+                android:layout_height="36dip"
+                android:layout_marginBottom="13dip"
+                android:src="@drawable/myfragment_mypackagecard" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的卡包"
+                android:textColor="@color/a333333"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_myfragment_more"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ll_selector"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="12dip" >
+
+            <ImageView
+                android:layout_width="36dip"
+                android:layout_height="36dip"
+                android:layout_marginBottom="13dip"
+                android:src="@drawable/myfragment_more" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="更多"
+                android:textColor="@color/a333333"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:layout_marginTop="15dip"
+        android:background="@color/white"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip" >
+
+        <TextView
+            android:id="@+id/tv_myfragment_addpet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="+ 添加宠物"
+            android:textColor="@color/aBB996C"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="我的宠物"
+            android:textColor="@color/a333333"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:background="@color/acccccc" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="118dip"
+        android:background="@color/white"
+        android:padding="15dip" >
+
+        <com.haotang.pet.view.HorizontalListView
+            android:id="@+id/hlv_myfragment_pet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </com.haotang.pet.view.HorizontalListView>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        >
+        <ImageView 
+            android:id="@+id/dog_item_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/dog_icon_unnew"/>
+
+        <TextView
+            android:id="@+id/textView_dog_service_name"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="比熊犬高级洗护" 
+            android:textSize="15sp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/textView_dog_service_price"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/aD1494F"
+            android:textSize="15sp"
+            android:text="¥20" />
+
+    </LinearLayout>
+	<View 
+	    android:id="@+id/view_botton_line"
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/bggray"
+	    />
+</LinearLayout>

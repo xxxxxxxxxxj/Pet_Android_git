@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_choosepet_mypets"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:text="我的宠物"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:textColor="@color/a757575"
+        android:paddingLeft="15dip"
+        android:background="@color/bggray"
+        />
+    <HorizontalScrollView 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:scrollbars="none"
+       android:layout_marginTop="10dip"
+       android:layout_marginBottom="10dip"
+       >
+       <com.haotang.pet.view.LinearListView
+            android:id="@+id/llv_choosepet_mypets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:dividerPadding="2dp"
+            android:orientation="horizontal"
+            android:showDividers="middle"
+            custom:dividerThickness="2dp" />
+   </HorizontalScrollView>
+
+</LinearLayout>

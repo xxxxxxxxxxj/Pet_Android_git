@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bggray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar" />
+
+    <!-- com.haotang.pet.pulltorefresh.PullToRefreshScrollView -->
+    <ScrollView
+        android:id="@+id/prs_fostercareorderconfirm_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/rl_fostercareorderconfirm_textexp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F4F1EC"
+                android:orientation="vertical"
+                android:paddingBottom="15dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="15dip" 
+                android:visibility="visible"
+                >
+                <TextView
+                    android:id="@+id/tv_fostercareorderconfirm_textexp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="3dip"
+                    android:paddingRight="18dip"
+                    android:textColor="@color/a888888"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/iv_fostercareorderconfirm_textexp"
+                    android:layout_width="30dip"
+                    android:layout_height="30dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/tv_fostercareorderconfirm_textexp"
+                    android:layout_marginBottom="-8dip"
+                    android:layout_marginTop="-27dip"
+                    android:background="@drawable/icon_arrow_down" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingBottom="10dip"
+                android:paddingTop="10dip" 
+                android:visibility="visible"
+                >
+                <TextView
+                    android:id="@+id/tv_fostercareorderconfirm_shopname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:text=""
+                    android:textColor="@color/a333333"
+                    android:textSize="@dimen/body_textsize_top_title" />
+
+                <TextView
+                    android:id="@+id/tv_fostercareorderconfirm_petnamepre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_fostercareorderconfirm_shopname"
+                    android:layout_below="@+id/tv_fostercareorderconfirm_shopname"
+                    android:layout_marginTop="5dip"
+                    android:text="宠物类型    "
+                    android:textColor="@color/a888888"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_fostercareorderconfirm_petname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/tv_fostercareorderconfirm_petnamepre"
+                    android:layout_marginRight="10dip"
+                    android:layout_toRightOf="@+id/tv_fostercareorderconfirm_petnamepre"
+                    android:text="雪纳瑞"
+                    android:textColor="@color/a888888"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_fostercareorderconfirm_petaddrpre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_fostercareorderconfirm_shopname"
+                    android:layout_below="@+id/tv_fostercareorderconfirm_petname"
+                    android:layout_marginTop="5dip"
+                    android:text="宠物地址    "
+                    android:textColor="@color/a888888"
+                    android:textSize="16sp" 
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/tv_fostercareorderconfirm_petaddr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/tv_fostercareorderconfirm_petaddrpre"
+                    android:layout_marginRight="10dip"
+                    android:layout_toRightOf="@+id/tv_fostercareorderconfirm_petaddrpre"
+                    android:text="霍营"
+                    android:textColor="@color/a888888"
+                    android:textSize="16sp" 
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/tv_fostercareorderconfirm_startdatepre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_fostercareorderconfirm_shopname"
+                    android:layout_below="@+id/tv_fostercareorderconfirm_petname"
+                    android:layout_marginTop="5dip"
+                    android:text="入住时间    "
+                    android:textColor="@color/a888888"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_fostercareorderconfirm_startdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/tv_fostercareorderconfirm_startdatepre"
+                    android:layout_marginRight="10dip"
+                    android:layout_toRightOf="@+id/tv_fostercareorderconfirm_startdatepre"
+                    android:text="2016-10-31 14:30:57"
+                    android:textColor="@color/a888888"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_fostercareorderconfirm_enddatepre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_fostercareorderconfirm_shopname"
+                    android:layout_below="@+id/tv_fostercareorderconfirm_startdate"
+                    android:layout_marginTop="5dip"
+                    android:text="离店时间    "
+                    android:textColor="@color/a888888"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_fostercareorderconfirm_enddate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/tv_fostercareorderconfirm_enddatepre"
+                    android:layout_marginRight="10dip"
+                    android:layout_toRightOf="@+id/tv_fostercareorderconfirm_enddatepre"
+                    android:text="2016-10-31 14:31:02"
+                    android:textColor="@color/a888888"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_fostercareorderconfirm_roompre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_fostercareorderconfirm_shopname"
+                    android:layout_below="@+id/tv_fostercareorderconfirm_enddate"
+                    android:layout_marginTop="5dip"
+                    android:text="房　　型    "
+                    android:textColor="@color/a888888"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_fostercareorderconfirm_room"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/tv_fostercareorderconfirm_roompre"
+                    android:layout_marginRight="10dip"
+                    android:layout_toRightOf="@+id/tv_fostercareorderconfirm_roompre"
+                    android:text="测试房型"
+                    android:textColor="@color/a888888"
+                    android:textSize="16sp" />
+				<TextView 
+				    android:id="@+id/textview_choose_food"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_below="@+id/tv_fostercareorderconfirm_room"
+				    android:layout_marginLeft="10dp"
+				    android:textColor="@color/a888888"
+                    		    android:textSize="16sp"
+                    		    android:layout_marginTop="5dip"
+				    android:text="宠　　粮    "/>
+				<TextView 
+				    android:id="@+id/textview_pet_foodtag"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_toRightOf="@+id/textview_choose_food"
+				    android:layout_below="@+id/tv_fostercareorderconfirm_room"
+				    android:layout_alignTop="@+id/textview_choose_food"
+				    android:text="自带或到店购买"
+				    android:textColor="@color/a888888"
+                    android:textSize="16sp"
+				    />
+                <View
+                    android:id="@+id/view_fostercareorderconfirm_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.8dip"
+                    android:layout_below="@+id/textview_choose_food"
+                    android:layout_marginTop="8dip"
+                    android:background="@color/bordergray" />
+
+                <!-- <TextView
+                    android:id="@+id/tv_fostercareorderconfirm_totalroomfee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/view_fostercareorderconfirm_1"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="10dip"
+                    android:text="水电费水电费"
+                    android:textColor="@color/orange"
+                    android:textSize="16sp" /> -->
+
+                <!-- <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/tv_fostercareorderconfirm_totalroomfee"
+                    android:layout_toLeftOf="@+id/tv_fostercareorderconfirm_totalroomfee"
+                    android:text="总价  "
+                    android:textColor="@color/a888888"
+                    android:textSize="16sp" /> -->
+                    <LinearLayout
+                        android:id="@+id/layout_no_cutmoney"
+                       	android:layout_width="match_parent"
+                     	android:layout_height="wrap_content"
+                     	android:layout_below="@+id/view_fostercareorderconfirm_1"
+                     	android:visibility="visible"
+                     	android:gravity="right"
+                     	>
+                        <TextView 
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginTop="10dip"
+		                    android:textColor="@color/a888888"
+		                    android:textSize="16sp"
+		                    android:layout_marginLeft="10dp"
+		                    android:text="总	价  "/>
+		                <TextView 
+		                    android:id="@+id/textview_no_cutmoney_totalmoney"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginTop="10dip"
+		                    android:textColor="@color/aD1494F"
+		                    android:textSize="18sp"
+		                    android:text=" "
+		                    android:layout_marginRight="30dp"
+		                    />
+                    </LinearLayout>
+                 <LinearLayout 
+                     android:id="@+id/layout_cutmoney"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/view_fostercareorderconfirm_1"
+                     android:orientation="vertical"
+                     android:visibility="gone"
+                     >
+	                <LinearLayout 
+				        android:id="@+id/ll_orderdetail_main"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:orientation="horizontal"
+				        >
+				        <TextView 
+		                    android:id="@+id/total_show_message"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_below="@+id/view_fostercareorderconfirm_1"
+		                    android:layout_marginTop="10dip"
+		                    android:textColor="@color/a888888"
+		                    android:textSize="16sp"
+		                    android:layout_marginLeft="10dp"
+		                    android:text="总　　价  "/>
+		                <TextView 
+		                    android:id="@+id/tv_fostercareorderconfirm_totalroomfee"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_below="@+id/view_fostercareorderconfirm_1"
+		                    android:layout_toRightOf="@+id/total_show_message"
+		                    android:layout_marginTop="10dip"
+		                    android:textColor="@color/orange"
+		                    android:textSize="16sp"
+		                    android:text=" "/>
+		                <TextView 
+		                    android:id="@+id/textview_cutdown_money"
+		                    android:layout_width="match_parent"
+		                    android:layout_height="wrap_content"
+		                    android:layout_alignParentRight="true"
+		                    android:layout_below="@+id/view_fostercareorderconfirm_1"
+		                    android:layout_marginTop="10dip"
+		                    android:layout_marginRight="30dp"
+				    		android:textColor="@color/orange"
+				    		android:gravity="right"
+		                    android:text="已节省0元"/>
+				     </LinearLayout>
+                     
+	                
+	                <TextView 
+	                    android:id="@+id/old_price"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_below="@+id/total_show_message"
+	                    android:layout_marginLeft="10dp"
+	                    android:textSize="13sp"
+	                    android:textColor="@color/a999999"
+	                    android:text="原价"/>
+                 </LinearLayout>
+                
+            </RelativeLayout>
+            
+             <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@color/white" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_fostercareorderconfirm_contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:layout_marginLeft="10dip" >
+
+                    <TextView
+                        android:id="@+id/tv_fostercareorderconfirm_contact_name_pre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="联系人"
+                        android:textColor="@color/a333333"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/tv_fostercareorderconfirm_contact_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dip"
+                        android:layout_toLeftOf="@+id/iv_fostercareorderconfirm_contact_rightarrow"
+                        android:layout_toRightOf="@+id/tv_fostercareorderconfirm_contact_name_pre"
+                        android:gravity="right"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/a666666"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_fostercareorderconfirm_contact_rightarrow"
+                        android:layout_width="30dip"
+                        android:layout_height="30dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/icon_rightarrow"
+                        android:scaleType="fitXY" />
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/view_fostercareorderconfirm_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_below="@+id/rl_fostercareorderconfirm_contact"
+                    android:layout_marginLeft="10dip"
+                    android:background="@color/bggray" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_fostercareorderconfirm_note"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:layout_below="@+id/view_fostercareorderconfirm_2"
+                    android:layout_marginLeft="10dip" >
+
+                    <TextView
+                        android:id="@+id/tv_fostercareorderconfirm_note_pre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="备注"
+                        android:textColor="@color/a333333"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/tv_fostercareorderconfirm_note"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dip"
+                        android:layout_toLeftOf="@+id/iv_fostercareorderconfirm_note_rightarrow"
+                        android:layout_toRightOf="@+id/tv_fostercareorderconfirm_note_pre"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical|right"
+                        android:hint="给宠物家留个言吧"
+                        android:textColorHint="@color/aDDDDDD"
+                        android:singleLine="true"
+                        android:textColor="@color/a666666"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_fostercareorderconfirm_note_rightarrow"
+                        android:layout_width="30dip"
+                        android:layout_height="30dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/icon_rightarrow"
+                        android:scaleType="fitXY" />
+                </RelativeLayout>
+            </RelativeLayout>
+			<LinearLayout
+			    android:id="@+id/layout_foster_shexiangtou" 
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:background="@color/white"
+			    android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                >
+			    <RelativeLayout 
+			        android:layout_width="match_parent"
+			        android:layout_height="50dp">
+			        <TextView 
+			            android:id="@+id/foster_shexiangtou"
+			            android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="#36C4EC"
+                        android:maxLength="4"
+                        android:paddingLeft="3dip"
+                        android:paddingRight="3dip"
+                        android:text="推荐"
+                        android:textColor="@color/white"
+                        android:textSize="10sp"
+                        android:visibility="visible" 
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        />
+			        <TextView 
+			            android:id="@+id/foster_add_shexiangtou"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:textColor="@color/a333333"
+			            android:layout_toRightOf="@+id/foster_shexiangtou"
+			            android:layout_centerVertical="true"
+			            android:text="加摄像头"
+			            android:layout_marginLeft="5dp"
+			            android:textSize="17sp"/>
+			        <ImageView 
+			            android:id="@+id/foster_choose_or_not_shexiangtou"
+			            android:layout_width="20dp"
+			            android:layout_height="20dp"
+			            android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dip"
+                        android:background="@drawable/icon_pay_normal"
+                        android:scaleType="fitXY"/>
+		            <TextView 
+		                android:id="@+id/foster_shexiangtou_price"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_centerVertical="true"
+		                android:layout_toRightOf="@+id/foster_add_shexiangtou"
+		            	android:layout_toLeftOf="@+id/foster_choose_or_not_shexiangtou"
+		                android:text="¥0"
+		                android:gravity="right"
+		                android:textSize="18sp"
+		                android:paddingRight="10dp"
+		                android:textColor="@color/aD1494F"/>
+			    </RelativeLayout>
+			</LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/rl_fostercareorderconfirm_bath"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:visibility="visible" 
+                    android:layout_marginLeft="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_fostercareorderconfirm_bath"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="离店洗澡"
+                        android:textColor="@color/a333333"
+                        android:layout_toRightOf="@+id/tv_fostercareorderconfirm_bathtag"
+                        android:singleLine="true"
+                       	android:ellipsize="end"
+                       	android:layout_marginLeft="5dp"
+                       	android:layout_toLeftOf="@+id/layout_one"
+                        android:textSize="17sp" />
+                    <TextView
+                        android:id="@+id/tv_fostercareorderconfirm_bathtag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="0dp"
+                        android:background="#36C4EC"
+                        android:maxLength="4"
+                        android:paddingLeft="3dip"
+                        android:paddingRight="3dip"
+                        android:text="推荐"
+                        android:textColor="@color/white"
+                        android:textSize="10sp"
+                        android:visibility="visible" 
+                        android:layout_alignParentLeft="true"
+                        />
+<!-- android:layout_toRightOf="@+id/tv_fostercareorderconfirm_bath" -->
+                    <LinearLayout
+                        android:id="@+id/layout_one"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="bottom"
+                        android:layout_toLeftOf="@+id/iv_fostercareorderconfirm_bath"
+                        android:gravity="bottom"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/tv_fostercareorderconfirm_totalbathfee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dip"
+                            android:gravity="bottom"
+                            android:text="￥0"
+                            android:textColor="@color/aD1494F"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tv_fostercareorderconfirm_bathcouponprice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dip"
+                            android:gravity="bottom"
+                            android:text="已优惠￥0.00"
+                            android:textColor="@color/a888888"
+                            android:textSize="14sp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/iv_fostercareorderconfirm_bath"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dip"
+                        android:background="@drawable/icon_pay_normal"
+                        android:scaleType="fitXY" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="0.8dip"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/bggray" />
+                </RelativeLayout>
+                <RelativeLayout 
+                    android:id="@+id/rl_fostercareorderconfirm_bath_add_pet"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:background="@color/bggray"
+                    android:gravity="center_vertical"
+                    android:visibility="gone">
+                    <TextView 
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="添加另一只宠物洗澡"
+                        android:textColor="@color/a9b9b9b"
+                        android:textSize="17sp" 
+                        android:layout_marginLeft="10dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/change_account_show" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/rl_fostercareorderconfirm_bath_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:layout_marginLeft="10dp"
+                    android:visibility="gone"
+                    >
+                    <TextView
+                        android:id="@+id/tv_fostercareorderconfirm_bath_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="离店洗澡"
+                        android:textColor="@color/a333333"
+                        android:layout_toRightOf="@+id/tv_fostercareorderconfirm_bathtag_two"
+                        android:singleLine="true"
+                       	android:ellipsize="end"
+                       	android:layout_marginLeft="5dp"
+                       	android:layout_toLeftOf="@+id/layout_two"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/tv_fostercareorderconfirm_bathtag_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="0dp"
+                        android:layout_alignParentLeft="true"
+                        android:background="#36C4EC"
+                        android:maxLength="4"
+                        android:paddingLeft="3dip"
+                        android:paddingRight="3dip"
+                        android:text="推荐"
+                        android:textColor="@color/white"
+                        android:textSize="10sp"
+                        android:visibility="visible" />
+ <!-- android:layout_toRightOf="@+id/tv_fostercareorderconfirm_bath_two" -->
+                    <LinearLayout
+                        android:id="@+id/layout_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="bottom"
+                        android:layout_toLeftOf="@+id/iv_fostercareorderconfirm_bath_two"
+                        android:gravity="bottom"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/tv_fostercareorderconfirm_totalbathfee_two"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dip"
+                            android:gravity="bottom"
+                            android:text="￥0"
+                            android:textColor="@color/aD1494F"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tv_fostercareorderconfirm_bathcouponprice_two"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dip"
+                            android:gravity="bottom"
+                            android:text="已优惠￥0.00"
+                            android:textColor="@color/a888888"
+                            android:textSize="14sp"
+                            android:visibility="visible" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/iv_fostercareorderconfirm_bath_two"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dip"
+                        android:background="@drawable/icon_close"
+                        android:scaleType="fitXY" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="0.8dip"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/bggray" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_fostercareorderconfirm_bringfood"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip" 
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tv_fostercareorderconfirm_bringfood"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="宠粮"
+                        android:textColor="@color/a222222"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="bottom"
+                        android:layout_toLeftOf="@+id/iv_fostercareorderconfirm_bringfood"
+                        android:gravity="bottom"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/tv_fostercareorderconfirm_totalfoodfee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="bottom"
+                            android:text="￥0"
+                            android:textColor="@color/orange"
+                            android:textSize="18sp" 
+                            android:visibility="gone"/>
+
+                        <TextView
+                            android:id="@+id/tv_fostercareorderconfirm_foodprice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dip"
+                            android:layout_marginRight="5dip"
+                            android:gravity="bottom"
+                            android:text="自带或到店购买"
+                            android:textColor="@color/a888888"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/iv_fostercareorderconfirm_bringfood"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dip"
+                        android:background="@drawable/icon_pay_normal"
+                        android:scaleType="fitXY" 
+                        android:visibility="invisible"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dip"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ll_fostercareorderconfirm_pickup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dip"
+                        android:layout_marginLeft="10dip" 
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/tv_fostercareorderconfirm_pickup_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="接送"
+                            android:textColor="@color/a222222"
+                            android:textSize="18sp" />
+
+                        <ImageView
+                            android:id="@+id/iv_fostercareorderconfirm_pickup_hint"
+                            android:layout_width="30dip"
+                            android:layout_height="30dip"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="3dip"
+                            android:layout_toRightOf="@+id/tv_fostercareorderconfirm_pickup_title"
+                            android:background="@drawable/icon_hint"
+                            android:scaleType="fitXY" />
+
+                        <TextView
+                            android:id="@+id/tv_fostercareorderconfirm_pickup_hint"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dip"
+                            android:layout_marginRight="30dip"
+                            android:layout_toRightOf="@+id/iv_fostercareorderconfirm_pickup_hint"
+                            android:gravity="right"
+                            android:text="接送名额已满"
+                            android:textColor="@color/a666666"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/tv_fostercareorderconfirm_pickup"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="5dip"
+                            android:layout_toLeftOf="@+id/iv_fostercareorderconfirm_pickup"
+                            android:ellipsize="end"
+                            android:gravity="right"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/orange"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/iv_fostercareorderconfirm_pickup"
+                            android:layout_width="20dip"
+                            android:layout_height="20dip"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="10dip"
+                            android:background="@drawable/icon_pay_normal"
+                            android:scaleType="fitXY" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.8dip"
+                        android:layout_marginLeft="10dip"
+                        android:background="@color/bggray"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_fostercareorderconfirm_coupon"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:paddingLeft="10dip" >
+
+                    <TextView
+                        android:id="@+id/tv_fostercareorderconfirm_coupon_pre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="优惠券"
+                        android:textColor="@color/a333333"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/tv_fostercareorderconfirm_coupon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/iv_fostercareorderconfirm_conpon_rightarrow"
+                        android:layout_toRightOf="@+id/tv_fostercareorderconfirm_coupon_pre"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:maxLength="25"
+                        android:singleLine="true"
+                        android:text="无可用优惠券"
+                        android:textColor="@color/aBB996C"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_fostercareorderconfirm_conpon_rightarrow"
+                        android:layout_width="30dip"
+                        android:layout_height="30dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/icon_rightarrow"
+                        android:scaleType="fitXY" />
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:background="@color/bggray"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        >
+
+                        <CheckBox
+                            android:id="@+id/cb_fostercareappointment_agree"
+                            style="@style/CustomCheckboxTheme"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:checked="true"
+                            android:paddingLeft="10dip"
+                            android:layout_marginLeft="10dp"
+                            android:text="同意"
+                            android:textColor="@color/a888888"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_fostercareappointment_agreement"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/cb_fostercareappointment_agree"
+                            android:text="《宠物家寄养协议》"
+                            android:textColor="@color/aBB996C"
+                            android:textSize="16sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout 
+                    android:id="@+id/layout_notice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:background="@color/bggray"
+                    >
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wheel_val_1"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:layout_weight="2" >
+
+            <TextView
+                android:id="@+id/tv_fostercareorderconfirm_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="实付款：￥0"
+                android:textColor="@color/aD1494F"
+                android:textSize="16sp"
+                />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/bt_fostercareorderconfirm_pay"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_weight="3"
+            android:background="@color/aBB996C"
+            android:text="去付款"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

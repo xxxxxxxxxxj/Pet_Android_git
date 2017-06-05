@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/bggray"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:background="@drawable/chongzhika_back_new" 
+        >
+        <LinearLayout 
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            >
+
+            <RelativeLayout
+                android:id="@+id/layout_left_back"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" 
+                android:background="@drawable/wuhuodong_back"
+                android:paddingLeft="10dp"
+                >
+
+               <LinearLayout 
+                   android:id="@+id/layout_total_money"
+                   android:layout_width="match_parent"
+                   android:layout_height="40dp"
+                   android:orientation="horizontal"
+                   android:gravity="bottom"
+                   >
+                   <TextView 
+                       android:id="@+id/textView_item_money_price"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textSize="24sp"
+                       android:text="5000"/>
+                   <TextView 
+                       android:id="@+id/chongzhika_all_money_yuan"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="元"/>
+               </LinearLayout>
+               <TextView 
+                   android:id="@+id/textview_chongzhika"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@+id/layout_total_money"
+                   android:textSize="14sp"
+                   android:text="充值卡"/>
+               <LinearLayout 
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentBottom="true"
+                   android:layout_marginBottom="10dp">
+                   <TextView 
+                       android:id="@+id/textview_chongzhika_last_days"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textSize="14sp"
+                       android:text="剩余:测试xx天"/>
+               </LinearLayout>
+            </RelativeLayout>
+            
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/imageView_is_hot"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/chongzhika_hot" />
+
+                <TextView
+                    android:id="@+id/textview_go_to_pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginRight="@dimen/choose_tag_margin_right"
+                    android:textColor="@color/a333333"
+                    android:textSize="18sp"
+                    android:text="立即充值" />
+
+                <TextView
+                    android:id="@+id/textview_item_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/a666666"
+                    android:textSize="12sp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:layout_marginRight="@dimen/choose_tag_margin_right"
+                    android:text="可永久用于宠物家app内所有服务" />
+
+                <TextView
+                    android:id="@+id/textView_chongzhika_yuan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/textview_item_time"
+                    android:layout_alignParentRight="true"
+                    android:textSize="10sp"
+                    android:layout_marginRight="@dimen/choose_tag_margin_right"
+                    android:text="元" />
+
+                <TextView
+                    android:id="@+id/textView_chongzhika_zengsong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/textView_chongzhika_yuan"
+                    android:layout_toLeftOf="@+id/textView_chongzhika_yuan"
+                    android:textSize="20sp"
+                    android:includeFontPadding="false"
+                    android:text="1000" />
+
+                <TextView
+                    android:id="@+id/textView_chongzhika_lijizengsong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/textView_chongzhika_zengsong"
+                    android:layout_toLeftOf="@+id/textView_chongzhika_zengsong"
+                    android:textSize="12sp"
+                    android:text="充值\n即送 " />
+
+            </RelativeLayout>
+            
+        </LinearLayout>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/bggray" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_titlebar" >
+
+        <ImageView
+            android:id="@+id/imageView_choose_pet_back"
+         	android:layout_width="30dip"
+        	android:layout_height="30dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_back" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" >
+
+            <TextView
+                android:id="@+id/textview_choose_dog"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:text="汪星人" 
+                android:gravity="center"
+                android:background="@drawable/bg_member_left_passed"/>
+
+            <TextView
+                android:id="@+id/textview_choose_cat"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:textSize="15sp"
+                android:textColor="@color/a555555"
+                android:text="喵星人"
+                android:gravity="center"
+                android:background="@drawable/bg_member_right_normal" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_choose_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

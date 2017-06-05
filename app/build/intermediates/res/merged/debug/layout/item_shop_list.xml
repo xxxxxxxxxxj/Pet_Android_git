@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@+id/service_go_home_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip" >
+
+        <ImageView
+            android:id="@+id/imageview_item_shop_list_icon"
+            android:layout_width="75dip"
+            android:layout_height="75dip"
+            android:layout_marginRight="10dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_production_default" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="75dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView_item_shop_list_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="TextView"
+                android:textColor="@color/a333333"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView_item_shop_list_address"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="TextView"
+                android:textColor="@color/a666666"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/textView_item_shop_list_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="TextView"
+                    android:textColor="#E33A4A"
+                    android:textSize="19sp" />
+
+                <Button
+                    android:id="@+id/button_item_shop_list_go_appointment"
+                    android:layout_width="51dip"
+                    android:layout_height="25dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/bg_button_orager_oval"
+                    android:gravity="center"
+                    android:text="预约"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView_item_shop_list_address_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:layout_toLeftOf="@id/button_item_shop_list_go_appointment"
+                    android:layout_toRightOf="@id/textView_item_shop_list_price"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="TextView"
+                    android:textColor="@color/a999999"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

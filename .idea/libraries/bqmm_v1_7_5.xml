@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bqmm_v1.7.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/bqmm_v1.7.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

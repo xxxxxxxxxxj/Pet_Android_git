@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/bggray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <com.haotang.pet.view.SelectableRoundedImageView
+            android:id="@+id/imageView_pet_inside"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_self"
+            custom:sriv_left_bottom_corner_radius="5dip"
+            custom:sriv_left_top_corner_radius="5dip"
+            custom:sriv_right_bottom_corner_radius="5dip"
+            custom:sriv_right_top_corner_radius="5dip" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textview_pet_circle_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/a333333"
+                    android:text="测试石佛营区域" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical" >
+
+                    <TextView
+                        android:id="@+id/textview_pet_circle_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:textSize="14sp"
+                        android:textColor="@color/a666666"
+                        android:text="成员:" />
+
+                    <TextView
+                        android:id="@+id/textview_pet_circle_follow_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="0"
+                        android:textColor="@color/orange" />
+
+                    <TextView
+                        android:id="@+id/textview_pet_circle_post_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center_vertical"
+                        android:textSize="14sp"
+                        android:textColor="@color/a666666"
+                        android:text="帖子:" />
+
+                    <TextView
+                        android:id="@+id/textview_pet_circle_post_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="0"
+                        android:textColor="@color/orange" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:gravity="right|center_vertical" >
+
+                <Button
+                    android:id="@+id/button_pet_inside_or"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_button_appoiment_ok"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:text="+ 加入"
+                    android:textColor="@color/aD1494F" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/aEEEEEE" />
+
+        <LinearLayout
+            android:id="@+id/layout_circle_master"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" 
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/layout_one_left"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:visibility="visible" >
+
+                <com.haotang.pet.view.SelectableRoundedImageView
+                    android:id="@+id/imageview_area_leader"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/logo"
+                    custom:sriv_left_bottom_corner_radius="5dip"
+                    custom:sriv_left_top_corner_radius="5dip"
+                    custom:sriv_right_bottom_corner_radius="5dip"
+                    custom:sriv_right_top_corner_radius="5dip" />
+
+                <TextView
+                    android:id="@+id/textview_petcircle_jl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="区域经理"
+                    android:textColor="@color/a666666"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/left_and_right_line"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#999899" />
+
+            <LinearLayout
+                android:id="@+id/layout_one_right"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:visibility="visible" >
+
+                <com.haotang.pet.view.SelectableRoundedImageView
+                    android:id="@+id/imageview_shop_leader"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/logo"
+                    custom:sriv_left_bottom_corner_radius="5dip"
+                    custom:sriv_left_top_corner_radius="5dip"
+                    custom:sriv_right_bottom_corner_radius="5dip"
+                    custom:sriv_right_top_corner_radius="5dip" />
+
+                <TextView
+                    android:id="@+id/textview_petcircle_dz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="店长"
+                    android:textColor="@color/a666666"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_right_swim" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bggray"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp" >
+
+        <include layout="@layout/header_bathservicedetail" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_pet_circle_top_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layout_huodong_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textview_top_tag_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:paddingBottom="1.5dp"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:paddingTop="1.5dp"
+                    android:text="置顶"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <com.melink.bqmmsdk.widget.BQMMMessageText
+                    android:id="@+id/textview_top_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/layout_huodong_one_right"
+                    android:layout_toRightOf="@+id/textview_top_tag_one"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text=" "
+                    android:textColor="@color/a333333"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:id="@+id/layout_huodong_one_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="right" >
+
+                    <ImageView
+                        android:id="@+id/imageview_top_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_right_swim" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/aEEEEEE" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_pet_circle_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layout_huodong_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textview_second_tag_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:paddingBottom="1.5dp"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:paddingTop="1.5dp"
+                    android:text="置顶"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <com.melink.bqmmsdk.widget.BQMMMessageText
+                    android:id="@+id/textview_second_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/layout_huodong_two_right"
+                    android:layout_toRightOf="@+id/textview_second_tag_one"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text=" "
+                    android:textColor="@color/a333333"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:id="@+id/layout_huodong_two_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="right" >
+
+                    <ImageView
+                        android:id="@+id/imageview_second_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_right_swim" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/aEEEEEE" />
+
+        <View
+            android:id="@+id/view_line_isshow"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="@color/bggray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/show_no_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="83dp"
+            android:layout_height="86.5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="40dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/iv_item_postselectionfragment_default_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="你就让这里空着,不说两句?"
+            android:textColor="@color/a333333"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

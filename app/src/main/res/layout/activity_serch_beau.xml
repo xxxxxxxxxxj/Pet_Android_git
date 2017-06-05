@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_serchbeau_root"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:id="@+id/rl_serch_beau"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/bg_titlebar"
+        tools:context="${relativePackage}.${activityClass}" >
+
+        <com.haotang.pet.view.ClearEditText
+            android:id="@+id/editText_serch_beau"
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/tv_serch_beau_qx"
+            android:background="@drawable/edittext_serch_beau_back"
+            android:drawableLeft="@drawable/search_bar_icon_small"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="请输入美容师姓名"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textCursorDrawable="@drawable/editshow"
+            android:textSize="13.0dip" >
+        </com.haotang.pet.view.ClearEditText>
+
+        <TextView
+            android:id="@+id/tv_serch_beau_qx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:text="取消"
+            android:textColor="@color/orange" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/rl_serch_beau_vis"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <com.haotang.pet.pulltorefresh.PullToRefreshListView
+        android:id="@+id/prl_serch_beau_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        android:showDividers="none" />
+    
+    <View 
+        android:id="@+id/vw_serchbeau_mb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@color/bgloading1"/>
+    
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/rl_null"
+        layout="@layout/nullhint" />
+
+</LinearLayout>

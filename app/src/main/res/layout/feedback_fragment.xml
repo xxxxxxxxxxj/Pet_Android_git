@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/f8f8ff8"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_feedback_frag_submit"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_appointment_next_selector"
+        android:text="提交"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_feedback_frag_submit"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="168dip"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/et_feedback_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="138dip"
+                    android:background="@null"
+                    android:gravity="top"
+                    android:hint="您的意见将是我们前进的最大动力！请您在200字以内描 述哦。"
+                    android:maxLength="200"
+                    android:padding="15dip"
+                    android:textColor="@color/a666666"
+                    android:textColorHint="#BBBBBB"
+                    android:textSize="14sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingRight="15dip" >
+
+                    <TextView
+                        android:id="@+id/tv_feedback_text_next"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="/200"
+                        android:textColor="@color/bbbbbb"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_feedback_text_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/tv_feedback_text_next"
+                        android:text="0"
+                        android:textColor="@color/bbbbbb"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_feedback_phone"
+                android:layout_width="match_parent"
+                android:layout_height="45dip"
+                android:layout_marginTop="15dip"
+                android:background="@color/white"
+                android:hint="联系方式"
+                android:maxLength="50"
+                android:paddingLeft="15dip"
+                android:singleLine="true"
+                android:textColor="@color/a666666"
+                android:textColorHint="#BBBBBB"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginTop="30dip"
+                android:text="您可以通过以下方式与我们联系："
+                android:textColor="@color/a666666"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_feedback_qq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginTop="10dip"
+                android:text="客服QQ："
+                android:textColor="@color/a666666"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_feedback_wx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginTop="10dip"
+                android:text="客服微信："
+                android:textColor="@color/a666666"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_feedback_tel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginTop="10dip"
+                android:text="客服电话："
+                android:textColor="@color/a666666"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

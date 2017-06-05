@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar" />
+
+    <HorizontalScrollView
+        android:id="@+id/hsv_shoplist_area"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:background="@color/white"
+        android:fadingEdge="@null"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <GridView
+                android:id="@+id/gv_shoplist_area"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="auto_fit"
+                android:scrollbars="none"
+                android:stretchMode="spacingWidthUniform" >
+            </GridView>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginLeft="15dip"
+        android:background="@color/dddddd" />
+
+    <ListView
+        android:id="@+id/listView_shop_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#d3d3d3"
+        android:dividerHeight="0.5dip"
+        android:listSelector="@drawable/mlistview_selector"
+        android:scrollbars="none" />
+
+</LinearLayout>

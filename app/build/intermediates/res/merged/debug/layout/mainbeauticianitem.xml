@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:id="@+id/rl_mainbeauticianitem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/rl_mainbeauticianitem_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dip" >
+
+        <com.haotang.pet.view.CircleImageView
+            android:id="@+id/iv_mainbeauticianitem_photo"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_production_default"
+            custom:border_color="#ffffff"
+            custom:border_width="1dip" />
+
+        <TextView
+            android:id="@+id/tv_mainbeauticianitem_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#faa048"
+            android:gravity="center"
+            android:paddingBottom="3dip"
+            android:paddingTop="3dip"
+            android:text="姓名"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_mainbeauticianitem_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_mainbeauticianitem_photo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="15dip"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text=" "
+        android:textColor="#555555"
+        android:textSize="13sp" />
+
+</RelativeLayout>

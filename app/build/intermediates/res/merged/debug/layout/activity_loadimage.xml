@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="3dp"
+    tools:context="com.jc.videoplayer.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:fadingEdge="none"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="ImageLoader" />
+
+            <com.jc.videoplayer.lib.JCVideoPlayer
+                android:id="@+id/videocontroller1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Glide" />
+
+            <com.jc.videoplayer.lib.JCVideoPlayer
+                android:id="@+id/videocontroller2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Picasso" />
+
+            <com.jc.videoplayer.lib.JCVideoPlayer
+                android:id="@+id/videocontroller3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Volley" />
+
+            <com.jc.videoplayer.lib.JCVideoPlayer
+                android:id="@+id/videocontroller4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Fresco not yet" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

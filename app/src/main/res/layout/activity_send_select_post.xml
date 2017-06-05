@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bggray" >
+
+    <include
+        android:id="@+id/include1"
+        layout="@layout/titlebar2" />
+
+    <RelativeLayout
+        android:id="@+id/rl_sendselect_post"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:layout_below="@id/include1"
+        android:layout_marginTop="15dip"
+        android:background="@color/white" >
+
+        <com.melink.bqmmsdk.widget.BQMMEditView
+            android:id="@+id/bqmv_sendselect_post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dip"
+            android:background="@android:color/transparent"
+            android:gravity="top|left"
+            android:hint="输入精彩内容吧~"
+            android:inputType="textMultiLine"
+            android:maxHeight="70dip"
+            android:maxLength="200"
+            android:minHeight="35dip"
+            android:textColor="@color/a333333"
+            android:textColorHint="@color/a666666"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_sendselect_layout"
+            android:layout_width="90dip"
+            android:layout_height="90dip"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/bqmv_sendselect_post"
+            android:layout_marginBottom="15dip"
+            android:layout_marginLeft="15dip" >
+
+            <ImageView
+                android:id="@+id/iv_sendselect_post"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/iv_sendselect_postplay_status"
+                android:layout_width="42dip"
+                android:layout_height="42dip"
+                android:layout_centerInParent="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/play_big"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/showtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:layout_above="@id/rl_sendselect_layout"
+            android:text="0/200"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</RelativeLayout>

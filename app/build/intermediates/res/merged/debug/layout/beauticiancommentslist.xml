@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bggray"
+    android:orientation="vertical" >
+    <include layout="@layout/titlebar"/>
+    
+    <TextView 
+        android:id="@+id/tv_beauticiancomments_commentnum"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:text="服务评价(0)"
+        android:textColor="@color/a222222"
+        android:textSize="18sp"
+        android:paddingLeft="10dip"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        />
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/aDDDDDD"/>
+    <com.haotang.pet.pulltorefresh.PullToRefreshListView 
+	    android:id="@+id/prl_beauticiancomments_list"
+	    android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:showDividers="none"
+        android:scrollbars="none"
+        android:fadingEdge="none" 
+	    />
+
+</LinearLayout>

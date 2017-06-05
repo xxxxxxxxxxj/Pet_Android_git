@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white"
+    >
+    <include layout="@layout/titlebar"/>
+    <TextView 
+        android:id="@+id/tv_knowledgedetail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/a777777"
+        android:textSize="18sp"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="20dip"
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="25dip"
+        android:gravity="center"
+        android:visibility="gone"
+        />
+    <com.haotang.pet.pulltorefresh.PullToRefreshWebView 
+        android:id="@+id/prwb_knowledgedetail_web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    
+
+</LinearLayout>

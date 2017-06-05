@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <include layout="@layout/titlebar" />
+    <!-- com.haotang.pet.pulltorefresh.PullToRefreshListView -->
+
+    <com.haotang.pet.pulltorefresh.PullToRefreshListView
+        android:id="@+id/listView_show_my_self_eva"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:dividerHeight="10dp"
+        android:listSelector="@color/transparent"
+        android:scrollbars="none" />
+
+    <LinearLayout
+        android:id="@+id/layout_has_not_eva_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:visibility="gone"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="110.5dp"
+            android:layout_height="94dp"
+            android:src="@drawable/not_has_eva_list" />
+    </LinearLayout>
+
+</RelativeLayout>

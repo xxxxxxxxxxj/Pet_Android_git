@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item_mlvitempostselectionadapter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip" >
+
+    <TextView
+        android:id="@+id/tv_item_mlvitempostselectionadapter_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip"
+        android:text="TextView"
+        android:textColor="@color/orange"
+        android:textSize="14sp" />
+
+    <com.haotang.pet.view.ColorBQMMMessageText
+        android:id="@+id/bqmt_item_mlvitempostselectionadapter_userdes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:focusable="true"
+        android:lineSpacingExtra="2dp"
+        android:textColor="@color/a333333"
+        android:textSize="14sp" />
+
+</LinearLayout>

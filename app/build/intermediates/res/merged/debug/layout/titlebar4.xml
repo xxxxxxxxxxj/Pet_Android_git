@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dip" 
+    android:background="@color/a3a3636"
+    android:paddingLeft="5dip"
+    android:paddingRight="5dip"
+    >
+    <ImageButton 
+        android:id="@+id/ib_titlebar_back"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:background="@drawable/btn_back"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        />
+    <TextView 
+        android:id="@+id/tv_titlebar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请选择服务区域"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_centerInParent="true"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_marginLeft="70dip"
+        android:layout_marginRight="70dip"
+        />
+    
+    <Button 
+        android:id="@+id/bt_titlebar_other"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:background="@null"
+        android:text="更改店铺"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:visibility="visible"
+        android:paddingRight="10dip"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#99000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/show_top"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/pet_data_setback"
+        android:orientation="vertical" 
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="请选择服务时间"
+                android:textColor="@color/orange"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/choose_sure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:text="确定"
+                android:textColor="@color/orange"
+                android:textSize="19sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_petdateselecter_date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.haotang.pet.view.WheelPicker.WheelView
+                android:id="@+id/wv_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="-2dip"
+                android:layout_weight="1" />
+
+            <com.haotang.pet.view.WheelPicker.WheelView
+                android:id="@+id/wv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="-2dip"
+                android:layout_weight="1" />
+            <com.haotang.pet.view.WheelPicker.WheelView
+                android:id="@+id/wv_day_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="-2dip"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bggray"
+    >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white"
+    android:id="@+id/ll_memberfragment"
+    >
+    <include layout="@layout/titlebar"/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        >
+        <Button 
+            android:id="@+id/bt_member_topup"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:text="充值卡"
+            android:textSize="18sp"
+            android:textColor="@color/orange"
+            android:background="@color/white"
+            android:layout_weight="1"
+            />
+        <!-- android:background="@drawable/bg_member_left_passed" -->
+        <View 
+            android:layout_width="1dp"
+            android:layout_height="30dip"
+            android:layout_gravity="center"
+            android:background="@color/bggray"/>
+        <Button 
+            android:id="@+id/bt_member_coupon"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:text="优惠券"
+            android:textSize="18sp"
+            android:textColor="@color/a888888"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:layout_marginLeft="0dip"
+            />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        >
+        <View 
+            android:id="@+id/left"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="1dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:background="@color/orange"/>
+        <View 
+            android:id="@+id/right"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="1dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:background="@color/bggray"/>
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/ll_member_topup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="15dip"
+        android:paddingBottom="5dip"
+        android:background="@color/white"
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dip"
+            android:paddingBottom="15dip"
+            >
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可用余额  : "
+                android:textSize="18sp"
+                android:textColor="@color/a222222"
+                />
+            <TextView 
+                android:id="@+id/tv_member_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¥0.00"
+                android:textSize="18sp"
+                android:textColor="@color/orange"
+                />
+        </LinearLayout>
+        <com.haotang.pet.pulltorefresh.PullToRefreshListView
+	        android:id="@+id/pfl_member_topup"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" 
+	        android:divider="@null"
+	        android:background="@color/bggray"
+	        android:listSelector="#00000000"
+	        android:scrollbars="none"
+	        />
+    	<include 
+            android:id="@+id/rl_member_topup_null"
+            layout="@layout/nullhint"
+            android:visibility="gone"
+            />
+        
+    </LinearLayout>
+        <LinearLayout 
+        android:id="@+id/ll_member_coupon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       	
+        android:visibility="gone"
+        >
+    	 <!-- android:paddingTop="20dip"
+        android:paddingBottom="5dip" -->
+    	<RelativeLayout 
+    	    android:id="@+id/rl_member_coupon_main"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="match_parent"
+    	    android:background="@color/bggray"
+    	   
+    	    >
+      <LinearLayout
+        android:id="@+id/ll_member_coupon_exchange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp" >
+
+            <EditText
+                android:id="@+id/et_member_coupon_code"
+                android:layout_width="0dp"
+                android:layout_height="35dip"
+                android:layout_weight="4"
+                android:layout_marginLeft="1dp"
+                android:background="@drawable/my_coupon_change_new"
+                android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:ems="10"
+                android:hint="请输入兑换码"
+                android:maxLength="20"
+                android:paddingLeft="10dp"
+                android:textColorHint="#CDCDCD" >
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/bt_member_coupon_exchange"
+                android:layout_width="0dp"
+                android:layout_height="35dip"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button_orange"
+                android:text="兑换"
+                android:textColor="@color/white" />
+            <!-- android:layout_marginLeft="5dp" -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bggray" >
+
+           <TextView 
+		   	    android:id="@+id/tv_member_coupon_hint"
+		   	   	android:layout_width="match_parent"
+		   	   	android:layout_height="wrap_content"
+		   	   	android:text="*兑换码的获取请随时关注宠物家市场活动"
+		   	   	android:textSize="13sp"
+		   	   	android:textColor="@color/acccccc"
+		   	   	android:gravity="left"
+		   	   	android:padding="10dp"
+		   	   	android:layout_below="@+id/ll_member_coupon_exchange"
+		   	   	android:background="@color/white"
+    	    />
+            <!-- android:layout_marginBottom="10dp" -->
+        </LinearLayout>
+    </LinearLayout>
+    	<!-- <LinearLayout 
+    	    android:id="@+id/ll_member_coupon_exchange"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:orientation="horizontal"
+    	    android:background="@color/white"
+    	    android:paddingLeft="15dip"
+        	android:paddingRight="15dip"
+    	    >
+    	    <EditText 
+    	        android:id="@+id/et_member_coupon_code"
+    	        android:layout_width="0dip"
+    	        android:layout_height="43dip"
+    	        android:textColor="@color/a757575"
+    	        android:textSize="16sp"
+    	        android:hint="输入兑换码"
+    	        android:textColorHint="@color/acccccc"
+    	        android:layout_weight="1"
+    	        android:background="@drawable/bg_search_orangeborder"
+    	        android:paddingLeft="10dip"
+    	        android:paddingRight="10dip"
+    	        />
+    	    <Button 
+    	        android:id="@+id/bt_member_coupon_exchange"
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="43dip"
+    	        android:text="兑换"
+    	        android:textSize="18sp"
+    	        android:textColor="@color/orange"
+    	        android:layout_marginLeft="6dip"
+    	        android:paddingLeft="18dip"
+    	        android:paddingRight="18dip"
+    	        android:background="@drawable/bg_search_orangeborder"
+    	        />
+    	</LinearLayout>
+    	<TextView 
+    	    android:id="@+id/tv_member_coupon_hint"
+    	   	android:layout_width="match_parent"
+    	   	android:layout_height="wrap_content"
+    	   	android:text="*兑换码的获取请随时关注宠物家市场活动"
+    	   	android:textSize="16sp"
+    	   	android:textColor="@color/acccccc"
+    	   	android:gravity="left"
+    	   	android:padding="10dp"
+    	   	android:layout_below="@+id/ll_member_coupon_exchange"
+    	   	android:background="@color/white"
+    	    /> -->
+    	<com.haotang.pet.pulltorefresh.PullToRefreshListView
+	        android:id="@+id/pfl_member_coupon"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" 
+	        android:divider="@null"
+	        android:listSelector="#00000000"
+	        android:background="@color/bggray"
+	        android:layout_below="@+id/ll_member_coupon_exchange"
+	        android:scrollbars="none"
+	        />
+    	
+    	<LinearLayout 
+    	    android:id="@+id/ll_member_coupon_bottom"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:orientation="horizontal"
+    	    android:paddingTop="10dip"
+    	    android:paddingBottom="5dip"
+    	    android:gravity="center"
+    	    android:layout_alignParentBottom="true"
+    	    android:visibility="gone"
+    	    >
+    	    <TextView 
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:text="没有更多可用优惠券了，查看"
+    	        android:textSize="16sp"
+    	        android:textColor="@color/a888888"
+    	        />
+    	    <TextView 
+    	        android:id="@+id/tv_member_coupon_overdue"
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:text="已过期>>"
+    	        android:textSize="16sp"
+    	        android:textColor="@color/orange"
+    	        />
+    	</LinearLayout>
+    	</RelativeLayout>
+    	<LinearLayout 
+    	    android:id="@+id/ll_member_coupon_login"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="match_parent"
+    	    android:orientation="vertical"
+    	    android:layout_gravity="center_horizontal"
+    	    android:gravity="center_horizontal"
+    	    android:visibility="gone"
+    	    >
+    	    <ImageView 
+    	        android:layout_width="100dip"
+    	        android:layout_height="100dip"
+    	        android:scaleType="fitXY"
+    	        android:background="@drawable/icon_order_null"
+    	        android:layout_marginTop="40dip"
+    	        />
+    	    <TextView 
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:text="点击登录查看您的优惠券"
+    	        android:textColor="@color/acccccc"
+    	        android:textSize="18sp"
+    	        android:layout_marginTop="8dip"
+    	        />
+    	    <Button 
+    	        android:id="@+id/bt_member_coupon_login"
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:text="登录"
+    	        android:textSize="18sp"
+    	        android:textColor="@color/white"
+    	        android:paddingLeft="25dip"
+    	        android:paddingRight="25dip"
+    	        android:paddingTop="5dip"
+    	        android:paddingBottom="5dip"
+    	        android:layout_marginTop="10dip"
+    	        android:background="@drawable/bg_button_orange"
+    	        />
+    	</LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>
+
+<RelativeLayout 
+        android:id="@+id/rl_memberfragmentloading"
+    android:layout_width="80dip"
+    android:layout_height="80dip"
+    android:background="@drawable/bg_loading_round"
+    android:layout_centerInParent="true"
+    >
+
+        <ProgressBar
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:indeterminate="false" 
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/progress_bar_loading"
+        	style="\@android:style/Widget.ProgressBar.Inverse" 
+            />
+   
+
+	</RelativeLayout>
+
+</RelativeLayout>

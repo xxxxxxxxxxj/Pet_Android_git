@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layou_all"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/lLayout_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+
+        <RelativeLayout
+            android:id="@+id/llayout_bg_last"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="@drawable/alert_bg"
+            android:layout_centerInParent="true" 
+            >
+
+            <ImageView
+                android:id="@+id/iv_alertdialog_close"
+                android:layout_width="14dip"
+                android:layout_height="14dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/iv_alertdialog_close_img" />
+
+            <TextView
+                android:id="@+id/tv_alertdialog_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_alertdialog_close"
+                android:layout_marginBottom="15dip"
+                android:layout_marginLeft="30dip"
+                android:text="没昵称我    蓝瘦"
+                android:textColor="@color/a666666"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            
+			<ScrollView 
+			    android:id="@+id/scroll"
+			    android:layout_width="match_parent"
+			    android:layout_height="35dip"
+			    android:layout_below="@id/tv_alertdialog_title"
+			    android:fillViewport="true"
+			    android:scrollbars="vertical" 
+                android:layout_marginBottom="30dip"
+			    android:layout_marginLeft="10dp"
+			    android:layout_marginRight="10dp"
+			    >
+			
+            <EditText
+                android:id="@+id/et_alertdialog_name"
+                android:layout_width="match_parent"
+                android:layout_height="35dip"
+                android:background="@drawable/bg_order_pay_et"
+                android:hint="请填写昵称"
+                android:textColor="@color/a777777"
+                android:textColorHint="@color/acccccc"
+                android:paddingLeft="10dp"
+                android:maxLength="6"
+                android:textSize="16sp" />
+            <!-- <requestFocus /> -->
+			</ScrollView>
+            <ImageView
+                android:id="@+id/iv_alertdialog_line"
+                android:layout_width="match_parent"
+                android:layout_height="0.3dip"
+                android:layout_below="@id/scroll"
+                android:background="@color/alertdialog_line" />
+
+            <Button
+                android:id="@+id/btn_alertdialog_refuse"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_below="@id/iv_alertdialog_line"
+                android:background="@drawable/alertdialog_left_selector"
+                android:text="保   存"
+                android:textColor="@color/orange"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

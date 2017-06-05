@@ -1,0 +1,270 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/bggray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <com.haotang.pet.view.SelectableRoundedImageView
+                android:id="@+id/sriv_beauticianitem_beautician"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="@dimen/beau_marg_left"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icon_beautician_default"
+                custom:sriv_oval="true" />
+            <!--
+                 <com.haotang.pet.view.SelectableRoundedImageView 
+                android:id="@+id/sriv_beauticianitem_beautician"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_marginLeft="@dimen/beau_marg_left"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_beautician_default"
+                custom:sriv_left_top_corner_radius="5dip"
+	        	custom:sriv_right_top_corner_radius="5dip"
+	        	custom:sriv_left_bottom_corner_radius="5dip"
+	        	custom:sriv_right_bottom_corner_radius="5dip" />
+            -->
+            <!--
+                 <com.haotang.pet.view.SelectableRoundedImageView 
+                android:id="@+id/sriv_beauticianitem_beautician_sex"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:scaleType="fitXY"
+                custom:sriv_left_top_corner_radius="5dip"
+	            custom:sriv_right_top_corner_radius="1dip"
+	            custom:sriv_left_bottom_corner_radius="1dip"
+	            custom:sriv_right_bottom_corner_radius="5dip" 
+	            android:layout_alignRight="@+id/sriv_beauticianitem_beautician"
+			    android:layout_alignBottom="@+id/sriv_beauticianitem_beautician"
+	            />
+            -->
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/beau_marg_left"
+                android:layout_weight="3"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_beauticianitem_beauticianname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:text=" "
+                        android:textColor="@color/a333333"
+                        android:textSize="@dimen/text_size_beau_title" />
+
+                    <!--
+                         <ImageView
+                        android:id="@+id/beau_tag"
+                        android:layout_width="15dip"
+                        android:layout_height="15dip"
+                        android:layout_marginLeft="@dimen/tag_marg_left"
+                        />
+                    -->
+
+                    <TextView
+                        android:id="@+id/tv_beautician_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/bg_beau_tag_transparent"
+                        android:paddingBottom="1dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="1dp"
+                        android:singleLine="true"
+                        android:text="体验店"
+                        android:textColor="#767676"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:id="@+id/layout_beau_go_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:visibility="gone" >
+
+                        <ImageView
+                            android:layout_width="@dimen/go_home_and_shop"
+                            android:layout_height="@dimen/go_home_and_shop"
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/go_home_and_shop" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:text="上门"
+                            android:textColor="@color/a757575" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_beau_go_shop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:visibility="gone" >
+
+                        <ImageView
+                            android:layout_width="@dimen/go_home_and_shop"
+                            android:layout_height="@dimen/go_home_and_shop"
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/go_home_and_shop" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:text="到店"
+                            android:textColor="@color/a757575" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical" >
+
+                    <TextView
+                        android:id="@+id/beau_detail_tag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text=" "
+                        android:textColor="#767676" />
+
+                    <TextView
+                        android:id="@+id/tv_beauticianitem_ordernum"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|right"
+                        android:text=" "
+                        android:textColor="@color/orange" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/item_layout_beau_app"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="13dp"
+                    android:background="@color/aE1E1E1" />
+
+                <Button
+                    android:id="@+id/bt_beauticianitem_booking"
+                    android:layout_width="70dip"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/bg_button_orager_oval"
+                    android:focusable="false"
+                    android:text="预约"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_beauticianitem_upgradetip"
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:paddingLeft="80dip"
+        android:paddingRight="15dip"
+        android:singleLine="true"
+        android:text=" TextView"
+        android:visibility="gone"
+        android:textColor="@color/aD1494F" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/tag_padding_leftandright"
+        android:background="@color/bggray" />
+    <!--
+         <TextView
+        android:id="@+id/tv_beauticianitem_sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/tag_item_good"
+        android:paddingBottom="@dimen/tag_item_good"
+        android:paddingRight="@dimen/tag_item_good"
+        android:layout_marginLeft="@dimen/beau_marg_left"
+        android:text=" "
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/a666666"
+        android:visibility="gone" />
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/textview_service_goodrate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:paddingRight="17dip"
+            android:text="好评率：4.9"
+            android:textColor="#767676" />
+
+        <TextView
+            android:id="@+id/textview_exchange_grade"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:text="评分：4.9"
+            android:textColor="#767676" />
+    </LinearLayout>
+
+</LinearLayout>

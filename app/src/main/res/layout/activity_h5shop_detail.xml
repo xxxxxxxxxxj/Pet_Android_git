@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:id="@+id/layout_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <include layout="@layout/titlebar"/>
+    </LinearLayout>
+    <WebView
+        android:id="@+id/webView_shop_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/layout_one"
+        />
+    
+    <Button 
+        android:id="@+id/bt_h5_back"
+        android:layout_width="100dip"
+        android:layout_height="55dip"
+        android:background="@null"
+        />
+
+</RelativeLayout>

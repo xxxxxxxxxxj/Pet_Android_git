@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="80dip"
+        android:layout_height="45dip">
+
+        <TextView
+            android:id="@+id/tv_item_regions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <View
+            android:id="@+id/vw_item_regions"
+            android:layout_width="19dip"
+            android:layout_height="3dip"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"
+            android:layout_alignParentBottom="true"
+            android:background="@color/aD1494F"/>
+    </RelativeLayout>
+</LinearLayout>

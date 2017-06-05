@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/bggray">
+
+    <include layout="@layout/titlebar"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/evalute_last">
+
+        <TextView
+            android:id="@+id/textView_evalute_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:text="感谢您的评价!" />
+
+        <TextView
+            android:id="@+id/textView_evalute_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_evalute_one"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31dp"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:text="漂亮的爱宠大家会更喜欢哦~" />
+
+	        <TextView
+	            android:id="@+id/textView_evalute_thr"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+	            android:layout_centerVertical="true"
+	            android:textColor="@color/white"
+	            android:text="快来秀一下吧!" />
+
+    </RelativeLayout>
+
+</LinearLayout>

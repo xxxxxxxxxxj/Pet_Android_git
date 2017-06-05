@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/all_choose"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <com.haotang.pet.view.ClearEditText
+        android:id="@+id/filter_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_search_orangeborder"
+        android:hint="请输入爱宠品类"
+        android:textColorHint="@color/acccccc"
+        android:textColor="@color/a777777"
+        android:drawableLeft="@drawable/search_bar_icon_normal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:singleLine="true"
+        android:textSize="15sp" />
+
+    <FrameLayout
+        android:id="@+id/layout_choose_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp" >
+
+        <ListView
+            android:id="@+id/country_lvcountry"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:divider="@null" />
+        <!-- android:background="@drawable/show_head_toast_bg"    android:layout_marginTop="20dp" -->
+
+        <TextView
+            android:id="@+id/dialog"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_button_orange_normal_dog"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:textSize="30.0dip"
+            android:visibility="invisible" />
+
+        <com.haotang.pet.view.SideBar
+            android:id="@+id/sidrbar"
+            android:layout_width="30.0dip"
+            android:layout_height="fill_parent"
+            android:scrollbars="none"
+            android:layout_gravity="right|center" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_choose_cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="喵星人的服务暂未开通哦" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="敬请期待吧" />
+    </LinearLayout>
+
+</LinearLayout>

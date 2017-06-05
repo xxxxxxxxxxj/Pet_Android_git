@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:id="@+id/scrollView_evalua"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:layout_alignParentTop="true"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:padding="10dp" >
+
+                    <com.haotang.pet.view.SelectableRoundedImageView
+                        android:id="@+id/imageView_evaluate_dog_icon"
+                        android:layout_width="50dp"
+                        android:layout_height="60dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/dog_icon_unnew"
+                        android:scaleType="fitXY"
+                        custom:sriv_left_bottom_corner_radius="3dip"
+                        custom:sriv_left_top_corner_radius="3dip"
+                        custom:sriv_right_bottom_corner_radius="3dip"
+                        custom:sriv_right_top_corner_radius="3dip" />
+
+                    <TextView
+                        android:id="@+id/textView_evalute_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:text="¥38"
+                        android:textColor="@color/a666666"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_evaluate_dog_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toLeftOf="@+id/textView_evalute_price"
+                        android:layout_toRightOf="@+id/imageView_evaluate_dog_icon"
+                        android:text="宠物套餐名"
+                        android:textColor="@color/a222222"
+                    	android:textSize="16sp"/>
+                </RelativeLayout>
+				<View 
+				    android:layout_width="match_parent"
+				    android:layout_height="1dp"
+				    android:background="@color/acccccc"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/editText_evalute_write_by_user"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/white"
+                        android:ems="10"
+                        android:gravity="top"
+                        android:hint="宝贝的服务是否满意，给美容师一个好评吧！"
+                        android:maxLength="500"
+                        android:paddingBottom="3dip"
+                        android:paddingLeft="8dip"
+                        android:paddingRight="8dip"
+                        android:paddingTop="3dip"
+                        android:textColor="@color/a222222"
+                        android:textColorHint="@color/acccccc"
+                        android:textSize="14sp" >
+
+                        <requestFocus />
+                    </EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <GridView
+                        android:id="@+id/gridView_get_dog_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numColumns="4"
+                        android:scrollbars="none"
+                        android:visibility="visible" >
+                    </GridView>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textview_eva_length"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="right"
+                    android:layout_marginTop="-10dp"
+                    android:textColor="@color/aAAAAAA"
+                    android:text="0/500" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:background="@color/bggray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="给本次服务评分"
+                    android:textColor="@color/a222222"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/acccccc" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center" >
+
+                    <RatingBar
+                        android:id="@+id/ratingBar_major_grade"
+                        style="@style/myCustomizeRatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:isIndicator="false"
+                        android:numStars="5"
+                        android:stepSize="1" 
+                        android:visibility="gone"/>
+                    
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" 
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/imageview_eva_one"
+                            android:layout_width="33dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/star_empty" />
+
+                        <ImageView
+                            android:id="@+id/imageview_eva_two"
+                            android:layout_width="33dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/star_empty" />
+
+                        <ImageView
+                            android:id="@+id/imageview_eva_thr"
+                            android:layout_width="33dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/star_empty" />
+
+                        <ImageView
+                            android:id="@+id/imageview_eva_four"
+                            android:layout_width="33dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/star_empty" />
+
+                        <ImageView
+                            android:id="@+id/imageview_eva_five"
+                            android:layout_width="33dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/star_empty" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textview_show_last_eva"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=" " 
+                    android:layout_marginBottom="15dp"/>
+
+                <com.haotang.pet.view.MyGridView
+                    android:id="@+id/gridView_last_show"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:listSelector="@color/transparent"
+                    android:numColumns="2" 
+                    android:horizontalSpacing="10dp"
+                    android:verticalSpacing="10dp"/>
+
+                <LinearLayout
+                    android:id="@+id/layout_is_anonymous"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal" 
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/is_anonymous"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/icon_pay_normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="匿名提交" 
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/a666666"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        
+        <Button
+            android:id="@+id/post_to_service_eva"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="15dp"
+            android:background="@color/aBB996C"
+            android:text="提   交"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+        <!-- 
+        android:background="@drawable/bg_button_service_apponit_ok" -->
+    </RelativeLayout>
+
+</LinearLayout>

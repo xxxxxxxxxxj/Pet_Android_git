@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#AA000000"
+    android:layout_gravity="center"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll_dlg_cancle_main"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#00000000" >
+
+        <RelativeLayout
+            android:id="@+id/layout_show"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/order_cancle_ok" >
+
+            <TextView
+                android:id="@+id/textView_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="5dp"
+                android:text="取消成功" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

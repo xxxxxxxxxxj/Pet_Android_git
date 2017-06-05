@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_item_postuserinfoimage"
+        android:layout_width="95dip"
+        android:layout_height="95dip"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_production_default" />
+
+</LinearLayout>

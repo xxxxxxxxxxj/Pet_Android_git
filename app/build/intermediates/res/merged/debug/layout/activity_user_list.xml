@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <include
+        android:id="@+id/include1"
+        layout="@layout/titlebar2" />
+
+    <View
+        android:id="@+id/vw_userlist"
+        android:layout_width="fill_parent"
+        android:layout_height="15dip"
+        android:layout_below="@id/include1"
+        android:background="@color/f8f8ff8" />
+
+    <com.haotang.pet.pulltorefresh.PullToRefreshListView
+        android:id="@+id/prl_userlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/vw_userlist"
+        android:divider="@color/dddddd"
+        android:dividerHeight="1px"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        android:showDividers="none" >
+    </com.haotang.pet.pulltorefresh.PullToRefreshListView>
+
+    <ImageView
+        android:id="@+id/iv_postuser_default"
+        android:layout_width="102.5dip"
+        android:layout_height="107dip"
+        android:layout_centerInParent="true"
+        android:src="@drawable/dongtai_default_img"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_postuser_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_postuser_default"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:text="快去晒萌宠，粉丝们都在来的路上~"
+        android:visibility="gone" />
+
+</RelativeLayout>

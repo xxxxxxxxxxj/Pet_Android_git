@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_item_postuserinfo_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/rl_item_postuserinfo_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:id="@+id/vw1"
+            android:layout_width="1dp"
+            android:layout_height="25dp"
+            android:layout_centerHorizontal="true"
+            android:background="#A6A6A6" />
+
+        <ImageView
+            android:id="@+id/iv_item_postuserinfo_circle"
+            android:layout_width="8dip"
+            android:layout_height="8dip"
+            android:layout_below="@+id/vw1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dip"
+            android:src="@drawable/img_postuserinfo_circle" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_item_postuserinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_toRightOf="@id/rl_item_postuserinfo_line"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_item_postuserinfo_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="19dip"
+            android:text="TextView"
+            android:textColor="@color/a333333"
+            android:textSize="14sp" />
+
+        <com.melink.bqmmsdk.widget.BQMMMessageText
+            android:id="@+id/bqmt_item_postuserinfo_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:autoLink="web"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="left|center"
+            android:lineSpacingExtra="2dp"
+            android:textColor="@color/a333333"
+            android:textSize="14dip" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.haotang.pet.view.MyGridView
+                android:id="@+id/mgv_item_postuserinfo_pic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:horizontalSpacing="10dip"
+                android:listSelector="@null"
+                android:numColumns="3"
+                android:scrollbars="none"
+                android:verticalSpacing="10dip"
+                android:visibility="gone" >
+            </com.haotang.pet.view.MyGridView>
+
+            <RelativeLayout
+                android:id="@+id/rl_item_postuserinfo_picorvideo"
+                android:layout_width="151dip"
+                android:layout_height="139dip"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/iv_item_postuserinfo_coverimg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_production_default" />
+
+                <ImageView
+                    android:id="@+id/iv_item_postuserinfo_play_status"
+                    android:layout_width="42dip"
+                    android:layout_height="42dip"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/play_big" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/vw2"
+        android:layout_width="1dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@id/ll_item_postuserinfo"
+        android:layout_below="@+id/rl_item_postuserinfo_line"
+        android:layout_marginLeft="3.2dip"
+        android:layout_marginTop="1dip"
+        android:background="#A6A6A6" />
+
+</RelativeLayout>

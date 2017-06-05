@@ -1,0 +1,1625 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:2:1-1023:12
+	package
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml
+		INJECTED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:5:5-32
+		INJECTED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml
+		INJECTED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:4:5-31
+		INJECTED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml
+		INJECTED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:2:11-69
+supports-screens
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:7:5-12:39
+	android:largeScreens
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:9:9-36
+	android:smallScreens
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:12:9-36
+	android:normalScreens
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:10:9-37
+	android:resizeable
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:11:9-34
+	android:anyDensity
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:8:9-34
+uses-sdk
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:14:5-16:41
+MERGED from [com.android.support:support-v4:21.0.3] E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:16:9-38
+		INJECTED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml
+		INJECTED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:15:9-35
+		INJECTED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml
+		INJECTED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml
+application
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:18:5-903:19
+MERGED from [com.android.support:support-v4:21.0.3] E:\qiaobin\Pet_Android_git_3.3.0\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:22:9-41
+	android:allowBackup
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:20:9-35
+	android:icon
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:21:9-38
+	android:largeHeap
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:23:9-33
+	android:persistent
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:24:9-34
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:25:9-62
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:19:9-37
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:30:9-32:64
+	android:value
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:32:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:31:13-52
+activity#com.haotang.pet.FlashActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:34:9-53:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:39:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:37:13-45
+	android:launchMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:38:13-43
+	android:exported
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:36:13-36
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:40:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:35:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:41:13-45:29
+	android:priority
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:41:28-51
+action#android.intent.action.MAIN
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:42:17-69
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:42:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:44:17-77
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:44:27-74
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:46:13-52:29
+action#android.intent.action.VIEW
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:47:17-69
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:47:25-66
+category#android.intent.category.DEFAULT
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:49:17-76
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:49:27-73
+data
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:51:17-61
+	android:scheme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:51:23-58
+activity#com.haotang.pet.ChoosePetActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:54:9-58:85
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:56:13-49
+	android:windowSoftInputMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:58:13-82
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:57:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:55:13-46
+activity#com.haotang.pet.LoginActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:59:9-63:64
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:61:13-49
+	android:windowSoftInputMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:63:13-61
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:62:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:60:13-42
+activity#com.haotang.pet.CitysActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:64:9-67:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:66:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:67:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:65:13-42
+activity#com.haotang.pet.CommonAddressActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:68:9-71:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:70:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:71:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:69:13-50
+activity#com.haotang.pet.ServiceAddressSearch
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:72:9-76:75
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:74:13-49
+	android:windowSoftInputMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:76:13-72
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:75:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:73:13-49
+activity#com.haotang.pet.SelectTimeActivityNew
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:77:9-80:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:79:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:80:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:78:13-50
+activity#com.haotang.pet.OrderDetailActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:81:9-84:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:83:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:84:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:82:13-48
+activity#com.haotang.pet.NoteActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:85:9-88:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:87:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:88:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:86:13-41
+activity#com.haotang.pet.AvailableCouponActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:89:9-92:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:91:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:92:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:90:13-52
+activity#com.haotang.pet.ServiceActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:93:9-96:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:95:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:96:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:94:13-44
+activity#com.haotang.pet.AddServiceAddressActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:97:9-100:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:99:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:100:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:98:13-54
+activity#com.haotang.pet.ChangeAccountActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:101:9-104:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:103:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:104:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:102:13-50
+activity#com.haotang.pet.MyCouponActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:105:9-109:75
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:107:13-49
+	android:windowSoftInputMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:109:13-72
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:108:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:106:13-45
+activity#com.haotang.pet.EvaluateActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:110:9-114:73
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:112:13-49
+	android:windowSoftInputMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:114:13-70
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:113:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:111:13-45
+activity#com.haotang.pet.ImgShow
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:117:9-120:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:119:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:120:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:118:13-36
+activity#com.haotang.pet.ContactActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:121:9-124:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:123:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:124:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:122:13-44
+activity#com.haotang.pet.BeauticianListActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:125:9-128:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:127:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:128:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:126:13-51
+activity#com.haotang.pet.BeauticianDetailActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:129:9-132:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:131:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:132:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:130:13-53
+activity#com.haotang.pet.PaySuccessActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:133:9-136:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:135:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:136:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:134:13-47
+activity#com.haotang.pet.OrderDetailFromOrderActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:137:9-140:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:139:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:140:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:138:13-57
+activity#com.haotang.pet.OrderDetailFromOrderToConfirmActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:141:9-144:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:143:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:144:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:142:13-66
+activity#com.haotang.pet.EvaluateOverActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:145:9-148:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:147:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:148:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:146:13-49
+activity#com.haotang.pet.BeauticianProductuonActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:149:9-152:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:151:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:152:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:150:13-57
+activity#com.haotang.pet.BeauticianProductionDetailActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:153:9-156:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:155:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:156:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:154:13-63
+activity#com.haotang.pet.BeauticianCommentsListActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:157:9-160:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:159:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:160:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:158:13-59
+activity#com.haotang.pet.FeedBackActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:161:9-165:67
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:163:13-49
+	android:windowSoftInputMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:165:13-64
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:164:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:162:13-45
+activity#com.haotang.pet.MoreAboutActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:166:9-169:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:168:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:169:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:167:13-46
+activity#com.haotang.pet.AboutUsMessageActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:170:9-173:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:172:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:173:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:171:13-51
+activity#com.haotang.pet.MainActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:174:9-177:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:176:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:177:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:175:13-41
+activity#com.haotang.pet.KnowledgeDetailActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:178:9-181:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:180:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:181:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:179:13-52
+activity#com.haotang.pet.ADActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:182:9-188:58
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:187:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:186:13-45
+	android:hardwareAccelerated
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:185:13-47
+	android:windowSoftInputMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:188:13-55
+	android:configChanges
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:184:13-63
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:183:13-39
+activity#com.haotang.pet.GuideActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:189:9-192:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:191:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:192:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:190:13-42
+activity#com.haotang.pet.AgreementActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:193:9-196:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:195:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:196:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:194:13-46
+activity#com.haotang.pet.BeauticianCommonPicActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:197:9-200:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:199:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:200:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:198:13-56
+activity#com.haotang.pet.CharacteristicServiceActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:201:9-204:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:203:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:204:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:202:13-58
+activity#com.haotang.pet.MyLastMoney
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:205:9-208:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:207:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:208:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:206:13-40
+activity#com.haotang.pet.BalanceRecord
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:209:9-212:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:211:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:212:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:210:13-42
+activity#com.haotang.pet.RechargePage
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:213:9-217:57
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:215:13-49
+	android:windowSoftInputMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:217:13-54
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:216:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:214:13-41
+activity#com.haotang.pet.BalanceRecordDetail
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:218:9-221:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:220:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:221:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:219:13-48
+activity#com.haotang.pet.AppointmentActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:222:9-225:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:224:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:225:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:223:13-48
+activity#com.haotang.pet.KnowledgeActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:226:9-229:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:228:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:229:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:227:13-46
+activity#com.haotang.pet.GoHomeDetailActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:230:9-233:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:232:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:233:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:231:13-49
+activity#com.haotang.pet.GoShopDetailActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:234:9-237:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:236:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:237:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:235:13-49
+activity#com.haotang.pet.MyTimeOutCouponActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:238:9-241:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:240:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:241:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:239:13-52
+activity#com.haotang.pet.UpgradeServiceActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:242:9-245:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:244:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:245:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:243:13-51
+activity#com.haotang.pet.GiftActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:246:9-249:64
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:248:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:249:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:247:13-41
+activity#com.haotang.pet.FostercareRoomDetailActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:250:9-253:64
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:252:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:253:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:251:13-57
+activity#com.haotang.pet.ShopListActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:254:9-257:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:256:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:257:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:255:13-45
+activity#com.haotang.pet.FostercareAppointmentActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:258:9-261:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:260:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:261:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:259:13-58
+activity#com.haotang.pet.FostercareOrderConfirmActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:262:9-265:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:264:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:265:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:263:13-59
+activity#com.haotang.pet.FostercareDateActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:266:9-269:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:268:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:269:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:267:13-51
+activity#com.haotang.pet.FostercareChooseroomActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:270:9-273:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:272:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:273:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:271:13-57
+activity#com.haotang.pet.FostercarePaysuccessActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:274:9-277:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:276:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:277:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:275:13-57
+activity#com.haotang.pet.OverburdenActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:278:9-281:64
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:280:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:281:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:279:13-47
+activity#com.haotang.pet.AppointmentTimeGuideActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:282:9-285:64
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:284:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:285:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:283:13-57
+activity#com.haotang.pet.PetDateSelecterActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:286:9-289:64
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:288:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:289:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:287:13-52
+activity#com.haotang.pet.OrderFosterDetailActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:290:9-293:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:292:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:293:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:291:13-54
+activity#com.haotang.pet.ShopH5DetailActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:294:9-297:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:296:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:297:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:295:13-49
+activity#com.haotang.pet.PetAddActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:298:9-301:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:300:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:301:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:299:13-43
+activity#com.haotang.pet.PetInfoActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:302:9-305:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:304:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:305:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:303:13-44
+activity#com.haotang.pet.ChoosePetActivityNew
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:306:9-310:67
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:308:13-49
+	android:windowSoftInputMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:310:13-64
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:309:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:307:13-49
+activity#com.haotang.pet.FostercareShopListActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:311:9-314:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:313:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:314:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:312:13-55
+activity#com.haotang.pet.PickupHintActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:315:9-318:64
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:317:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:318:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:316:13-47
+activity#com.haotang.pet.CharactServiceItemActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:319:9-322:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:321:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:322:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:320:13-55
+activity#com.haotang.pet.MulPetAddServiceActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:323:9-326:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:325:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:326:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:324:13-53
+activity#com.haotang.pet.OrderPayActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:327:9-330:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:329:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:330:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:328:13-45
+activity#com.haotang.pet.OrderListShowAddMyPet
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:331:9-334:64
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:333:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:334:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:332:13-50
+activity#com.haotang.pet.MainToList
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:335:9-338:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:337:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:338:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:336:13-39
+activity#com.haotang.pet.JointWorkShopDetail
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:339:9-342:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:341:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:342:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:340:13-48
+activity#com.haotang.pet.ShopLocationActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:343:9-346:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:345:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:346:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:344:13-49
+activity#com.haotang.pet.ServiceFeature
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:347:9-350:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:349:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:350:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:348:13-43
+activity#com.haotang.pet.SelectTimeDialogActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:351:9-354:64
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:353:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:354:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:352:13-53
+activity#com.haotang.pet.MainToBeauList
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:355:9-358:63
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:357:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:358:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:356:13-43
+activity#com.haotang.pet.BeauToAppointmentActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:359:9-362:64
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:361:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:362:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:360:13-54
+activity#com.haotang.pet.ServiceAreaActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:363:9-367:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:366:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:365:13-64
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:364:13-48
+activity#com.haotang.pet.SelectServiceAreaActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:368:9-373:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:371:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:370:13-71
+	android:windowSoftInputMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:372:13-73
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:369:13-54
+activity#com.haotang.pet.SerchBeauActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:374:9-379:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:377:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:376:13-62
+	android:windowSoftInputMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:378:13-68
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:375:13-46
+activity#com.haotang.pet.PetDataServiceActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:380:9-385:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:383:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:382:13-62
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:384:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:381:13-51
+activity#com.haotang.pet.SwimDetailActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:386:9-390:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:389:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:388:13-62
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:387:13-47
+activity#com.haotang.pet.SwimAppointmentActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:391:9-395:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:394:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:393:13-62
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:392:13-52
+activity#com.haotang.pet.SelectTimeOrUrgentActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:396:9-400:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:399:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:398:13-73
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:397:13-55
+activity#com.haotang.pet.CustomerPetInfoActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:401:9-405:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:404:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:403:13-69
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:402:13-52
+activity#com.haotang.pet.PetDataSwimActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:406:9-411:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:409:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:408:13-62
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:410:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:407:13-48
+activity#com.haotang.pet.OrderToWaitActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:412:9-416:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:414:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:415:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:413:13-48
+activity#com.haotang.pet.OrderAcceptBeauVieActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:417:9-421:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:419:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:420:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:418:13-55
+activity#com.haotang.pet.OrderCancleActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:422:9-426:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:425:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:424:13-69
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:423:13-48
+activity#com.haotang.pet.OrderCancleReasonActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:427:9-430:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:429:13-49
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:428:13-54
+activity#com.haotang.pet.PetCircleInsideActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:431:9-434:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:433:13-49
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:432:13-52
+activity#com.haotang.pet.PetCircleInsidePostActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:435:9-439:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:437:13-49
+	android:windowSoftInputMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:438:13-82
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:436:13-56
+activity#com.haotang.pet.PetCirClePostImageActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:440:9-443:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:442:13-49
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:441:13-55
+activity#com.haotang.pet.MultiImage.PickOrTakeImageActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:444:9-447:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:446:13-49
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:445:13-63
+activity#com.haotang.pet.MultiImage.PickBigImagesActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:448:9-451:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:450:13-49
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:449:13-61
+activity#com.haotang.pet.FostercareLiveActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:457:9-461:20
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:460:13-67
+	android:configChanges
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:459:13-74
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:458:13-51
+activity#com.haotang.pet.FostercareLiveFullScreen
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:462:9-468:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:467:13-50
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:466:13-79
+	android:exported
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:465:13-36
+	android:configChanges
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:464:13-63
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:463:13-53
+activity#com.haotang.pet.crop.CropImageActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:474:9-478:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:477:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:476:13-62
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:475:13-51
+activity#com.haotang.pet.MediaRecorderActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:479:9-483:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:482:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:481:13-66
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:480:13-50
+activity#com.haotang.pet.SendSelectPostActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:484:9-489:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:487:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:486:13-68
+	android:windowSoftInputMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:488:13-55
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:485:13-51
+activity#com.haotang.pet.PetCircleInsideDetailActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:490:9-494:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:492:13-49
+	android:windowSoftInputMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:493:13-54
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:491:13-58
+activity#com.loveplusplus.demo.image.ImagePagerActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:496:9-500:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:499:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:498:13-63
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:497:13-74
+activity#com.haotang.pet.PostSelectionDetailActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:501:9-506:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:504:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:503:13-72
+	android:windowSoftInputMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:505:13-55
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:502:13-56
+activity#com.haotang.pet.VideoPlayerActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:507:9-511:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:510:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:509:13-64
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:508:13-48
+activity#com.haotang.pet.StartPageActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:512:9-516:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:515:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:514:13-62
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:513:13-46
+activity#com.haotang.pet.IsCanPickActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:517:9-520:64
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:519:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:520:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:518:13-46
+activity#com.haotang.pet.MediaActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:521:9-525:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:524:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:523:13-57
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:522:13-42
+activity#com.haotang.pet.PostUserInfoActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:526:9-530:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:529:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:528:13-66
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:527:13-49
+activity#com.haotang.pet.LanShowActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:531:9-536:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:533:13-49
+	android:windowSoftInputMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:535:13-54
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:534:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:532:13-44
+activity#com.haotang.pet.MyCouponGiveOtherActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:537:9-541:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:539:13-49
+	android:windowSoftInputMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:540:13-54
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:538:13-54
+activity#com.haotang.pet.UserListActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:542:9-546:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:545:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:544:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:543:13-45
+activity#com.haotang.pet.ClipPictureActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:547:9-551:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:550:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:549:13-64
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:548:13-48
+activity#com.haotang.pet.MipcaActivityCapture
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:552:9-556:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:555:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:554:13-74
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:553:13-49
+activity#com.haotang.pet.TrainAppointMentActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:557:9-560:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:559:13-49
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:558:13-53
+activity#com.haotang.pet.VideoMoreActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:561:9-564:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:563:13-49
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:562:13-46
+activity#com.haotang.pet.ChangeOrderActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:565:9-568:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:567:13-49
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:566:13-48
+activity#com.haotang.pet.PetDateTrainActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:569:9-573:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:571:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:572:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:570:13-49
+activity#com.haotang.pet.ChangeOrderYesOrNo
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:574:9-578:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:576:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:577:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:575:13-47
+activity#com.haotang.pet.GrowthActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:579:9-583:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:581:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:582:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:580:13-43
+activity#com.haotang.pet.TrainGuideActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:584:9-588:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:586:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:587:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:585:13-47
+activity#com.haotang.pet.MainAcPage
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:589:9-593:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:591:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:592:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:590:13-39
+activity#com.haotang.pet.ServicePlayVideoActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:594:9-598:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:596:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:597:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:595:13-53
+activity#com.haotang.pet.PetInfoDeatilActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:599:9-602:20
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:601:13-67
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:600:13-50
+activity#com.haotang.pet.MyCardsActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:603:9-606:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:605:13-49
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:604:13-44
+activity#com.haotang.pet.CardsDetailActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:607:9-610:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:609:13-49
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:608:13-48
+activity#com.haotang.pet.OrderConfirmChooseCardActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:611:9-614:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:613:13-49
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:612:13-59
+activity#com.haotang.pet.MyCardsOutDataActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:615:9-618:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:617:13-49
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:616:13-51
+activity#com.jc.videoplayer.lib.JCFullScreenActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:619:9-622:53
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:622:13-50
+	android:configChanges
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:621:13-63
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:620:13-71
+activity#com.haotang.pet.UserMemberActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:623:9-627:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:626:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:625:13-63
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:624:13-47
+activity#com.haotang.pet.MyEvaluateActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:628:9-632:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:631:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:630:13-63
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:629:13-47
+activity#com.haotang.pet.ComplaintOrderHistoryActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:633:9-637:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:636:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:635:13-75
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:634:13-58
+activity#com.haotang.pet.CustomerComplaintsHistoryActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:638:9-642:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:641:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:640:13-79
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:639:13-62
+activity#com.haotang.pet.ComplaintActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:643:9-647:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:646:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:645:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:644:13-46
+activity#com.haotang.pet.UpdateOrderConfirmActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:648:9-652:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:651:13-49
+	android:label
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:650:13-72
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:649:13-55
+service#com.yixia.camera.demo.service.MessageService
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:653:9-657:19
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:653:18-77
+intent-filter#com.haotang.pet
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:654:13-656:29
+action#com.haotang.pet
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:655:17-58
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:655:25-55
+service#com.haotang.pet.services.UpdateService
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:659:9-660:19
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:659:18-56
+meta-data#bqmm_app_id
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:664:9-666:64
+	android:value
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:666:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:665:13-39
+meta-data#bqmm_app_secret
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:667:9-669:64
+	android:value
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:669:13-61
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:668:13-43
+activity#com.melink.bqmmsdk.ui.store.EmojiPackageList
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:672:9-675:60
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:674:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:675:13-57
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:673:13-72
+activity#com.melink.bqmmsdk.ui.store.EmojiPackageDetail
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:676:9-679:60
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:678:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:679:13-57
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:677:13-74
+activity#com.melink.bqmmsdk.ui.store.ServiceDeclaration
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:680:9-683:60
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:682:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:683:13-57
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:681:13-74
+activity#com.melink.bqmmsdk.ui.store.EmojiPackageSetting
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:684:9-687:60
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:686:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:687:13-57
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:685:13-75
+activity#com.melink.bqmmsdk.ui.store.EmojiDetail
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:688:9-691:60
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:690:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:691:13-57
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:689:13-67
+activity#com.melink.bqmmsdk.ui.store.EmojiPackageSort
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:692:9-695:60
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:694:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:695:13-57
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:693:13-72
+activity#com.umeng.socialize.view.ShareActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:698:9-704:71
+	android:launchMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:701:13-44
+	android:noHistory
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:702:13-37
+	android:windowSoftInputMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:704:13-68
+	android:configChanges
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:700:13-57
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:703:13-50
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:699:13-66
+activity#com.tencent.tauth.AuthActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:707:9-719:20
+	android:launchMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:709:13-44
+	android:noHistory
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:710:13-37
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:708:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:711:13-718:29
+category#android.intent.category.BROWSABLE
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:715:17-78
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:715:27-75
+activity#com.tencent.connect.common.AssistActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:720:9-724:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:722:13-49
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:723:13-72
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:721:13-69
+meta-data#UMENG_APPKEY
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:729:9-732:21
+	android:value
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:731:13-53
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:730:13-40
+meta-data#UMENG_CHANNEL
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:733:9-735:37
+	android:value
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:735:13-34
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:734:13-41
+activity#com.haotang.pet.wxapi.WXEntryActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:738:9-743:75
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:742:13-49
+	android:exported
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:741:13-36
+	android:configChanges
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:740:13-74
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:743:13-72
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:739:13-50
+activity#com.alipay.sdk.app.H5PayActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:746:9-752:20
+	android:screenOrientation
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:750:13-47
+	android:exported
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:749:13-37
+	android:windowSoftInputMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:751:13-67
+	android:configChanges
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:748:13-74
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:747:13-60
+activity#com.haotang.pet.wxapi.WXPayEntryActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:758:9-761:46
+	android:launchMode
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:761:13-43
+	android:exported
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:760:13-36
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:759:13-53
+receiver#com.haotang.pet.util.wxpay.AppRegister
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:763:9-769:20
+	android:permission
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:765:13-71
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:764:13-51
+intent-filter#com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:766:13-768:29
+action#com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:767:17-100
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:767:25-97
+service#com.baidu.location.f
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:775:9-779:19
+	android:enabled
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:777:13-35
+	android:process
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:778:13-38
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:776:13-48
+activity#cn.jpush.android.ui.PopWinActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:785:9-789:20
+	android:exported
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:787:13-37
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:788:13-49
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:786:13-62
+activity#cn.jpush.android.ui.PushActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:792:9-803:20
+	android:exported
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:795:13-37
+	android:configChanges
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:794:13-63
+	android:theme
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:796:13-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:793:13-60
+intent-filter#android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity+com.haotang.pet
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:797:13-802:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:798:17-75
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:798:25-72
+category#com.haotang.pet
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:801:17-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:801:27-57
+service#cn.jpush.android.service.DownloadService
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:805:9-809:19
+	android:enabled
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:807:13-35
+	android:exported
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:808:13-37
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:806:13-68
+service#cn.jpush.android.service.PushService
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:813:9-823:19
+	android:enabled
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:815:13-35
+	android:exported
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:816:13-37
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:814:13-64
+intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:817:13-822:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:818:17-75
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:818:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:819:17-73
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:819:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:820:17-78
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:820:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:821:17-76
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:821:25-73
+service#cn.jpush.android.service.DaemonService
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:827:9-836:19
+	android:enabled
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:829:13-35
+	android:exported
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:830:13-36
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:828:13-66
+intent-filter#cn.jpush.android.intent.DaemonService+com.haotang.pet
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:831:13-835:29
+action#cn.jpush.android.intent.DaemonService
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:832:17-80
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:832:25-77
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:839:9-859:20
+	android:enabled
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:841:13-35
+	android:exported
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:842:13-37
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:840:13-65
+intent-filter#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+com.haotang.pet
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:843:13-847:29
+	android:priority
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:843:28-51
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:844:17-94
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:844:25-91
+intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:848:13-851:29
+action#android.intent.action.USER_PRESENT
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:849:17-77
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:849:25-74
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:850:17-79
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:850:25-76
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:853:13-858:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:854:17-78
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:854:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:855:17-80
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:855:25-77
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:862:9-864:40
+	android:exported
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:864:13-37
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:863:13-66
+receiver#com.haotang.pet.receive.JpushDataReceiver
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:867:9-887:20
+	android:enabled
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:869:13-35
+	android:exported
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:870:13-37
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:868:13-54
+intent-filter#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK+cn.jpush.android.intent.CONNECTION+cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+cn.jpush.android.intent.UNREGISTRATION+com.haotang.pet
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:871:13-886:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:872:17-79
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:872:25-76
+action#cn.jpush.android.intent.UNREGISTRATION
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:874:17-81
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:874:25-78
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:875:17-83
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:875:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:877:17-88
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:877:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:879:17-86
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:879:25-83
+action#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:881:17-91
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:881:25-88
+action#cn.jpush.android.intent.CONNECTION
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:883:17-77
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:883:25-74
+meta-data#JPUSH_CHANNEL
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:892:9-894:49
+	android:value
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:894:13-46
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:893:13-41
+meta-data#JPUSH_APPKEY
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:895:9-897:56
+	android:value
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:897:13-53
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:896:13-40
+permission#com.haotang.pet.permission.JPUSH_MESSAGE
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:905:5-907:47
+	android:protectionLevel
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:907:9-44
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:906:9-64
+uses-permission#com.haotang.pet.permission.JPUSH_MESSAGE
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:909:5-80
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:909:22-77
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:910:5-79
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:910:22-76
+uses-permission#android.permission.INTERNET
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:911:5-67
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:911:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:912:5-68
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:912:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:913:5-75
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:913:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:914:5-81
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:914:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:915:5-80
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:915:22-77
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:916:5-73
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:916:22-70
+uses-permission#android.permission.VIBRATE
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:917:5-66
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:917:22-63
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:918:5-84
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:918:22-81
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:919:5-79
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:919:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:920:5-76
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:920:22-73
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:921:5-78
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:921:22-75
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:924:5-81
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:924:22-78
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:925:5-76
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:925:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:926:5-79
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:926:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:927:5-89
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:927:22-86
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:928:5-79
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:928:22-76
+uses-permission#android.permission.READ_LOGS
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:959:5-960:23
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:959:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:962:5-81
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:962:22-78
+uses-permission#android.permission.GET_TASKS
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:965:5-68
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:965:22-65
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:966:5-80
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:966:22-77
+uses-permission#android.permission.FLAG_ACTIVITY_NEW_TASK
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:967:5-81
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:967:22-78
+uses-permission#android.permission.CAMERA
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:984:5-65
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:984:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:985:5-71
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:985:22-68
+uses-feature#android.hardware.camera
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:1007:5-60
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:1007:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:1008:5-70
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:1008:19-67
+uses-permission#android.permission.FLASHLIGHT
+ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:1011:5-69
+	android:name
+		ADDED from E:\qiaobin\Pet_Android_git_3.3.0\app\src\main\AndroidManifest.xml:1011:22-66

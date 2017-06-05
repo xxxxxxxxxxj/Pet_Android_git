@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bggray"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_fostercarechooseroom_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="10dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:paddingTop="10dip" >
+
+        <ImageView
+            android:id="@+id/iv_fostercarechooseroom_fz"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:background="@drawable/iv_fostercarechooseroom_fz_down" />
+
+        <View
+            android:id="@+id/view_fostercarechooseroom_1"
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:layout_toLeftOf="@id/iv_fostercarechooseroom_fz"
+            android:background="@color/bordergray" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_toLeftOf="@id/view_fostercarechooseroom_1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_fostercarechooseroom_shopname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip"
+                    android:text="宠物家生活馆（朝清店）"
+                    android:textColor="@color/a333333"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_fostercarechooseroom_shoptel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="电话"
+                    android:textColor="@color/aBB996C"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_marginTop="10dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical" >
+
+                <ImageButton
+                    android:id="@+id/ib_fostercarechooseroom_shopnav"
+                    android:layout_width="21dip"
+                    android:layout_height="19dip"
+                    android:layout_marginLeft="5dip"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/icon_navigation_blue"
+                    android:scaleType="fitXY" />
+                
+                <TextView
+                    android:id="@+id/tv_fostercarechooseroom_shopaddr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_toLeftOf="@id/ib_fostercarechooseroom_shopnav"
+                    android:text="地址:"
+                    android:textColor="@color/a333333"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.haotang.pet.view.MListview
+        android:id="@+id/mlv_fostercareappointment_zzz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/bordergray"
+        android:dividerHeight="0.8dip"
+        android:listSelector="@android:color/transparent"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:scrollbars="none"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_fostercareappointment_to_mylastmoney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bggray"
+        android:padding="10dp"
+        android:text=" "
+        android:textColor="@color/red"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="15dip"
+        android:background="@color/bggray" />
+
+    <RelativeLayout
+        android:id="@+id/rl_fostercare_chooseroom_changepet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="10dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="5dip"
+        android:paddingTop="10dip" >
+
+        <com.haotang.pet.view.SelectableRoundedImageView
+            android:id="@+id/sriv_fostercare_chooseroom_petimg"
+            android:layout_width="34dip"
+            android:layout_height="34dip"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/user_icon_unnet"
+            custom:sriv_left_bottom_corner_radius="5dip"
+            custom:sriv_left_top_corner_radius="5dip"
+            custom:sriv_right_bottom_corner_radius="5dip"
+            custom:sriv_right_top_corner_radius="5dip" />
+
+        <TextView
+            android:id="@+id/tv_fostercare_chooseroom_petname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dip"
+            android:layout_toRightOf="@id/sriv_fostercare_chooseroom_petimg"
+            android:text="请选择您的宠物"
+            android:textColor="@color/a333333"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_rightarrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_fostercarechooseroom_date"
+        android:layout_width="match_parent"
+        android:layout_height="75dip"
+        android:layout_marginTop="1dip"
+        android:background="@color/white"
+        android:paddingLeft="15dip"
+        android:paddingRight="5dip" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_marginTop="5dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_fostercarechooseroom_daterz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip"
+                    android:textColor="@color/a333333"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="入住"
+                    android:textColor="@color/a333333"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_marginBottom="5dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_fostercarechooseroom_dateld"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip"
+                    android:textColor="@color/a333333"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="离店"
+                    android:textColor="@color/a333333"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_fostercarechooseroom_daynum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_toLeftOf="@+id/iv_fostercarechooseroom_date"
+            android:layout_toRightOf="@+id/tv_fostercarechooseroom_date"
+            android:gravity="right"
+            android:text="共3天"
+            android:textColor="@color/a333333"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_fostercarechooseroom_date"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_rightarrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_fostercarechooseroom_jyzn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dip"
+        android:layout_marginTop="15dip"
+        android:background="@color/white"
+        android:paddingBottom="10dip"
+        android:paddingRight="5dip"
+        android:paddingTop="10dip" >
+
+        <View
+            android:layout_width="4dip"
+            android:layout_height="23dip"
+            android:layout_centerVertical="true"
+            android:background="@color/orange" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:text="寄养指南"
+            android:textColor="@color/a333333"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_rightarrow" />
+    </RelativeLayout>
+
+    <com.haotang.pet.view.MListview
+        android:id="@+id/lv_fostercareappointment_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:divider="@color/bordergray"
+        android:dividerHeight="0.8dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:scrollbars="none" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:background="@color/white"
+        android:paddingBottom="10dip"
+        android:paddingRight="5dip"
+        android:paddingTop="10dip" >
+
+        <View
+            android:layout_width="4dip"
+            android:layout_height="23dip"
+            android:layout_centerVertical="true"
+            android:background="@color/orange" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:text="狗狗寄养小贴士"
+            android:textColor="#6a6c72"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <com.haotang.pet.view.MListview
+        android:id="@+id/mlv_fostercareappointment_jyxts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bordergray"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="15dip"
+        android:padding="15dip"
+        android:scrollbars="none" />
+
+</LinearLayout>

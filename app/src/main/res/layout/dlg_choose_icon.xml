@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#79756E" >
+
+    <LinearLayout
+        android:id="@+id/pop_getIcon_action"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal" 
+        android:background="@drawable/geticon">
+
+        <TextView
+            android:id="@+id/textView_getIcon_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/a222222"
+            android:textSize="16sp"
+            android:text="拍照" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pop_getIcon_local"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/geticon">
+
+        <TextView
+            android:id="@+id/textView_getIcon_local"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/a222222"
+            android:textSize="16sp"
+            android:text="从手机相册选择" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pop_getIcon_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/cancle_geticon" >
+
+        <TextView
+            android:id="@+id/textView_getIcon_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="取消" />
+
+    </LinearLayout>
+
+</LinearLayout>
